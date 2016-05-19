@@ -1,4 +1,5 @@
 Personal setup settings for mac.
+
 <br />
 bash:
 <br />
