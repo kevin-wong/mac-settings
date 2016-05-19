@@ -1,0 +1,1 @@
+Finder -> Preferences -> Sidebar -> Check/uncheck to get sidebar in FolderView
