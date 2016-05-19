@@ -1,6 +1,4 @@
-Screensaver:
-
-<a href="http://fliqlo.com">fliqlo</a>
+Screensaver: <a href="http://fliqlo.com">fliqlo</a>
 <br />
 
 Instant show/hide Dock:
