@@ -1,6 +1,6 @@
 Personal setup settings for mac.
-
 <br />
+
 bash:
 <br />
 -.bash_profile
@@ -15,7 +15,7 @@ mac terminal:
 
 iTerm:
 <br />
--Yellow!.itermcolors
--com.googlecode.iterm2.plist
--iTerm2-Appearance.jpg
+-Yellow!.itermcolors <br />
+-com.googlecode.iterm2.plist <br />
+-iTerm2-Appearance.jpg <br />
 -iTerm2-General.jpg
