@@ -1,8 +1,3 @@
-export JAVA_HOME=$(/usr/libexec/java_home)
-export M2_HOME=/usr/local/apache-maven/apache-maven-3.3.3
-export M2=$M2_HOME/bin
-export PATH=$M2:$PATH
-
 #http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html
 if [ -f ~/.bashrc ]; then  # source bashrc, if exists
 	   source ~/.bashrc
@@ -16,7 +11,7 @@ export LSCOLORS=cxfxhxbxcxagadacacgxGx
 
 # Change bash prompt
 # http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html
-export PS1="-->[\d \t \u:\w]-> "
+export PS1="-->[\d \A \u:\w] \!-> "
 
 # http://www.thegeekstuff.com/2008/08/15-examples-to-master-linux-command-line-history/
 export HISTCONTROL=ignoredups         # ignore duplicates
