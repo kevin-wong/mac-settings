@@ -34,11 +34,9 @@ prompt_color_blue=$(tput setaf 39)
 prompt_color_cyan=$(tput setaf 45)
 prompt_color_yellow=$(tput setaf 226)
 prompt_color_magenta=$(tput setaf 199)
+prompt_color_orange=$(tput setaf 208)
 prompt_color_reset=$(tput sgr0)
 
-# Use 1 or 2
-
-#################################### 1. Prompt colors with git display #################################
 # Use PROMPT_COMMAND to change PS1 so git info can be displayed when in repo directory
 # Display options: http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html
 # Git code from: http://www.terminally-incoherent.com/blog/2013/01/14/whats-in-your-bash-prompt/
@@ -46,8 +44,10 @@ function __prompt_command() {
   local EXIT="$?" # exit status to determine color of history number    
   PS1=""
 
-  if [ $EXIT -eq 0 ]; then PS1+="\[$prompt_color_green\][\!]\[$prompt_color_reset\] "; 
-  else PS1+="\[$prompt_color_red\][\!]\[$prompt_color_reset\] "; 
+  if [ $EXIT -eq 0 ]; then 
+    PS1+="\[$prompt_color_green\][\!]\[$prompt_color_reset\] "; 
+  else 
+    PS1+="\[$prompt_color_red\][\!]\[$prompt_color_reset\] "; 
   fi
 
   # NOTE: Wrap tput commands inside brackets: \[ \] so it doesn't overlap text and mess up the display.  
@@ -79,17 +79,4 @@ function __prompt_command() {
   PS1+="\n\[$prompt_color_cyan\]⥤\[$prompt_color_reset\] "
 }
 PROMPT_COMMAND=__prompt_command
-#################################### End prompt colors with git display ################################
 
-#################################### 2. Prompt colors without git display ##############################
-# Change bash prompt
-# Display options: http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html
-# NOTE: Wrap tput commands inside brackets: \[ \] so it doesn't overlap text and mess up the display.  
-# http://askubuntu.com/questions/111840/ps1-problem-messing-up-cli
-# PS1="\[$prompt_color_green\][\!]\[$prompt_color_reset\] "
-# PS1+="\[$prompt_color_orange\]\d \A\[$prompt_color_reset\] "
-# PS1+="\[$prompt_color_magenta\]\u\[$prompt_color_reset\]"
-# PS1+="\[$prompt_color_green\]:\[$prompt_color_reset\]"
-# PS1+="\[$prompt_color_blue\]\w\[$prompt_color_reset\]"
-# PS1+="\n\[$prompt_color_cyan\]⥤\[$prompt_color_reset\] " 
-################################## End prompt colors without git display ###############################
