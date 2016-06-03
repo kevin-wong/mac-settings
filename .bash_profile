@@ -64,6 +64,8 @@ function __prompt_command() {
  	  		local git_color=$prompt_color_green
     elif [[ "$git_status" =~ Untracked\ files: ]]; then
         local git_color=$prompt_color_red
+    elif [[ "$git_status" =~ Changes\ not\ staged ]]; then
+        local git_color=$prompt_color_red        
     else
         local git_color=$prompt_color_yellow
   	fi
