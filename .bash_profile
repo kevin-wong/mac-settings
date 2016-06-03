@@ -51,31 +51,31 @@ function __prompt_command() {
   fi
 
   # NOTE: Wrap tput commands inside brackets: \[ \] so it doesn't overlap text and mess up the display.  
-	# http://askubuntu.com/questions/111840/ps1-problem-messing-up-cli
-	PS1+="\[$prompt_color_orange\]\d \A\[$prompt_color_reset\] "
-	PS1+="\[$prompt_color_magenta\]\u\[$prompt_color_reset\]"
-	PS1+="\[$prompt_color_green\]:\[$prompt_color_reset\]"
-	PS1+="\[$prompt_color_blue\]\w\[$prompt_color_reset\]"
+  # http://askubuntu.com/questions/111840/ps1-problem-messing-up-cli
+  PS1+="\[$prompt_color_orange\]\d \A\[$prompt_color_reset\] "
+  PS1+="\[$prompt_color_magenta\]\u\[$prompt_color_reset\]"
+  PS1+="\[$prompt_color_green\]:\[$prompt_color_reset\]"
+  PS1+="\[$prompt_color_blue\]\w\[$prompt_color_reset\]"
   
   # Display when in git repo
   local git_status="`git status -unormal 2>&1`"
-	if ! [[ "$git_status" =~ Not\ a\ git\ repo ]]; then
-		if [[ "$git_status" =~ nothing\ to\ commit ]]; then
- 	  		local git_color=$prompt_color_green
+  if ! [[ "$git_status" =~ Not\ a\ git\ repo ]]; then
+    if [[ "$git_status" =~ nothing\ to\ commit ]]; then
+      local git_color=$prompt_color_green
     elif [[ "$git_status" =~ Untracked\ files: ]]; then
-        local git_color=$prompt_color_red
+      local git_color=$prompt_color_red
     elif [[ "$git_status" =~ Changes\ not\ staged ]]; then
-        local git_color=$prompt_color_red        
+      local git_color=$prompt_color_red        
     else
-        local git_color=$prompt_color_yellow
-  	fi
+      local git_color=$prompt_color_yellow
+    fi
     if [[ "$git_status" =~ On\ branch\ ([^[:space:]]+) ]]; then
-        local git_branch=${BASH_REMATCH[1]}
+      local git_branch=${BASH_REMATCH[1]}
     else # Detached HEAD
-        local git_branch="(`git describe --all --contains --abbrev=4 HEAD 2> /dev/null || echo HEAD`)"
+      local git_branch="(`git describe --all --contains --abbrev=4 HEAD 2> /dev/null || echo HEAD`)"
     fi
     PS1+=" | \[$git_color\][$git_branch]\[$prompt_color_reset\]"
-	fi
+  fi
   PS1+="\n\[$prompt_color_cyan\]⥤\[$prompt_color_reset\] "
 }
 PROMPT_COMMAND=__prompt_command
