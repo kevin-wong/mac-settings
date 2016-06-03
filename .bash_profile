@@ -54,7 +54,7 @@ function __prompt_command() {
   # http://askubuntu.com/questions/111840/ps1-problem-messing-up-cli
   PS1+="\[$prompt_color_orange\]\d \A\[$prompt_color_reset\] "
   PS1+="\[$prompt_color_magenta\]\u\[$prompt_color_reset\]"
-  PS1+="\[$prompt_color_green\]:\[$prompt_color_reset\]"
+  PS1+="\[$prompt_color_green\]: \[$prompt_color_reset\]"
   PS1+="\[$prompt_color_blue\]\w\[$prompt_color_reset\]"
   
   # Display when in git repo
