@@ -195,5 +195,5 @@ Run iTermConfigure.sh <br />
 Restart iTerm
 
 #### vim
-Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these></a> directions.
+Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these</a> directions.
 
