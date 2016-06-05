@@ -3,8 +3,8 @@
 #### Launchpad - Change to use only 2 columns:
 
 ``` bash
-defaults write com.apple.dock springboard-columns -int 2;\
-defaults write com.apple.dock ResetLaunchPad -bool TRUE;\
+defaults write com.apple.dock springboard-columns -int 2;
+defaults write com.apple.dock ResetLaunchPad -bool TRUE;
 killall Dock
 ```
 
@@ -72,11 +72,11 @@ Keyboard > Keyboard > Key Repeat > Fastest
 	 	    > uncheck Adjust keyboard brightness in low light
 	 	    > Turn off when computer is not used for: Never
 
-	 > Shortcuts > uncheck everything, except Keyboard > move focus to next window
-                     > App Shortcuts > add shortcut CMD-ESC to all following menu titles: Toggle Full Screen 
-											  Fullscreen
-											  Enter Full Screen
-											  Exit Full Screen
+         > Shortcuts > uncheck everything, except Keyboard > move focus to next window
+                     > App Shortcuts > add shortcut ⌘-ESC to all following menu titles: Toggle Full Screen 
+											Fullscreen
+											Enter Full Screen
+											Exit Full Screen
 Trackpad > Point & Click > check Look up & data detectors 
          		 > check Secondary click (two fingers)
 			 > check Tap to click 
