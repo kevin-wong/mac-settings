@@ -9,7 +9,7 @@
   - [Fliqlo](#fliqlo)
   - [Day-O](#day-o)
   - [iTerm](#iterm)
-
+  - [vim](#vim]
 #### System Preferences
 ``` 
 General > Appearance: Blue
@@ -192,4 +192,7 @@ Preferences > Profiles > Colors > Color Presets... > Import > SolarizedDark.iter
 
 Run iTermConfigure.sh <br />
 Restart iTerm
+
+#### vim
+Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these></a> directions.
 
