@@ -1,12 +1,12 @@
 ## Settings for mac.
 
-### Launchpad - Change to use only 2 columns:
+#### Launchpad - Change to use only 2 columns:
 
 defaults write com.apple.dock springboard-columns -int 2;\
 defaults write com.apple.dock ResetLaunchPad -bool TRUE;\
 killall Dock
 
-### Finder
+#### Finder
 Preferences > General > New Finder windows show: Downloads
 	    > Sidebar > check only the following: Applications
 						  Documents
@@ -21,7 +21,7 @@ Menu bar > View > Show only the following: Path bar
 					   Sidebar
 					   Preview
 
-### System Preferences
+#### System Preferences
 General > Appearance: Blue
 	> Highlight color > Other > 2nd tab > RGB Sliders. R: 233 G: 219 B: 184
 	> Sidebar icon size: Large
@@ -108,9 +108,9 @@ Accessibility > Display > check Increase contrast
 						       > check Enable dragging: three finger drag
 
 
-### Downloads
+#### Downloads
 
-#### Witch
+##### Witch
 The conventional ⌘-TAB switches between apps, but skips over windows within those apps.
 To go to a window, I can ⌘-TAB to the app, then launch Exposè by hitting F3 or swiping down on the trackpad with four fingers (System Preferences > Trackpad > More Gestures). Or I can preview Exposè while still in ⌘-TAB, by holding ⌘ and hitting 1 on an app. But needing 2 steps may be too cumbersome. I may need to pause for a second to recall the exact shortcut, when something as simple as switching windows should be done without thought.
 I can avoid Exposè by hitting ⌘-~ (System Preferences > Keyboard > Shortcuts > Move focus to next window) to quickly loop through all the windows in an app. But I don't have a bird's eye view, so if I have more than 3 windows, this quickly becomes cumbersome.
@@ -119,21 +119,21 @@ I can avoid Exposè by hitting ⌘-~ (System Preferences > Keyboard > Shortcuts 
 Run WitchConfigure.sh
 System Preferences > Click on Witch to register .plist
 
-#### Moom
+##### Moom
 <a href="https://manytricks.com/moom/">Moom</a> improves window resizing.
 
 
-#### Fliqlo
+##### Fliqlo
 <a href="http://fliqlo.com">Fliqlo</a> screensaver.
 System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
 
 
-#### Day-O
+##### Day-O
 <a href="http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock">Day-O</a>calendar dropdown.
 Click on menu bar icon > Preferences > Date & Time Format: " h:mm a  E"
 
 
-#### iTerm
+##### iTerm
 
 Download <a href="https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it">Source Code Pro Light</a>.
 Preferences > Profiles > Colors > Color Presets... > Import > SolarizedDark.itermcolors
