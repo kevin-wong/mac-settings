@@ -111,12 +111,13 @@ Accessibility > Display > check Increase contrast
 #### Downloads
 
 ##### Witch
-The conventional ⌘-TAB switches between apps, but skips over windows within those apps.
-To go to a window, I can ⌘-TAB to the app, then launch Exposè by hitting F3 or swiping down on the trackpad with four fingers (System Preferences > Trackpad > More Gestures). Or I can preview Exposè while still in ⌘-TAB, by holding ⌘ and hitting 1 on an app. But needing 2 steps may be too cumbersome. I may need to pause for a second to recall the exact shortcut, when something as simple as switching windows should be done without thought.
-I can avoid Exposè by hitting ⌘-~ (System Preferences > Keyboard > Shortcuts > Move focus to next window) to quickly loop through all the windows in an app. But I don't have a bird's eye view, so if I have more than 3 windows, this quickly becomes cumbersome.
+The conventional ⌘-TAB switches between apps, but skips over windows within those apps. <br/>
+To go to a window, I can ⌘-TAB to the app, then launch Exposè by hitting F3 or swiping down on the trackpad with four fingers (System Preferences > Trackpad > More Gestures). <br /> 
+Or I can preview Exposè while still in ⌘-TAB, by holding ⌘ and hitting 1 on an app.
+I can avoid Exposè by hitting ⌘-~ (System Preferences > Keyboard > Shortcuts > Move focus to next window) to quickly loop through all the windows in an app. But I can't see all the windows at once, so if I have more than 3 windows, this quickly becomes cumbersome.
 <a href="http://manytricks.com/witch/">Witch</a> lets me use ⌘-TAB to cycle between windows.
 
-Run WitchConfigure.sh
+Run WitchConfigure.sh <br />
 System Preferences > Click on Witch to register .plist
 
 ##### Moom
@@ -125,20 +126,23 @@ System Preferences > Click on Witch to register .plist
 
 ##### Fliqlo
 <a href="http://fliqlo.com">Fliqlo</a> screensaver.
+
 System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
 
 
 ##### Day-O
 <a href="http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock">Day-O</a>calendar dropdown.
+
 Click on menu bar icon > Preferences > Date & Time Format: " h:mm a  E"
 
 
 ##### iTerm
 
 Download <a href="https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it">Source Code Pro Light</a>.
+
 Preferences > Profiles > Colors > Color Presets... > Import > SolarizedDark.itermcolors
 				                   > Click SolarizedDark
 
-Run iTermConfigure.sh
+Run iTermConfigure.sh <br />
 Restart iTerm
 
