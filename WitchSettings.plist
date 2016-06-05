@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Accessibility API Timeout</key>
+	<real>0.10000000149011612</real>
+	<key>Activate Item</key>
+	<true/>
+	<key>Activate Item Mode</key>
+	<integer>0</integer>
+	<key>Activate On No Modifiers</key>
+	<true/>
+	<key>Application Exceptions</key>
+	<array>
+		<string>Moom</string>
+	</array>
+	<key>Application Name Shadow</key>
+	<false/>
+	<key>Applications Sort Order</key>
+	<integer>3</integer>
+	<key>Auto-Enabled Once</key>
+	<true/>
+	<key>Cancel Item</key>
+	<false/>
+	<key>Cycle All Windows</key>
+	<dict>
+		<key>Backward</key>
+		<dict>
+			<key>Character</key>
+			<string></string>
+			<key>Key Code</key>
+			<string>48</string>
+			<key>Modifiers</key>
+			<string>1179914</string>
+			<key>Visual Representation</key>
+			<string>⇧⌘⇥</string>
+		</dict>
+		<key>Forward</key>
+		<dict>
+			<key>Character</key>
+			<string>	</string>
+			<key>Key Code</key>
+			<string>48</string>
+			<key>Modifiers</key>
+			<string>1048840</string>
+			<key>Visual Representation</key>
+			<string>⌘⇥</string>
+		</dict>
+	</dict>
+	<key>Icon Mode</key>
+	<integer>0</integer>
+	<key>Ignore Non-Standard Windows</key>
+	<true/>
+	<key>Item Height</key>
+	<real>35</real>
+	<key>Keep Cycling</key>
+	<true/>
+	<key>Last Tab</key>
+	<string>triggers</string>
+	<key>Maximum Width</key>
+	<real>0.56577712297439575</real>
+	<key>Panel Delay</key>
+	<integer>100</integer>
+	<key>Preview Delay</key>
+	<integer>100</integer>
+	<key>Show Application Names</key>
+	<false/>
+	<key>Show Document Icon Overlays</key>
+	<true/>
+	<key>Show Panel On Mouse Screen</key>
+	<integer>0</integer>
+	<key>Show Previews</key>
+	<false/>
+	<key>Step Forward Initially</key>
+	<true/>
+	<key>Switch Across Spaces</key>
+	<true/>
+	<key>Window Name Shadow</key>
+	<false/>
+	<key>Wrap-Around Scrolling</key>
+	<false/>
+</dict>
+</plist>
