@@ -10,6 +10,7 @@
   - [Day-O](#day-o)
   - [iTerm](#iterm)
   - [vim](#vim)
+
 #### System Preferences
 ``` 
 General > Appearance: Blue
