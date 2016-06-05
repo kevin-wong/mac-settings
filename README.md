@@ -1,27 +1,5 @@
 ## Settings for mac.
 
-#### Launchpad - Change to use only 2 columns:
-
-``` bash
-defaults write com.apple.dock springboard-columns -int 2;
-defaults write com.apple.dock ResetLaunchPad -bool TRUE;
-killall Dock
-```
-
-#### Finder
-Preferences > General > New Finder windows show: Downloads
-	    > Sidebar > check only the following: Applications
-						  Documents
-						  Downloads
-						  Music
-						  <Home Folder>
-						  External disks
-	    > Advanced > Show all filename extensions
-
-Menu bar > View > Show only the following: Path bar
-					   Status bar
-					   Sidebar
-					   Preview
 
 #### System Preferences
 General > Appearance: Blue
@@ -109,6 +87,28 @@ Accessibility > Display > check Increase contrast
 						       > check Scrolling: with inertia
 						       > check Enable dragging: three finger drag
 
+#### Launchpad - Change to use only 2 columns:
+
+``` bash
+defaults write com.apple.dock springboard-columns -int 2;
+defaults write com.apple.dock ResetLaunchPad -bool TRUE;
+killall Dock
+```
+
+#### Finder
+Preferences > General > New Finder windows show: Downloads
+	    > Sidebar > check only the following: Applications
+						  Documents
+						  Downloads
+						  Music
+						  <Home Folder>
+						  External disks
+	    > Advanced > Show all filename extensions
+
+Menu bar > View > Show only the following: Path bar
+					   Status bar
+					   Sidebar
+					   Preview
 
 #### Downloads
 
@@ -140,7 +140,7 @@ Click on menu bar icon > Preferences > Date & Time Format: " h:mm a  E"
 
 
 ##### iTerm
-
+[![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.tiff)
 Download <a href="https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it">Source Code Pro Light</a>.
 
 Preferences > Profiles > Colors > Color Presets... > Import > SolarizedDark.itermcolors
