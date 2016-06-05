@@ -2,9 +2,11 @@
 
 #### Launchpad - Change to use only 2 columns:
 
+``` bash
 defaults write com.apple.dock springboard-columns -int 2;\
 defaults write com.apple.dock ResetLaunchPad -bool TRUE;\
 killall Dock
+```
 
 #### Finder
 Preferences > General > New Finder windows show: Downloads
@@ -115,13 +117,14 @@ The conventional ⌘-TAB switches between apps, but skips over windows within th
 To go to a window, I can ⌘-TAB to the app, then launch Exposè by hitting F3 or swiping down on the trackpad with four fingers (System Preferences > Trackpad > More Gestures). <br /> 
 Or I can preview Exposè while still in ⌘-TAB, by holding ⌘ and hitting 1 on an app.
 I can avoid Exposè by hitting ⌘-~ (System Preferences > Keyboard > Shortcuts > Move focus to next window) to quickly loop through all the windows in an app. But I can't see all the windows at once, so if I have more than 3 windows, this quickly becomes cumbersome.
+
 <a href="http://manytricks.com/witch/">Witch</a> lets me use ⌘-TAB to cycle between windows.
 
 Run WitchConfigure.sh <br />
 System Preferences > Click on Witch to register .plist
 
 ##### Moom
-<a href="https://manytricks.com/moom/">Moom</a> improves window resizing.
+<a href="https://manytricks.com/moom/">Moom</a> allows quick window resizing. No more dragging corners. 
 
 
 ##### Fliqlo
@@ -131,7 +134,7 @@ System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
 
 
 ##### Day-O
-<a href="http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock">Day-O</a>calendar dropdown.
+<a href="http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock">Day-O</a> calendar dropdown.
 
 Click on menu bar icon > Preferences > Date & Time Format: " h:mm a  E"
 
