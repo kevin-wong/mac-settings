@@ -1,7 +1,7 @@
 ## Settings for mac.
 
 - [System Preferences](#system-preferences)
-- [Launchpad](#launchpad---change to use only 2 columns:)
+- [Launchpad](#launchpad\--\-change to use only 2 columns:)
 - [Finder](#finder)
 - [Downloads](#downloads)
   - [Witch](#witch)
