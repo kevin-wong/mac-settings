@@ -88,6 +88,7 @@ Accessibility > Display > check Increase contrast
 						       > check Enable dragging: three finger drag
 
 #### Launchpad - Change to use only 2 columns:
+[![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)
 
 ``` bash
 defaults write com.apple.dock springboard-columns -int 2;
@@ -96,6 +97,7 @@ killall Dock
 ```
 
 #### Finder
+[![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Finder.tiff)(https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Finder.tiff)
 Preferences > General > New Finder windows show: Downloads
 	    > Sidebar > check only the following: Applications
 						  Documents
@@ -113,6 +115,8 @@ Menu bar > View > Show only the following: Path bar
 #### Downloads
 
 ##### Witch
+[![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.tiff)
+
 The conventional ⌘-TAB switches between apps, but skips over windows within those apps. <br/>
 To go to a window, I can ⌘-TAB to the app, then launch Exposè by hitting F3 or swiping down on the trackpad with four fingers (System Preferences > Trackpad > More Gestures). <br /> 
 Or I can preview Exposè while still in ⌘-TAB, by holding ⌘ and hitting 1 on an app.
@@ -124,16 +128,22 @@ Run WitchConfigure.sh <br />
 System Preferences > Click on Witch to register .plist
 
 ##### Moom
+[![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Moom.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Moom.tiff)
+
 <a href="https://manytricks.com/moom/">Moom</a> allows quick window resizing. No more dragging corners. 
 
 
 ##### Fliqlo
+[![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Fliqlo.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Fliqlo.tiff)
+
 <a href="http://fliqlo.com">Fliqlo</a> screensaver.
 
 System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
 
 
 ##### Day-O
+[![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Day-O.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Day-O.tiff)
+
 <a href="http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock">Day-O</a> calendar dropdown.
 
 Click on menu bar icon > Preferences > Date & Time Format: " h:mm a  E"
@@ -141,6 +151,7 @@ Click on menu bar icon > Preferences > Date & Time Format: " h:mm a  E"
 
 ##### iTerm
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.tiff)
+
 Download <a href="https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it">Source Code Pro Light</a>.
 
 Preferences > Profiles > Colors > Color Presets... > Import > SolarizedDark.itermcolors
