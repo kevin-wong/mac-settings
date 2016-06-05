@@ -1,7 +1,7 @@
 ## Settings for mac.
 
 - [System Preferences](#system-preferences)
-- [Launchpad](#launchpad\--\-change to use only 2 columns:)
+- [Launchpad](#launchpad)
 - [Finder](#finder)
 - [Downloads](#downloads)
   - [Witch](#witch)
@@ -96,7 +96,7 @@ Accessibility > Display > check Increase contrast
 						       > check Scrolling: with inertia
 						       > check Enable dragging: three finger drag
 
-#### Launchpad - Change to use only 2 columns:
+#### Launchpad - Change to use only 2 columns: <a name="launchpad"></a>
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)
 
 ``` bash
