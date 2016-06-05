@@ -9,7 +9,7 @@
   - [Fliqlo](#fliqlo)
   - [Day-O](#day-o)
   - [iTerm](#iterm)
-  - [vim](#vim]
+  - [vim](#vim)
 #### System Preferences
 ``` 
 General > Appearance: Blue
