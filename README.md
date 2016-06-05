@@ -11,7 +11,7 @@
   - [iTerm](#iTerm)
 
 #### System Preferences
-General > Appearance: Blue
+General > Appearance: Blue <br />
 	> Highlight color > Other > 2nd tab > RGB Sliders. R: 233 G: 219 B: 184
 	> Sidebar icon size: Large
 	> Show scrollbars: Always
