@@ -7,7 +7,7 @@
   - [Witch](#witch)
   - [Moom](#moom)
   - [Fliqlo](#fliqlo)
-  - [Day-O](#day---o)
+  - [Day-O](#day-o)
   - [iTerm](#iTerm)
 
 #### System Preferences
