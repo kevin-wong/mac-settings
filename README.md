@@ -11,7 +11,7 @@
   - [iTerm](#iTerm)
 
 #### System Preferences
-``` bash
+``` 
 General > Appearance: Blue
         > Highlight color > Other > 2nd tab > RGB Sliders. R: 233 G: 219 B: 184
         > Sidebar icon size: Large
@@ -21,7 +21,7 @@ General > Appearance: Blue
         > Recent items: None
 ```
 
-``` bash
+```
 Dock > Size: Max
      > uncheck Magnification
      > Minimize windows using: Scale effect
@@ -32,7 +32,7 @@ Dock > Size: Max
      > check indicators for open applications
 ```
 
-``` bash
+```
 Mission Control > uncheck Automatically rearrange Spaces based on most recent use
                 > check When switching to an application, switch to a Space with open windows
                 > uncheck Group windows by application 
@@ -41,22 +41,22 @@ Mission Control > uncheck Automatically rearrange Spaces based on most recent us
                 > Dashboard: Off
 ```
 
-``` bash
+```
 Language & Region > First day of the week: Monday
        		  > Time format: 24-hour Time
 ```
 
-``` bash
+```
 Notifications > for all apps, uncheck Play sound for notifications 
      	      > Messages > uncheck Show message preview
 ```
 
-``` bash
+``` 
 Displays > uncheck Automatically adjust brightness
          > uncheck Show mirroring options in the menu bar
 ```
 
-``` bash
+```
 Energy Saver > Battery Power > Turn display off after: Never
              > uncheck Put hard disks to sleep when possible
        	     > uncheck dim the display while on battery power
@@ -68,7 +68,7 @@ Energy Saver > Battery Power > Turn display off after: Never
              > check Enable Power Nap while plugged into power adapter									
 ```
 
-``` bash
+```
 Keyboard > Keyboard > Key Repeat > Fastest
 	 	    > Delay Until Repeat > Shortest
 	 	    > uncheck Adjust keyboard brightness in low light
@@ -102,11 +102,11 @@ Trackpad > Point & Click > check Look up & data detectors
                          > uncheck Show Desktop
 ```
 
-``` bash
+```
 Date & Time > Clock > uncheck Show date and time in menu bar
 ```
 
-``` bash
+```
 Accessibility > Display > check Increase contrast
 	                > Display contrast: Normal
                         > Cursor size: one right of Normal
