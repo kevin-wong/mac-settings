@@ -13,12 +13,12 @@
 #### System Preferences
 ``` bash
 General > Appearance: Blue
-	> Highlight color > Other > 2nd tab > RGB Sliders. R: 233 G: 219 B: 184
-	> Sidebar icon size: Large
-	> Show scrollbars: Always
-	> check Ask to keep changes when closing documents
-	> check Close windows when quitting an app
-	> Recent items: None
+        > Highlight color > Other > 2nd tab > RGB Sliders. R: 233 G: 219 B: 184
+        > Sidebar icon size: Large
+        > Show scrollbars: Always
+        > check Ask to keep changes when closing documents
+        > check Close windows when quitting an app
+        > Recent items: None
 ```
 
 ``` bash
