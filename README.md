@@ -34,11 +34,11 @@ Dock > Size: Max
 
 ``` bash
 Mission Control > uncheck Automatically rearrange Spaces based on most recent use
-		> check When switching to an application, switch to a Space with open windows
-		> uncheck Group windows by application 
-		> check Displays have separate Spaces
-		> Display have separate Spaces
-		> Dashboard: Off
+                > check When switching to an application, switch to a Space with open windows
+                > uncheck Group windows by application 
+                > check Displays have separate Spaces
+                > Display have separate Spaces
+                > Dashboard: Off
 ```
 
 ``` bash
@@ -53,19 +53,19 @@ Notifications > for all apps, uncheck Play sound for notifications
 
 ``` bash
 Displays > uncheck Automatically adjust brightness
-	 > uncheck Show mirroring options in the menu bar
+         > uncheck Show mirroring options in the menu bar
 ```
 
 ``` bash
 Energy Saver > Battery Power > Turn display off after: Never
              > uncheck Put hard disks to sleep when possible
        	     > uncheck dim the display while on battery power
-	     > uncheck Power Nap
-	     > Power Adapter > Turn display off after: Never
-	     > check Prevent computer from sleeping automatically
-	     > uncheck Put hard disks to sleep when possible
-	     > check wake for Wi-Fi network access
-	     > check Enable Power Nap while plugged into power adapter									
+             > uncheck Power Nap
+             > Power Adapter > Turn display off after: Never
+             > check Prevent computer from sleeping automatically
+             > uncheck Put hard disks to sleep when possible
+             > check wake for Wi-Fi network access
+             > check Enable Power Nap while plugged into power adapter									
 ```
 
 ``` bash
@@ -84,22 +84,22 @@ Keyboard > Keyboard > Key Repeat > Fastest
 ``` bash
 Trackpad > Point & Click > check Look up & data detectors 
          		 > check Secondary click (two fingers)
-			 > check Tap to click 
-			 > Click: Lightest
-			 > Tracking speed: Fastest
- 			 > check Silent clicking
-			 > uncheck Force Click and haptic feedback
-	 > Scroll & Zoom > uncheck Scroll direction: natural
-			 > check Zoom in or out
-			 > uncheck Smart zoom
-			 > check Rotate
-	 > More Gestures > check Swipe between pages (two fingers)
-			 > check Swipe between full-screen apps (four fingers) 
-			 > check Notification Center
-			 > check Mission Control (four fingers)
-			 > check App Exposè (four fingers)
-			 > uncheck Launchpad
-			 > uncheck Show Desktop
+                         > check Tap to click 
+                         > Click: Lightest
+                         > Tracking speed: Fastest
+                         > check Silent clicking
+                         > uncheck Force Click and haptic feedback
+         > Scroll & Zoom > uncheck Scroll direction: natural
+                         > check Zoom in or out
+                         > uncheck Smart zoom
+                         > check Rotate
+         > More Gestures > check Swipe between pages (two fingers)
+                         > check Swipe between full-screen apps (four fingers) 
+                         > check Notification Center
+                         > check Mission Control (four fingers)
+                         > check App Exposè (four fingers)
+                         > uncheck Launchpad
+                         > uncheck Show Desktop
 ```
 
 ``` bash
@@ -108,15 +108,15 @@ Date & Time > Clock > uncheck Show date and time in menu bar
 
 ``` bash
 Accessibility > Display > check Increase contrast
-	      		> Display contrast: Normal
-			> Cursor size: one right of Normal
-			> check Shake mouse pointer to locate
-	      > Mouse & Trackpad > Double-click speed: two left of Fast
-				 > check Spring loading delay: two right of Short
-				 > uncheck Ignore built-in trackpad when mouse or wireless trackpad is present
-				 > Trackpad Options... > Scrolling speed: one left of Fast
-						       > check Scrolling: with inertia
-						       > check Enable dragging: three finger drag
+	                > Display contrast: Normal
+                        > Cursor size: one right of Normal
+                        > check Shake mouse pointer to locate
+              > Mouse & Trackpad > Double-click speed: two left of Fast
+                                 > check Spring loading delay: two right of Short
+                                 > uncheck Ignore built-in trackpad when mouse or wireless trackpad is present
+                                 > Trackpad Options... > Scrolling speed: one left of Fast
+                                                       > check Scrolling: with inertia
+                                                       > check Enable dragging: three finger drag
 ```
 
 <a name="launchpad"></a>
