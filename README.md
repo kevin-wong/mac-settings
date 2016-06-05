@@ -8,7 +8,7 @@
   - [Moom](#moom)
   - [Fliqlo](#fliqlo)
   - [Day-O](#day-o)
-  - [iTerm](#iTerm)
+  - [iTerm](#iterm)
 
 #### System Preferences
 ``` 
