@@ -11,14 +11,17 @@
   - [iTerm](#iTerm)
 
 #### System Preferences
-General > Appearance: Blue <br />
+``` bash
+General > Appearance: Blue
 	> Highlight color > Other > 2nd tab > RGB Sliders. R: 233 G: 219 B: 184
 	> Sidebar icon size: Large
 	> Show scrollbars: Always
 	> check Ask to keep changes when closing documents
 	> check Close windows when quitting an app
 	> Recent items: None
+```
 
+``` bash
 Dock > Size: Max
      > uncheck Magnification
      > Minimize windows using: Scale effect
@@ -27,23 +30,33 @@ Dock > Size: Max
      > uncheck Animate opening applications
      > check Automatically hide and show the Dock
      > check indicators for open applications
+```
 
+``` bash
 Mission Control > uncheck Automatically rearrange Spaces based on most recent use
 		> check When switching to an application, switch to a Space with open windows
 		> uncheck Group windows by application 
 		> check Displays have separate Spaces
 		> Display have separate Spaces
 		> Dashboard: Off
+```
 
+``` bash
 Language & Region > First day of the week: Monday
        		  > Time format: 24-hour Time
+```
 
+``` bash
 Notifications > for all apps, uncheck Play sound for notifications 
      	      > Messages > uncheck Show message preview
+```
 
+``` bash
 Displays > uncheck Automatically adjust brightness
 	 > uncheck Show mirroring options in the menu bar
+```
 
+``` bash
 Energy Saver > Battery Power > Turn display off after: Never
              > uncheck Put hard disks to sleep when possible
        	     > uncheck dim the display while on battery power
@@ -53,7 +66,9 @@ Energy Saver > Battery Power > Turn display off after: Never
 	     > uncheck Put hard disks to sleep when possible
 	     > check wake for Wi-Fi network access
 	     > check Enable Power Nap while plugged into power adapter									
+```
 
+``` bash
 Keyboard > Keyboard > Key Repeat > Fastest
 	 	    > Delay Until Repeat > Shortest
 	 	    > uncheck Adjust keyboard brightness in low light
@@ -64,6 +79,9 @@ Keyboard > Keyboard > Key Repeat > Fastest
 											Fullscreen
 											Enter Full Screen
 											Exit Full Screen
+```
+
+``` bash
 Trackpad > Point & Click > check Look up & data detectors 
          		 > check Secondary click (two fingers)
 			 > check Tap to click 
@@ -82,9 +100,13 @@ Trackpad > Point & Click > check Look up & data detectors
 			 > check App Exposè (four fingers)
 			 > uncheck Launchpad
 			 > uncheck Show Desktop
+```
 
+``` bash
 Date & Time > Clock > uncheck Show date and time in menu bar
+```
 
+``` bash
 Accessibility > Display > check Increase contrast
 	      		> Display contrast: Normal
 			> Cursor size: one right of Normal
@@ -95,6 +117,7 @@ Accessibility > Display > check Increase contrast
 				 > Trackpad Options... > Scrolling speed: one left of Fast
 						       > check Scrolling: with inertia
 						       > check Enable dragging: three finger drag
+```
 
 <a name="launchpad"></a>
 #### Launchpad - Change to use only 2 columns: 
