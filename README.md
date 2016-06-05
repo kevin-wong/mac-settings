@@ -96,7 +96,8 @@ Accessibility > Display > check Increase contrast
 						       > check Scrolling: with inertia
 						       > check Enable dragging: three finger drag
 
-#### Launchpad - Change to use only 2 columns: <a name="launchpad"></a>
+<a name="launchpad"></a>
+#### Launchpad - Change to use only 2 columns: 
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)
 
 ``` bash
