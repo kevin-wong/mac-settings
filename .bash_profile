@@ -80,3 +80,5 @@ function __prompt_command() {
 }
 PROMPT_COMMAND=__prompt_command
 
+# prompt for commands on next line 
+PS2="\[$prompt_color_cyan\]⥤\[$prompt_color_reset\] "
