@@ -198,7 +198,7 @@ Preferences > Appearance > check Dimming affects only text, not background
                          > check Dim background windows
                          > uncheck Show tab close buttons
             > Profiles > Colors > Color Presets... > Import > SolarizedDark.itermcolors
-				                   > Click SolarizedDark
+                                                            > Click SolarizedDark
                        > Text > Cursor: Underline
                               > uncheck Blinking cursor
                        > Font > 14pt Source Code Pro Light
@@ -206,13 +206,13 @@ Preferences > Appearance > check Dimming affects only text, not background
                                 > Columns: 135 
                                 > Rows: 33
                        > Keys > Add the following with action Send Hex Code:
-				⌘ - DELETE: 0x15         # delete all characters to left of cursor        
-				⌥ - DELETE: 0x1b 0x08    # delete one word to left of cursor
-				⌘ - ←     : 0x01         # go to line start
-				⌘ - →     : 0x05         # go to line end
-				⌥ - ←     : 0x1b 0x62    # move one word forward
-				⌥ - →     : 0x1b 0x66    # move one word back
-				⌘ - z     : 0x1f         # undo
+                                ⌘ - DELETE: 0x15         # delete all characters to left of cursor        
+                                ⌥ - DELETE: 0x1b 0x08    # delete one word to left of cursor
+                                ⌘ - ←     : 0x01         # go to line start
+                                ⌘ - →     : 0x05         # go to line end
+                                ⌥ - ←     : 0x1b 0x62    # move one word forward
+                                ⌥ - →     : 0x1b 0x66    # move one word back
+                                ⌘ - z     : 0x1f         # undo
 ```
 
 #### vim
