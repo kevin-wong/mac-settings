@@ -16,13 +16,14 @@ export HISTCONTROL=ignoredups         # ignore duplicates
 export HISTTIMEFORMAT='%F %T '        # format history to include timestamp
 export HISTIGNORE="pwd:ls:history:"   # list of commands to ignore
 
-# Command to view all 256 tput colors with their associated numeric values. The number is limited by mod 256. 
+# View all 256 tput colors with their associated numeric values. The number is limited by mod 256. 
 # for i in {0..255}; do tput setab $i; echo -n "  $i  "; done; tput sgr0; echo
 
-# Sample tput's colors on launch
+# Fill line with tput colors 
 # for i in `seq 1 $(tput cols)`; do tput setab $i; echo -n " "; done; tput sgr0; echo
 
-for i in {0..255}; do tput setab $i; echo -n "     "; done; tput sgr0; echo; unset i
+# Sample all tput colors
+# for i in {0..255}; do tput setab $i; echo -n "     "; done; tput sgr0; echo; unset i
 
 # echo "`tput setaf 5` ⚉`tput sgr0`"
 # echo "`tput setaf 5`╭☗╮`tput sgr0`"
