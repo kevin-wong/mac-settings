@@ -186,13 +186,34 @@ Click on menu bar icon > Preferences > Date & Time Format: " h:mm a  E"
 ##### iTerm
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.tiff)
 
+Download <a href="https://www.iterm2.com">iTerm</a>. <br />
 Download <a href="https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it">Source Code Pro Light</a>.
 
-Preferences > Profiles > Colors > Color Presets... > Import > SolarizedDark.itermcolors
-				                   > Click SolarizedDark
+Put `.bash_profile` in home directory.
 
-Run iTermConfigure.sh <br />
-Restart iTerm
+```
+Preferences > Appearance > check Dimming affects only text, not background
+                         > Dimming amount: ~90%
+                         > check Dim inactive split panes
+                         > check Dim background windows
+                         > uncheck Show tab close buttons
+            > Profiles > Colors > Color Presets... > Import > SolarizedDark.itermcolors
+				                   > Click SolarizedDark
+                       > Text > Cursor: Underline
+                              > uncheck Blinking cursor
+                       > Font > 14pt Source Code Pro Light
+                       > Window > Transparency: ~5%
+                                > Columns: 135 
+                                > Rows: 33
+                       > Keys > Add the following with action Send Hex Code:
+				⌘ - DELETE: 0x15         # delete all characters to left of cursor        
+				⌥ - DELETE: 0x1b 0x08    # delete one word to left of cursor
+				⌘ - ←     : 0x01         # go to line start
+				⌘ - →     : 0x05         # go to line end
+				⌥ - ←     : 0x1b 0x62    # move one word forward
+				⌥ - →     : 0x1b 0x66    # move one word back
+				⌘ - z     : 0x1f         # undo
+```
 
 #### vim
 Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these</a> directions.
