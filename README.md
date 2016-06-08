@@ -10,6 +10,7 @@
   - [Day-O](#day-o)
   - [iTerm](#iterm)
   - [vim](#vim)
+  - [Brew](#brew)  
   - [Git](#git)
 
 #### System Preferences
@@ -219,7 +220,11 @@ Preferences > Appearance > check Dimming affects only text, not background
 #### vim
 Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these</a> directions.
 
+#### Brew
+Install <a href="http://brew.sh">brew</a>.
+
 #### Git
+Install git: `brew install git`
 Put `.gitignore_global` in home directory.
 
 Configure git with the following commands:
