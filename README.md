@@ -10,6 +10,7 @@
   - [Day-O](#day-o)
   - [iTerm](#iterm)
   - [vim](#vim)
+  - [Git](#git)
 
 #### System Preferences
 ``` 
@@ -220,4 +221,14 @@ Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these
 
 #### Git
 Put `.gitignore_global` in home directory.
+
+Configure git with the following commands:
+
+``` bash
+git config --global user.name <name> 
+git config --global user.email <email> 
+git config --global core.editor vim
+git config --global core.excludesfile ~/.gitignore_global
+git config --global credential.helper osxkeychain
+```
 
