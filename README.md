@@ -235,5 +235,6 @@ $ git config --global user.email <email>
 $ git config --global core.editor vim
 $ git config --global core.excludesfile ~/.gitignore_global
 $ git config --global credential.helper osxkeychain
+$ git config --global push.default=simple
 ```
 
