@@ -38,7 +38,9 @@ prompt_color_magenta=$(tput setaf 199)
 prompt_color_orange=$(tput setaf 208)
 prompt_color_reset=$(tput sgr0)
 
-# Use PROMPT_COMMAND to change PS1 so git info can be displayed when in repo directory
+# Use PROMPT_COMMAND to change PS1 so:
+#       git branch is displayed when in git repo
+#       history number's color changes color according to whether previous command succeeded
 # Display options: http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html
 # Git code from: http://www.terminally-incoherent.com/blog/2013/01/14/whats-in-your-bash-prompt/
 function __prompt_command() {	    	

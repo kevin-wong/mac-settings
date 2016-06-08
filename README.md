@@ -125,10 +125,10 @@ Accessibility > Display > check Increase contrast
 #### Launchpad - Change to use only 2 columns: 
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)
 
-``` bash
-defaults write com.apple.dock springboard-columns -int 2;
-defaults write com.apple.dock ResetLaunchPad -bool TRUE;
-killall Dock
+```
+$ defaults write com.apple.dock springboard-columns -int 2;
+$ defaults write com.apple.dock ResetLaunchPad -bool TRUE;
+$ killall Dock
 ```
 
 #### Finder
@@ -224,11 +224,11 @@ Put `.gitignore_global` in home directory.
 
 Configure git with the following commands:
 
-``` bash
-git config --global user.name <name> 
-git config --global user.email <email> 
-git config --global core.editor vim
-git config --global core.excludesfile ~/.gitignore_global
-git config --global credential.helper osxkeychain
+```
+$ git config --global user.name <name> 
+$ git config --global user.email <email> 
+$ git config --global core.editor vim
+$ git config --global core.excludesfile ~/.gitignore_global
+$ git config --global credential.helper osxkeychain
 ```
 
