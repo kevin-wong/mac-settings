@@ -218,3 +218,6 @@ Preferences > Appearance > check Dimming affects only text, not background
 #### vim
 Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these</a> directions.
 
+#### Git
+Put `.gitignore_global` in home directory.
+
