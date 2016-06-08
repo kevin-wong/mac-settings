@@ -1,4 +1,5 @@
 ## Settings for mac.
+
 - [System Preferences](#system-preferences)
 - [Launchpad](#launchpad)
 - [Finder](#finder)
