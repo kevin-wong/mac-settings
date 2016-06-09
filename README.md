@@ -258,6 +258,12 @@ Put `.vimrc` in home directory.
 #### Sublime Text
 Download <a href="https://www.sublimetext.com/3">Sublime Text</a>.
 
+Add `subl` as a terminal command to open sublime:
+
+```
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/ /usr/local/bin/subl
+```
+
 Preferences > Settings - User > Paste the following:
 
 ```
