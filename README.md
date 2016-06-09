@@ -8,13 +8,14 @@
   - [Moom](#moom)
   - [Fliqlo](#fliqlo)
   - [Day-O](#day-o)
+  - [Brew](#brew)
+  - [Git](#git)
   - [iTerm](#iterm)
   - [vim](#vim)
-  - [Brew](#brew)  
-  - [Git](#git)
+
 
 #### System Preferences
-``` 
+```
 General > Appearance: Blue
         > Highlight color > Other > 2nd tab > RGB Sliders. R: 233 G: 219 B: 184
         > Sidebar icon size: Large
@@ -38,7 +39,7 @@ Dock > Size: Max
 ```
 Mission Control > uncheck Automatically rearrange Spaces based on most recent use
                 > check When switching to an application, switch to a Space with open windows
-                > uncheck Group windows by application 
+                > uncheck Group windows by application
                 > check Displays have separate Spaces
                 > Display have separate Spaces
                 > Dashboard: Off
@@ -50,11 +51,11 @@ Language & Region > First day of the week: Monday
 ```
 
 ```
-Notifications > for all apps, uncheck Play sound for notifications 
+Notifications > for all apps, uncheck Play sound for notifications
      	      > Messages > uncheck Show message preview
 ```
 
-``` 
+```
 Displays > uncheck Automatically adjust brightness
          > uncheck Show mirroring options in the menu bar
 ```
@@ -68,7 +69,7 @@ Energy Saver > Battery Power > Turn display off after: Never
              > check Prevent computer from sleeping automatically
              > uncheck Put hard disks to sleep when possible
              > check wake for Wi-Fi network access
-             > check Enable Power Nap while plugged into power adapter									
+             > check Enable Power Nap while plugged into power adapter
 ```
 
 ```
@@ -78,16 +79,16 @@ Keyboard > Keyboard > Key Repeat > Fastest
 	 	    > Turn off when computer is not used for: Never
 
          > Shortcuts > uncheck everything, except Keyboard > move focus to next window
-                     > App Shortcuts > add shortcut ⌘-ESC to all following menu titles: Toggle Full Screen 
+                     > App Shortcuts > add shortcut ⌘-ESC to all following menu titles: Toggle Full Screen
 											Fullscreen
 											Enter Full Screen
 											Exit Full Screen
 ```
 
 ``` bash
-Trackpad > Point & Click > check Look up & data detectors 
+Trackpad > Point & Click > check Look up & data detectors
          		 > check Secondary click (two fingers)
-                         > check Tap to click 
+                         > check Tap to click
                          > Click: Lightest
                          > Tracking speed: Fastest
                          > check Silent clicking
@@ -97,7 +98,7 @@ Trackpad > Point & Click > check Look up & data detectors
                          > uncheck Smart zoom
                          > check Rotate
          > More Gestures > check Swipe between pages (two fingers)
-                         > check Swipe between full-screen apps (four fingers) 
+                         > check Swipe between full-screen apps (four fingers)
                          > check Notification Center
                          > check Mission Control (four fingers)
                          > check App Exposè (four fingers)
@@ -123,7 +124,7 @@ Accessibility > Display > check Increase contrast
 ```
 
 <a name="launchpad"></a>
-#### Launchpad - Change to use only 2 columns: 
+#### Launchpad - Change to use only 2 columns:
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)
 
 ```
@@ -154,7 +155,7 @@ Menu bar > View > Show only the following: Path bar
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.tiff)
 
 The conventional ⌘-TAB switches between apps, but skips over windows within those apps. <br/>
-To go to a window, I can ⌘-TAB to the app, then launch Exposè by hitting F3 or swiping down on the trackpad with four fingers (System Preferences > Trackpad > More Gestures). <br /> 
+To go to a window, I can ⌘-TAB to the app, then launch Exposè by hitting F3 or swiping down on the trackpad with four fingers (System Preferences > Trackpad > More Gestures). <br />
 Or I can preview Exposè while still in ⌘-TAB, by holding ⌘ and hitting 1 on an app.
 I can avoid Exposè by hitting ⌘-~ (System Preferences > Keyboard > Shortcuts > Move focus to next window) to quickly loop through all the windows in an app. But I can't see all the windows at once, so if I have more than 3 windows, this quickly becomes cumbersome.
 
@@ -166,7 +167,7 @@ System Preferences > Click on Witch to register .plist
 ##### Moom
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Moom.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Moom.tiff)
 
-<a href="https://manytricks.com/moom/">Moom</a> allows quick window resizing. No more dragging corners. 
+<a href="https://manytricks.com/moom/">Moom</a> allows quick window resizing. No more dragging corners.
 
 
 ##### Fliqlo
@@ -184,6 +185,34 @@ System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
 
 Click on menu bar icon > Preferences > Date & Time Format: " h:mm a  E"
 
+#### Brew
+Install <a href="http://brew.sh">brew</a>.
+
+#### Git
+Install git: `brew install git`
+Put `.gitignore_global` in home directory.
+
+Configure git with the following commands:
+
+```
+$ git config --global user.name <name>
+$ git config --global user.email <email>
+$ git config --global core.editor vim
+$ git config --global core.excludesfile ~/.gitignore_global
+$ git config --global credential.helper osxkeychain
+$ git config --global push.default simple
+$ git config --global color.ui auto
+$ git config --global color.branch.current yellow reverse
+$ git config --global color.branch.local yellow
+$ git config --global color.branch.remote green
+$ git config --global color.diff.meta yellow bold
+$ git config --global color.diff.frag magenta bold
+$ git config --global color.diff.old red bold
+$ git config --global color.diff.new green bold
+$ git config --global color.status.added yellow
+$ git config --global color.status.changed red
+$ git config --global color.status.untracked red
+```
 
 ##### iTerm
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.tiff)
@@ -205,10 +234,10 @@ Preferences > Appearance > check Dimming affects only text, not background
                               > uncheck Blinking cursor
                        > Font > 14pt Source Code Pro Light
                        > Window > Transparency: ~5%
-                                > Columns: 135 
+                                > Columns: 135
                                 > Rows: 33
                        > Keys > Add the following with action Send Hex Code:
-                                ⌘ - DELETE: 0x15         # delete all characters to left of cursor        
+                                ⌘ - DELETE: 0x15         # delete all characters to left of cursor
                                 ⌥ - DELETE: 0x1b 0x08    # delete one word to left of cursor
                                 ⌘ - ←     : 0x01         # go to line start
                                 ⌘ - →     : 0x05         # go to line end
@@ -220,21 +249,19 @@ Preferences > Appearance > check Dimming affects only text, not background
 #### vim
 Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these</a> directions.
 
-#### Brew
-Install <a href="http://brew.sh">brew</a>.
 
-#### Git
-Install git: `brew install git`
-Put `.gitignore_global` in home directory.
-
-Configure git with the following commands:
-
-```
-$ git config --global user.name <name> 
-$ git config --global user.email <email> 
-$ git config --global core.editor vim
-$ git config --global core.excludesfile ~/.gitignore_global
-$ git config --global credential.helper osxkeychain
-$ git config --global push.default=simple
-```
+{
+  "font_face": "Source Code Pro Light",
+  "font_size": 14,
+  "bold_folder_labels": true,
+  "highlight_modified_tabs": true,
+  "indent_to_bracket": true,
+  "tab_size": 2,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": false,
+  "rulers":
+  [
+    80
+  ]
+}
 
