@@ -290,17 +290,20 @@ Preferences > Key Bindings - User > Paste the following:
 
   {
     "keys": ["super+n"],
-    "command": "new_file"
+    "command": "new_file",
+    "_comment": "open a new file in another tab within the same window"
   },
 
   {
     "keys": ["ctrl+tab"],
-    "command": "next_view"
+    "command": "next_view",
+    "_comment": "move forward one tab. same as Safari."
   },
 
   {
     "keys": ["ctrl+shift+tab"],
-    "command": "prev_view"
+    "command": "prev_view",
+    "_comment": "move backward one tab. same as Safari."
   }
 ]
 ```
