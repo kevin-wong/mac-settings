@@ -1,10 +1,10 @@
 # Adapted from: https://github.com/mathiasbynens/dotfiles/blob/master/.aliases
 
 # Navigation
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
+alias ..="cd ..; ls"
+alias ...="cd ../..; ls"
+alias ....="cd ../../..; ls"
+alias .....="cd ../../../..; ls"
 
 # Shortcuts
 alias h="history"
