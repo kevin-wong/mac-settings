@@ -12,7 +12,7 @@
   - [Git](#git)
   - [iTerm](#iterm)
   - [vim](#vim)
-  - [Sublime Text](#sublime-text)
+  - [Sublime Text](#Sublime-Text)
 
 #### System Preferences
 ```
@@ -256,7 +256,6 @@ Preferences > Settings - User > Paste the following:
 
 ```
 {
-  "font_face": "Source Code Pro Light",
   "font_size": 14,
   "bold_folder_labels": true,
   "highlight_modified_tabs": true,
