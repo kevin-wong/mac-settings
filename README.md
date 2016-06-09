@@ -223,7 +223,7 @@ $ git config --global color.status.untracked red
 Download <a href="https://www.iterm2.com">iTerm</a>. <br />
 Download <a href="https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it">Source Code Pro Light</a>.
 
-Put `.bash_profile`, `.bash_prompt`, `.bash_aliases`, `.bash_exports` in home directory.
+Put `.bash_profile`, `.bash_prompt`, `.bash_aliases`, and `.bash_exports` in home directory.
 
 ```
 Preferences > Appearance > check Dimming affects only text, not background
@@ -251,6 +251,7 @@ Preferences > Appearance > check Dimming affects only text, not background
 
 #### vim
 Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these</a> directions.
+
 Put `.vimrc` in home directory.
 
 <a name="sublime"></a>
