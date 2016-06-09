@@ -281,3 +281,27 @@ Preferences > Settings - User > Paste the following:
   ]
 }
 ```
+
+Preferences > Key Bindings - User > Paste the following:
+
+```
+[
+  { "reference": "http://docs.sublimetext.info/en/latest/reference/key_bindings.html" },
+
+  {
+    "keys": ["super+n"],
+    "command": "new_file"
+  },
+
+  {
+    "keys": ["ctrl+tab"],
+    "command": "next_view"
+  },
+
+  {
+    "keys": ["ctrl+shift+tab"],
+    "command": "prev_view"
+  }
+]
+```
+
