@@ -12,7 +12,7 @@
   - [Git](#git)
   - [iTerm](#iterm)
   - [vim](#vim)
-
+  - [Sublime Text])(#sublime-text)
 
 #### System Preferences
 ```
@@ -249,7 +249,12 @@ Preferences > Appearance > check Dimming affects only text, not background
 #### vim
 Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these</a> directions.
 
+#### Sublime Text
+Download <a href="https://www.sublimetext.com/3">Sublime Text</a>.
 
+Preferences > Settings - User > Paste the following:
+
+```
 {
   "font_face": "Source Code Pro Light",
   "font_size": 14,
@@ -264,4 +269,4 @@ Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these
     80
   ]
 }
-
+```
