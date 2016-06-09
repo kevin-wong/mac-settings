@@ -304,6 +304,15 @@ Preferences > Key Bindings - User > Paste the following:
     "keys": ["ctrl+shift+tab"],
     "command": "prev_view",
     "_comment": "move backward one tab. same as Safari."
+  },
+
+  {
+    "keys": ["super+shift+forward_slash"],
+    "command": "toggle_comment",
+    "args": {
+      "block": true
+    },
+    "_comment": "block comment"
   }
 ]
 ```
