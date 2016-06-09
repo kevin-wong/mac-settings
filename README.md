@@ -190,7 +190,9 @@ Install <a href="http://brew.sh">brew</a>.
 
 #### Git
 Install git:
+
 `brew install git`
+
 Put `.gitignore` in home directory.
 
 Configure git with the following commands:
