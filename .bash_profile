@@ -1,8 +1,8 @@
 # Adapted from https://github.com/mathiasbynens/dotfiles/blob/master/.bash_profile
 
 if [ -f ~/.bash_aliases ]; then . ~/.bash_aliases; fi
-if [ -f ~/.bash_exports ]; then . ~/.bash_exports; fi
-if [ -f ~/.bash_prompt ]; then . ~/.bash_prompt; fi
+if [ -f ~/.bash_prompt ]; then . ~/.bash_prompt; fi   # prompt must come before exports
+if [ -f ~/.bash_exports ]; then . ~/.bash_exports; fi # because prompt sets colors
 
 # Append to the Bash history file, rather than overwriting it
 shopt -s histappend;
