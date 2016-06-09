@@ -12,7 +12,7 @@
   - [Git](#git)
   - [iTerm](#iterm)
   - [vim](#vim)
-  - [Sublime Text])(#sublime-text)
+  - [Sublime Text](#sublime-text)
 
 #### System Preferences
 ```
