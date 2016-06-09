@@ -264,30 +264,33 @@ Add `subl` as a terminal command to open sublime:
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/ /usr/local/bin/subl
 ```
 
+Preferences > Color Scheme > Solarized (Dark)
+
 Preferences > Settings - User > Paste the following:
 
 ```
 {
-  "font_size": 14,
+  "_comment": "Find all fields in: Preferences > Settings - Default",
   "bold_folder_labels": true,
+  "color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+  "font_face": "Source Code Pro Light",
+  "font_size": 14,
   "highlight_modified_tabs": true,
   "indent_to_bracket": true,
-  "tab_size": 2,
-  "trim_trailing_white_space_on_save": true,
-  "word_wrap": false,
   "rulers":
   [
     80
-  ]
+  ],
+  "tab_size": 2,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": false
 }
 ```
 
 Preferences > Key Bindings - User > Paste the following:
-
 ```
 [
-  { "reference": "http://docs.sublimetext.info/en/latest/reference/key_bindings.html" },
-
+  {"_comment": "Find all fields in: Preferences > Key Bindings - Default"},
   {
     "keys": ["super+n"],
     "command": "new_file",
@@ -316,4 +319,3 @@ Preferences > Key Bindings - User > Paste the following:
   }
 ]
 ```
-
