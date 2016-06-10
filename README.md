@@ -192,11 +192,11 @@ System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
 Click on menu bar icon > Preferences > Date & Time Format: " h:mm a  E"
 
 
-#### Brew
+##### Brew
 Install <a href="http://brew.sh">brew</a>.
 
 
-#### Git
+##### Git
 Install git:
 
 `brew install git`
