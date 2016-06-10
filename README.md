@@ -157,7 +157,7 @@ Menu bar > View > Show only the following: Path bar
 
 
 ##### Witch
-(https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.tiff)
+![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.tiff)(https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.tiff)
 
 The conventional ⌘-TAB switches between apps, but skips over windows within those apps. <br/>
 To go to a window, I can ⌘-TAB to the app, then launch Exposè by hitting F3 or swiping down on the trackpad with four fingers (System Preferences > Trackpad > More Gestures). <br />
