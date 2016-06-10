@@ -254,6 +254,7 @@ Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these
 
 Put `.vimrc` in home directory.
 
+
 <a name="sublime"></a>
 #### Sublime Text
 Download <a href="https://www.sublimetext.com/3">Sublime Text</a>.
