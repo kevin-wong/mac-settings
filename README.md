@@ -15,7 +15,7 @@
   - [Sublime Text](#sublime)
 
 
-#### System Preferences
+##### System Preferences
 ```
 General > Appearance: Blue
         > Highlight color > Other > 2nd tab > RGB Sliders. R: 233 G: 219 B: 184
@@ -126,7 +126,7 @@ Accessibility > Display > check Increase contrast
 
 
 <a name="launchpad"></a>
-#### Launchpad - Change to use only 2 columns:
+##### Launchpad - Change to use only 2 columns:
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)
 
 ```
@@ -136,7 +136,7 @@ $ killall Dock
 ```
 
 
-#### Finder
+##### Finder
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Finder.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Finder.tiff)
 Preferences > General > New Finder windows show: Downloads
 	    > Sidebar > check only the following: Applications
@@ -259,14 +259,14 @@ Preferences > Appearance > check Dimming affects only text, not background
 ```
 
 
-#### vim
+##### vim
 Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these</a> directions.
 
 Put `.vimrc` in home directory.
 
 
 <a name="sublime"></a>
-#### Sublime Text
+##### Sublime Text
 Download <a href="https://www.sublimetext.com/3">Sublime Text</a>.
 
 Add `subl` as a terminal command to open sublime:
