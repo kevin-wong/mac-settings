@@ -14,6 +14,7 @@
   - [vim](#vim)
   - [Sublime Text](#sublime)
 
+
 #### System Preferences
 ```
 General > Appearance: Blue
@@ -123,6 +124,7 @@ Accessibility > Display > check Increase contrast
                                                        > check Enable dragging: three finger drag
 ```
 
+
 <a name="launchpad"></a>
 #### Launchpad - Change to use only 2 columns:
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)
@@ -132,6 +134,7 @@ $ defaults write com.apple.dock springboard-columns -int 2;
 $ defaults write com.apple.dock ResetLaunchPad -bool TRUE;
 $ killall Dock
 ```
+
 
 #### Finder
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Finder.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Finder.tiff)
@@ -149,7 +152,9 @@ Menu bar > View > Show only the following: Path bar
 					   Sidebar
 					   Preview
 
+
 #### Downloads
+
 
 ##### Witch
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.tiff)
@@ -163,6 +168,7 @@ I can avoid Exposè by hitting ⌘-~ (System Preferences > Keyboard > Shortcuts 
 
 Run WitchConfigure.sh <br />
 System Preferences > Click on Witch to register .plist
+
 
 ##### Moom
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Moom.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Moom.tiff)
@@ -185,8 +191,10 @@ System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
 
 Click on menu bar icon > Preferences > Date & Time Format: " h:mm a  E"
 
+
 #### Brew
 Install <a href="http://brew.sh">brew</a>.
+
 
 #### Git
 Install git:
@@ -216,6 +224,7 @@ $ git config --global color.status.added yellow
 $ git config --global color.status.changed red
 $ git config --global color.status.untracked red
 ```
+
 
 ##### iTerm
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.tiff)
@@ -248,6 +257,7 @@ Preferences > Appearance > check Dimming affects only text, not background
                                 ⌥ - →     : 0x1b 0x66    # move one word back
                                 ⌘ - z     : 0x1f         # undo
 ```
+
 
 #### vim
 Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these</a> directions.
