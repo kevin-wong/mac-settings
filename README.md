@@ -331,6 +331,15 @@ Preferences > Key Bindings - User > Paste the following:
       "block": true
     },
     "_comment": "block comment"
+  },
+
+  {
+    "keys": ["super+shift+r"],
+    "command": "show_panel",
+    "args": {
+      "panel": "replace",
+      "reverse": false
+    }
   }
 ]
 ```
