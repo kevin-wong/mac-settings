@@ -2,8 +2,11 @@
 # default key settings:
 # http://www.tutorialspoint.com/unix_commands/lesskey.htm
 
+K back-scroll
+J forw-scroll
+
 w back-scroll
 s forw-scroll
 
-W goto-line # go to file start
-S goto-end
+W goto-line # beginning of file 
+S goto-end  # end of file
