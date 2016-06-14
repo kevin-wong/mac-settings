@@ -140,7 +140,7 @@ $ killall Dock
 
 ```
 Preferences > General > New Finder windows show: Downloads
-	    > Sidebar > check only the following: Applications
+						> Sidebar > check only the following: Applications
 						  Documents
 						  Downloads
 						  Music
