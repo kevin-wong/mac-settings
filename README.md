@@ -140,7 +140,8 @@ $ killall Dock
 
 ```
 Preferences > General > New Finder windows show: Downloads
-            > Sidebar > check only the following: Applications
+            > Sidebar > check only the following:
+              Applications
 						  Documents
 						  Downloads
 						  Music
@@ -148,7 +149,8 @@ Preferences > General > New Finder windows show: Downloads
 						  External disks
             > Advanced > Show all filename extensions
 
-Menu bar > View > Show only the following: Path bar
+Menu bar > View > Show only the following:
+             Path bar
 					   Status bar
 					   Sidebar
 					   Preview
