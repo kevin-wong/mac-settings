@@ -199,6 +199,8 @@ Install git:
 
 Put `.gitignore` in home directory.
 
+`mv .gitignore ~/`
+
 Configure git with the following commands:
 
 ```
@@ -230,6 +232,8 @@ Download <a href="https://github.com/adobe-fonts/source-code-pro/releases/tag/2.
 
 Put `.bash_profile`, `.bash_prompt`, `.bash_aliases`, and `.bash_exports` in home directory.
 
+`mv .bash_profile .bash_prompt .bash_aliases .bash_exports ~/`
+
 ```
 Preferences > Appearance > check Dimming affects only text, not background
                          > Dimming amount: ~90%
@@ -260,9 +264,10 @@ Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these
 
 Put `.vimrc` in home directory.
 
+`mv .vimrc ~/`
 
 ##### less
-The default less doesn't support lesskey, which allows keybinding. Download the version that does.
+The default `less` doesn't support `lesskey`, which allows keybinding. Download the version that does.
 
 `brew install homebrew/dupes/less`
 
