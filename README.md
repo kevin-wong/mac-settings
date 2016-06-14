@@ -140,13 +140,13 @@ $ killall Dock
 
 ```
 Preferences > General > New Finder windows show: Downloads
-						> Sidebar > check only the following: Applications
+            > Sidebar > check only the following: Applications
 						  Documents
 						  Downloads
 						  Music
 						  <Home Folder>
 						  External disks
-	    > Advanced > Show all filename extensions
+            > Advanced > Show all filename extensions
 
 Menu bar > View > Show only the following: Path bar
 					   Status bar
