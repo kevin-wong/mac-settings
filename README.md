@@ -138,7 +138,8 @@ $ killall Dock
 ##### Finder
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Finder.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Finder.tiff)
 
-```Preferences > General > New Finder windows show: Downloads
+```
+Preferences > General > New Finder windows show: Downloads
 	    > Sidebar > check only the following: Applications
 						  Documents
 						  Downloads
