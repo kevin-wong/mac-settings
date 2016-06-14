@@ -3,16 +3,15 @@
 - [System Preferences](#system-preferences)
 - [Launchpad](#launchpad)
 - [Finder](#finder)
-- [Downloads](#downloads)
-  - [Witch](#witch)
-  - [Moom](#moom)
-  - [Fliqlo](#fliqlo)
-  - [Day-O](#day-o)
-  - [Brew](#brew)
-  - [Git](#git)
-  - [iTerm](#iterm)
-  - [vim](#vim)
-  - [Sublime Text](#sublime)
+- [Witch](#witch)
+- [Moom](#moom)
+- [Fliqlo](#fliqlo)
+- [Day-O](#day-o)
+- [Brew](#brew)
+- [Git](#git)
+- [iTerm](#iterm)
+- [vim](#vim)
+- [Sublime Text](#sublime)
 
 
 ##### System Preferences
@@ -153,9 +152,6 @@ Menu bar > View > Show only the following: Path bar
 					   Preview
 
 
-#### Downloads
-
-
 ##### Witch
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.tiff)
 
@@ -259,10 +255,7 @@ Preferences > Appearance > check Dimming affects only text, not background
 ```
 
 
-##### vim
-Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these</a> directions.
 
-Put `.vimrc` in home directory.
 
 
 <a name="sublime"></a>
@@ -343,3 +336,8 @@ Preferences > Key Bindings - User > Paste the following:
   }
 ]
 ```
+
+##### vim
+Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these</a> directions.
+
+Put `.vimrc` in home directory.
