@@ -255,8 +255,24 @@ Preferences > Appearance > check Dimming affects only text, not background
 ```
 
 
+##### vim
+Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these</a> directions.
+
+Put `.vimrc` in home directory.
 
 
+#### less
+The default less doesn't support lesskey, which allows keybinding. Download the version that does.
+
+`brew install homebrew/dupes/less`
+
+Put .lesskey in home directory.
+
+`mv .lesskey ~/`
+
+Run lesskey, which will automatically read from the .lesskey.
+
+`lesskey`
 
 <a name="sublime"></a>
 ##### Sublime Text
@@ -336,8 +352,3 @@ Preferences > Key Bindings - User > Paste the following:
   }
 ]
 ```
-
-##### vim
-Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these</a> directions.
-
-Put `.vimrc` in home directory.
