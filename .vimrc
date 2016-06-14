@@ -16,6 +16,7 @@ map 2 $
 " up paragraph
 map w <S-{>
 map K <S-{>
+
 " down paragraph
 map s <S-}>
 map J <S-}>
