@@ -261,7 +261,7 @@ Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these
 Put `.vimrc` in home directory.
 
 
-#### less
+##### less
 The default less doesn't support lesskey, which allows keybinding. Download the version that does.
 
 `brew install homebrew/dupes/less`
@@ -270,9 +270,10 @@ Put .lesskey in home directory.
 
 `mv .lesskey ~/`
 
-Run lesskey, which will automatically read from the .lesskey.
+Run lesskey, which will automatically read from .lesskey.
 
 `lesskey`
+
 
 <a name="sublime"></a>
 ##### Sublime Text
