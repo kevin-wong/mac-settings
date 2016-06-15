@@ -261,6 +261,8 @@ Preferences > Appearance > check Dimming affects only text, not background
                                 ⌥ - ←     : 0x1b 0x62    # move one word forward
                                 ⌥ - →     : 0x1b 0x66    # move one word back
                                 ⌘ - z     : 0x1f         # undo
+            > Advanced > Disable the Tip of the Day?: Yes
+                       > Supress offer to silence bell when it rings to much: Yes
 ```
 
 
