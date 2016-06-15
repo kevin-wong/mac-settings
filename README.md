@@ -47,12 +47,12 @@ Mission Control > uncheck Automatically rearrange Spaces based on most recent us
 
 ```
 Language & Region > First day of the week: Monday
-       		  > Time format: 24-hour Time
+                  > Time format: 24-hour Time
 ```
 
 ```
 Notifications > for all apps, uncheck Play sound for notifications
-     	      > Messages > uncheck Show message preview
+              > Messages > uncheck Show message preview
 ```
 
 ```
@@ -74,11 +74,13 @@ Energy Saver > Battery Power > Turn display off after: Never
 
 ```
 Keyboard > Keyboard > Key Repeat > Fastest
-	 	    > Delay Until Repeat > Shortest
-	 	    > uncheck Adjust keyboard brightness in low light
-	 	    > Turn off when computer is not used for: Never
+         > Delay Until Repeat > Shortest
+         > uncheck Adjust keyboard brightness in low light
+         > Turn off when computer is not used for: Never
 
-         > Shortcuts > uncheck everything, except Keyboard > move focus to next window
+         > Shortcuts > uncheck everything.
+                       check Keyboard > Move focus to the window toolbar: OPTION-`
+                       check Keyboard > Move focus to next window: ⌘-`
                      > App Shortcuts > add shortcut ⌘-ESC to all following menu titles: Toggle Full Screen
 											Fullscreen
 											Enter Full Screen
