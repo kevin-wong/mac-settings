@@ -18,9 +18,9 @@ export PYTHONIOENCODING='UTF-8';
 
 # Settings for `history`
 # http://www.thegeekstuff.com/2008/08/15-examples-to-master-linux-command-line-history/
-export HISTTIMEFORMAT='%F %T '        # format history to include timestamp
-export HISTIGNORE="pwd:ls:history:"   # list of commands to ignore
-export HISTCONTROL='ignoreboth';      # Omit duplicates and commands that begin with a space
+export HISTTIMEFORMAT='%F %T '        							# format history to include timestamp
+export HISTIGNORE="pwd:ls:history:h:ll:lt:la:lla"   # list of commands to ignore
+export HISTCONTROL='ignoreboth';      							# Omit duplicates and commands that begin with a space
 
 export HISTSIZE='32768';              # Increase Bash history size. Allow 32³ entries; the default is 500.
 export HISTFILESIZE="${HISTSIZE}";
