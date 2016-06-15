@@ -126,7 +126,6 @@ Accessibility > Display > check Increase contrast
 ```
 
 
-<a name="launchpad"></a>
 ##### Launchpad
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)
 
