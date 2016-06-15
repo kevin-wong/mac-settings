@@ -1,4 +1,4 @@
-## Settings for mac.
+### Settings for mac.
 
 - [System Preferences](#system-preferences)
 - [Launchpad](#launchpad)
