@@ -127,9 +127,10 @@ Accessibility > Display > check Increase contrast
 
 
 <a name="launchpad"></a>
-##### Launchpad - Change to use only 2 columns:
+##### Launchpad
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)
 
+Change to use only 2 columns:
 ```
 $ defaults write com.apple.dock springboard-columns -int 2;
 $ defaults write com.apple.dock ResetLaunchPad -bool TRUE;
@@ -169,8 +170,11 @@ I can avoid Exposè by hitting ⌘-~ (System Preferences > Keyboard > Shortcuts 
 
 <a href="http://manytricks.com/witch/">Witch</a> lets me use ⌘-TAB to cycle between windows.
 
-Run WitchConfigure.sh <br />
-System Preferences > Click on Witch to register .plist
+Run WitchConfigure.sh:
+
+`./WitchConfigure.sh`
+
+System Preferences > click on Witch to activate the changes.
 
 
 ##### Moom
@@ -276,15 +280,15 @@ Put `.vimrc` in home directory.
 `mv .vimrc ~/`
 
 ##### less
-The default `less` doesn't support `lesskey`, which allows keybinding. Download the version that does.
+The default `less` doesn't support `lesskey`, which allows keybinding. Download the version that does:
 
 `brew install homebrew/dupes/less`
 
-Put .lesskey in home directory.
+Put .lesskey in home directory:
 
 `mv .lesskey ~/`
 
-Run lesskey, which will automatically read from .lesskey.
+Run lesskey, which will automatically read from .lesskey:
 
 `lesskey`
 
@@ -331,21 +335,27 @@ Preferences > Key Bindings - User > Paste the following:
   {"_comment": "Find all fields in: Preferences > Key Bindings - Default"},
 
   {
-    "keys": ["super+n"],
+    "keys": ["super+t"],
     "command": "new_file",
-    "_comment": "open a new file in another tab within the same window"
+    "_comment": "open a new tab"
+  },
+
+  {
+    "keys": ["super+n"],
+    "command": "new_window",
+    "_comment": "open a new window"
   },
 
   {
     "keys": ["ctrl+tab"],
     "command": "next_view",
-    "_comment": "move forward one tab. same as Safari."
+    "_comment": "move forward one tab"
   },
 
   {
     "keys": ["ctrl+shift+tab"],
     "command": "prev_view",
-    "_comment": "move backward one tab. same as Safari."
+    "_comment": "move backward one tab"
   },
 
   {
@@ -358,12 +368,40 @@ Preferences > Key Bindings - User > Paste the following:
   },
 
   {
-    "keys": ["super+shift+r"],
+    "keys": ["super+r"],
     "command": "show_panel",
     "args": {
       "panel": "replace",
       "reverse": false
-    }
+    },
+    "_comment": "replace"
+  },
+
+  {
+    "keys": ["super+shift+up"],
+    "command": "swap_line_up",
+    "_comment": "move line up"
+  },
+
+  {
+    "keys": ["super+shift+down"],
+    "command": "swap_line_down",
+    "_comment": "move line down"
+  },
+
+  {
+    "keys": ["super+shift+w"],
+    "command": "wrap_lines",
+    "_comment": "wrap lines to fit ruler"
+  },
+
+  {
+    "keys": ["super+d"],
+    "command": "run_macro_file",
+    "args": {
+      "file": "res://Packages/Default/Delete Line.sublime-macro"
+    },
+    "_comment": "delete selection, or line if no selection"
   }
 ]
 ```
