@@ -169,7 +169,7 @@ I can avoid Exposè by hitting ⌘-~ (System Preferences > Keyboard > Shortcuts 
 
 <a href="http://manytricks.com/witch/">Witch</a> lets me use ⌘-TAB to cycle between windows.
 
-Run WitchConfigure.sh:
+Run WitchConfigure.sh to set customizations:
 
 `./WitchConfigure.sh`
 
@@ -207,7 +207,7 @@ Install git:
 
 `brew install git`
 
-Put `.gitignore` in home directory.
+Put `.gitignore` in home directory:
 
 `mv .gitignore ~/`
 
@@ -274,7 +274,7 @@ Preferences > Appearance > check Dimming affects only text, not background
 ##### vim
 Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these</a> directions.
 
-Put `.vimrc` in home directory.
+Put `.vimrc` in home directory:
 
 `mv .vimrc ~/`
 
