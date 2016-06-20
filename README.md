@@ -87,7 +87,7 @@ Keyboard > Keyboard > Key Repeat > Fastest
 											Exit Full Screen
 ```
 
-``` bash
+```
 Trackpad > Point & Click > check Look up & data detectors
          		 > check Secondary click (two fingers)
                          > check Tap to click
@@ -180,6 +180,18 @@ System Preferences > click on Witch to activate the changes.
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Moom.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Moom.tiff)
 
 <a href="https://manytricks.com/moom/">Moom</a> allows quick window resizing. No more dragging corners.
+
+Configure:
+
+```
+General > uncheck Show preferences on launch
+        > Run as: faceless
+Mouse > Delay: None
+      > check Enable access to custom controls, check Show on hover
+      > uncheck Bring moomed windows to the front automatically
+Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both sides.
+
+```
 
 
 ##### Fliqlo
