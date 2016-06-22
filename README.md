@@ -391,13 +391,13 @@ Preferences > Key Bindings - User > Paste the following:
   },
 
   {
-    "keys": ["super+shift+up"],
+    "keys": ["option+shift+up"],
     "command": "swap_line_up",
     "_comment": "move line up"
   },
 
   {
-    "keys": ["super+shift+down"],
+    "keys": ["option+shift+down"],
     "command": "swap_line_down",
     "_comment": "move line down"
   },
