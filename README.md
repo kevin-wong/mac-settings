@@ -260,7 +260,7 @@ Configure:
 
 ```
 Preferences > Appearance > check Dimming affects only text, not background
-                         > Dimming amount: ~90%
+                         > Dimming amount: ~50%
                          > check Dim inactive split panes
                          > check Dim background windows
                          > uncheck Show tab close buttons
