@@ -266,6 +266,7 @@ Preferences > Appearance > check Dimming affects only text, not background
                          > uncheck Show tab close buttons
             > Profiles > Colors > Color Presets... > Import > SolarizedDark.itermcolors
                                                             > Click SolarizedDark
+                       > Terminal > check Unlimited Scrollback
                        > Text > Cursor: Underline
                               > uncheck Blinking cursor
                        > Font > 14pt Source Code Pro Light
