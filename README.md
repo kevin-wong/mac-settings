@@ -13,8 +13,7 @@ Text Editors
 - [vim](#vim)
 - [Sublime Text](#sublime)
 
-
-
+<br/>
 
 ##### System Preferences
 ```
