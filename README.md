@@ -206,7 +206,7 @@ Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both s
 
 ```
 Click on Day-O in menu bar > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE "
-																				 > uncheck Show Icon
+                                         > uncheck Show Icon
 ```
 
 ##### Brew
