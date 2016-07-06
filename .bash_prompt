@@ -1,42 +1,26 @@
-# Set colors using tput
-# tput description: http://wiki.bash-hackers.org/scripting/terminalcodes
-prompt_color_red=$(tput setaf 160)
-prompt_color_green=$(tput setaf 40)
-prompt_color_blue=$(tput setaf 39)
-prompt_color_cyan=$(tput setaf 45)
-prompt_color_yellow=$(tput setaf 226)
-prompt_color_magenta=$(tput setaf 198)
-prompt_color_orange=$(tput setaf 208)
-prompt_color_pink=$(tput setaf 213)
-prompt_color_white=$(tput setaf 15)
-prompt_color_reset=$(tput sgr0)
-
-# Use PROMPT_COMMAND to modify PS1 to change colors for history number and git display.
-#
-# PS1 display options: http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html
-# prompt_command: http://www.terminally-incoherent.com/blog/2013/01/14/whats-in-your-bash-prompt/
-#
-# NOTE: In PS1, wrap colors inside brackets: \[ \] so it 
-# doesn't overlap text and mess up the display.  
-# http://askubuntu.com/questions/111840/ps1-problem-messing-up-cli
-function __prompt_command() {       
+# Prompt colors. Includes history number, date, time, and git display.
+function __prompt_command() {
   local EXIT="$?" # Exit status determines history number color
   PS1=""
 
   # Display history number with color.
   # Green    Previous command succeeded.
   # Red      Previous command failed.
-  if [ $EXIT -eq 0 ]; then 
-    PS1+="\[$prompt_color_green\][\!]\[$prompt_color_reset\] "; 
-  else 
-    PS1+="\[$prompt_color_red\][\!]\[$prompt_color_reset\] "; 
+  if [ $EXIT -eq 0 ]; then
+    PS1+="\[$prompt_color_green\][\!]\[$prompt_color_reset\] ";
+  else
+    PS1+="\[$prompt_color_red\][\!]\[$prompt_color_reset\] ";
   fi
 
-  PS1+="\[$prompt_color_orange\]\d \A\[$prompt_color_reset\]  "  # Date and time in 24-hour format
-  PS1+="\[$prompt_color_magenta\]\u\[$prompt_color_reset\] "     # Username
-  PS1+="\[$prompt_color_white\]in\[$prompt_color_reset\] "       # in
-  PS1+="\[$prompt_color_blue\]\w\[$prompt_color_reset\] "        # current directory
-  
+	prompt_date=$(date '+%Y/%m/%d %H:%M %A')
+	prompt_username="\u"
+	prompt_directory="\w"
+
+  PS1+="\[$prompt_color_orange\]$prompt_date\[$prompt_color_reset\]  "
+  PS1+="\[$prompt_color_magenta\]$prompt_username\[$prompt_color_reset\] "
+  PS1+="\[$prompt_color_white\]in\[$prompt_color_reset\] "
+  PS1+="\[$prompt_color_blue\]$prompt_directory\[$prompt_color_reset\] "
+
   # Display git branch when in repo with helper message in appropriate color.
   local git_status="`git status -unormal 2>&1`"
   if ! [[ "$git_status" =~ Not\ a\ git\ repo ]]; then
@@ -44,11 +28,11 @@ function __prompt_command() {
           || [[ "$git_status" =~ Changes\ not\ staged ]]; then
       local git_color=$prompt_color_red
       local git_message="there's something to add"
-    elif [[ "$git_status" =~ Changes\ to\ be\ committed ]]; then 
+    elif [[ "$git_status" =~ Changes\ to\ be\ committed ]]; then
       local git_color=$prompt_color_orange
       local git_message="there's something to commit"
     elif [[ "$git_status" =~ Your\ branch\ is\ ahead\ of ]]; then
-      local git_color=$prompt_color_yellow  
+      local git_color=$prompt_color_yellow
       local git_message="there's something to push"
     else
       local git_color=$prompt_color_green
@@ -61,21 +45,21 @@ function __prompt_command() {
         local git_branch="(`git describe --all --contains --abbrev=4 HEAD 2> /dev/null || echo HEAD`)"
     fi
 
-    PS1+="\[$prompt_color_white\]on\[$prompt_color_reset\] "          # on
-    PS1+="\[$prompt_color_pink\]$git_branch\[$prompt_color_reset\] "  # git branch    
-    PS1+="\[$prompt_color_white\]where\[$prompt_color_reset\] "       # where
-    PS1+="\[$git_color\]$git_message\[$prompt_color_reset\]"          # git message
+    PS1+="\[$prompt_color_white\]on\[$prompt_color_reset\] "
+    PS1+="\[$prompt_color_pink\]$git_branch\[$prompt_color_reset\] "
+    PS1+="\[$prompt_color_white\]where\[$prompt_color_reset\] "
+    PS1+="\[$git_color\]$git_message\[$prompt_color_reset\]"
   fi
 
-  PS1+="\n\[$prompt_color_cyan\]⥤\[$prompt_color_reset\] "            # arrow on next line
+  PS1+="\n\[$prompt_color_cyan\]⥤\[$prompt_color_reset\] "       # new line
 }
 PROMPT_COMMAND=__prompt_command
 
-PS2="\[$prompt_color_cyan\]⥤\[$prompt_color_reset\] "            # arrow on next line
+PS2="\[$prompt_color_cyan\]⥤\[$prompt_color_reset\] "            # contined line after \
 
 
-# View all 256 tput colors with their associated numeric values. 
-# Useful for selecting tput colors. The number is limited by mod 256.
-# 
+# Use the following command to view all 256 tput colors with their associated numeric values.
+# The number is limited by mod 256.
+#
 # for i in {0..255}; do tput setab $i; echo -n "  $i  "; done; tput sgr0; echo; unset i
 

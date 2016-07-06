@@ -1,9 +1,18 @@
-# Adapted from https://github.com/mathiasbynens/dotfiles/blob/master/.exports
+export TERM="xterm-256color"
+export prompt_color_red=$(tput setaf 160)
+export prompt_color_green=$(tput setaf 40)
+export prompt_color_blue=$(tput setaf 39)
+export prompt_color_cyan=$(tput setaf 45)
+export prompt_color_yellow=$(tput setaf 226)
+export prompt_color_magenta=$(tput setaf 198)
+export prompt_color_orange=$(tput setaf 208)
+export prompt_color_light_orange=$(tput setaf 214)
+export prompt_color_pink=$(tput setaf 213)
+export prompt_color_white=$(tput setaf 15)
+export prompt_color_reset=$(tput sgr0)
 
-# Make vim the default editor.
 export EDITOR='vim';
 
-# Prefer US English and use UTF-8.
 export LANG='en_US.UTF-8';
 export LC_ALL='en_US.UTF-8';
 
@@ -11,16 +20,15 @@ export LC_ALL='en_US.UTF-8';
 export MANPAGER='less -X';
 
 # Colorize section titles and flags in manual pages.
-export LESS_TERMCAP_md="$prompt_color_orange";
+export LESS_TERMCAP_md="$prompt_color_light_orange";
 
 # Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
 export PYTHONIOENCODING='UTF-8';
 
 # Settings for `history`
-# http://www.thegeekstuff.com/2008/08/15-examples-to-master-linux-command-line-history/
-export HISTTIMEFORMAT='%F %T '                      # format history to include timestamp
+export HISTTIMEFORMAT=$(echo -n %Y/%m/%d %H:%M; echo "  ")		# format history
 export HISTIGNORE="pwd:ls:history:h:ll:lt:la:lla"   # list of commands to ignore
-export HISTCONTROL='ignoreboth';                    # Omit duplicates and commands that begin with a space
+export HISTCONTROL='ignoredups';      							# ignore consecutive duplicates
 
 export HISTSIZE='32768';              # Increase Bash history size. Allow 32³ entries; the default is 500.
 export HISTFILESIZE="${HISTSIZE}";
