@@ -162,18 +162,15 @@ Menu bar > View > Show only the following:
 ##### Witch
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.tiff)
 
-The conventional ⌘-TAB switches between apps, but skips over windows within those apps. <br/>
-To go to a window, I can ⌘-TAB to the app, then launch Exposè by hitting F3 or swiping down on the trackpad with four fingers (System Preferences > Trackpad > More Gestures). <br />
-Or I can preview Exposè while still in ⌘-TAB, by holding ⌘ and hitting 1 on an app.
-I can avoid Exposè by hitting ⌘-~ (System Preferences > Keyboard > Shortcuts > Move focus to next window) to quickly loop through all the windows in an app. But I can't see all the windows at once, so if I have more than 3 windows, this quickly becomes cumbersome.
+The problem with ⌘-TAB is that it switches between apps, but skips over windows within those apps. <br/>
 
-<a href="http://manytricks.com/witch/">Witch</a> lets me use ⌘-TAB to cycle between windows.
+<a href="http://manytricks.com/witch/">Witch</a> allows ⌘-TAB to cycle between windows.
 
 Run WitchConfigure.sh to set customizations:
 
 `./WitchConfigure.sh`
 
-System Preferences > click on Witch to activate the changes.
+Register the settings by clicking on Witch: `System Preferences > Witch`
 
 
 ##### Moom
@@ -199,7 +196,7 @@ Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both s
 
 <a href="http://fliqlo.com">Fliqlo</a> screensaver.
 
-System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
+`System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours`
 
 
 ##### Day-O
@@ -207,7 +204,8 @@ System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
 
 <a href="http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock">Day-O</a> calendar dropdown.
 
-Click on menu bar icon > Preferences > Date & Time Format: " h:mm a  E"
+Click on Day-O in menu bar > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE "
+																				 > uncheck Show Icon
 
 
 ##### Brew
