@@ -221,7 +221,7 @@ Install git:
 
 Put `.gitignore` in home directory:
 
-`mv .gitignore ~/`
+`cp .gitignore ~/`
 
 Configure git with the following commands:
 
@@ -253,10 +253,10 @@ Download <a href="https://www.iterm2.com">iTerm</a>. <br />
 Download <a href="https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it">Source Code Pro Light</a>
 and add the OTF fonts to Font book.
 
-Put `.bash_profile`, `.bash_prompt`, `.bash_aliases`, and `.bash_exports` in
+Put `.bash_profile`, `.bashrc`, `.bash_prompt`, `.bash_aliases`, and `.bash_exports` in
 home directory:
 
-`mv .bash_profile .bash_prompt .bash_aliases .bash_exports ~/`
+`cp .bash_profile .bashrc .bash_prompt .bash_aliases .bash_exports ~/`
 
 Configure:
 
@@ -293,7 +293,7 @@ Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these
 
 Put `.vimrc` in home directory:
 
-`mv .vimrc ~/`
+`cp .vimrc ~/`
 
 ##### less
 The default `less` doesn't support `lesskey`, which allows keybinding. Download the version that does:
@@ -302,7 +302,7 @@ The default `less` doesn't support `lesskey`, which allows keybinding. Download 
 
 Put .lesskey in home directory:
 
-`mv .lesskey ~/`
+`cp .lesskey ~/`
 
 Run lesskey, which will automatically read from .lesskey:
 

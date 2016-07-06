@@ -1,4 +1,5 @@
 #!/bin/bash
 
-mv WitchSettings.plist Settings.plist
+cp WitchSettings.plist Settings.plist
 cp Settings.plist ~/Library/Application\ Support/Witch/
+rm Settings.plist
