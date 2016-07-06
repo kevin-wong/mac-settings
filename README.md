@@ -251,8 +251,7 @@ $ git config --global color.status.untracked red
 
 Download <a href="https://www.iterm2.com">iTerm</a>. <br />
 Download <a href="https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it">Source Code Pro Light</a>.
-
-Add the OTF fonts to Font book.
+and add the OTF fonts to Font book.
 
 Put `.bash_profile`, `.bash_prompt`, `.bash_aliases`, and `.bash_exports` in home directory:
 
