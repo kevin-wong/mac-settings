@@ -10,8 +10,7 @@
 - [Brew](#brew)
 - [Git](#git)
 
-Text Editors
-- [iTerm](#iterm)
+Text Editors- [iTerm](#iterm)
 - [vim](#vim)
 - [Sublime Text](#sublime)
 
