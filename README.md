@@ -1,3 +1,4 @@
+System
 - [System Preferences](#system-preferences)
 - [Launchpad](#launchpad)
 - [Finder](#finder)
@@ -5,9 +6,11 @@
 - [Moom](#moom)
 - [Fliqlo](#fliqlo)
 - [Day-O](#day-o)
+
+Developer
+- [iTerm](#iterm)
 - [Brew](#brew)
 - [Git](#git)
-- [iTerm](#iterm)
 
 Text Editors
 - [vim](#vim)
@@ -210,41 +213,6 @@ Day-O in menu bar > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
                                 > uncheck Show Icon
 ```
 
-##### Brew
-Install <a href="http://brew.sh">brew</a>.
-
-
-##### Git
-Install git:
-
-`brew install git`
-
-Put `.gitignore` in home directory:
-
-`cp .gitignore ~/`
-
-Configure git with the following commands:
-
-```
-$ git config --global user.name <name>
-$ git config --global user.email <email>
-$ git config --global core.editor vim
-$ git config --global core.excludesfile ~/.gitignore_global
-$ git config --global credential.helper osxkeychain
-$ git config --global push.default simple
-$ git config --global color.ui auto
-$ git config --global color.branch.current yellow reverse
-$ git config --global color.branch.local yellow
-$ git config --global color.branch.remote green
-$ git config --global color.diff.meta yellow bold
-$ git config --global color.diff.frag magenta bold
-$ git config --global color.diff.old red bold
-$ git config --global color.diff.new green bold
-$ git config --global color.status.added yellow
-$ git config --global color.status.changed red
-$ git config --global color.status.untracked red
-```
-
 
 ##### iTerm
 [![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.tiff)
@@ -285,6 +253,42 @@ Preferences > Appearance > check Dimming affects only text, not background
                                 ⌘ - z     : 0x1f         # undo
             > Advanced > Disable the Tip of the Day?: Yes
                        > Supress offer to silence bell when it rings to much: Yes
+```
+
+
+##### Brew
+Install <a href="http://brew.sh">brew</a>.
+
+
+##### Git
+Install git:
+
+`brew install git`
+
+Put `.gitignore` in home directory:
+
+`cp .gitignore ~/`
+
+Configure git with the following commands:
+
+```
+$ git config --global user.name <name>
+$ git config --global user.email <email>
+$ git config --global core.editor vim
+$ git config --global core.excludesfile ~/.gitignore_global
+$ git config --global credential.helper osxkeychain
+$ git config --global push.default simple
+$ git config --global color.ui auto
+$ git config --global color.branch.current yellow reverse
+$ git config --global color.branch.local yellow
+$ git config --global color.branch.remote green
+$ git config --global color.diff.meta yellow bold
+$ git config --global color.diff.frag magenta bold
+$ git config --global color.diff.old red bold
+$ git config --global color.diff.new green bold
+$ git config --global color.status.added yellow
+$ git config --global color.status.changed red
+$ git config --global color.status.untracked red
 ```
 
 
