@@ -205,8 +205,8 @@ Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both s
 <a href="http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock">Day-O</a> calendar dropdown.
 
 ```
-Click on Day-O in menu bar > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE "
-                                         > uncheck Show Icon
+Day-O in menu bar > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE "
+                                > uncheck Show Icon
 ```
 
 ##### Brew
