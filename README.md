@@ -7,9 +7,8 @@
 - [Day-O](#day-o)
 - [Brew](#brew)
 - [Git](#git)
-
-Text Editors
 - [iTerm](#iterm)
+Text Editors
 - [vim](#vim)
 - [Sublime Text](#sublime)
 
