@@ -296,10 +296,7 @@ $ git config --global color.status.untracked red
 
 
 ##### less
-Use key bindings so navigation is consistent with vim key bindings:
-
-w to scroll up <br/>
-s to scroll down
+Use key bindings so navigation is consistent with the vim key bindings below.
 
 Mac comes with `lesskey`, which allows key binding on less, disabled. Use the version that does:
 
@@ -316,6 +313,14 @@ Run lesskey, which will automatically read from .lesskey:
 
 ##### vim
 Configurations and key bindings. Solarized colorscheme. Sensible key bindings.
+
+```
+w                  up one paragraph<br/>
+shift-w            beginning of file <br/>
+s to scroll down   down one paragraph<br/>
+shift-s            end of file<br/>
+shift-u            re-do, so it matching undo (u)
+```
 
 <a href="https://github.com/altercation/vim-colors-solarized/tree/master/colors">Download</a> Solarized for vim.<br/>
 Follow the manual installation <a href="http://ethanschoonover.com/solarized/vim-colors-solarized#installation">here</a>.
