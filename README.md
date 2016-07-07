@@ -296,7 +296,7 @@ $ git config --global color.status.untracked red
 
 
 ##### less
-Use key bindings so navigation is consistent with the vim key bindings below.
+Use key bindings so navigation is consistent with the vim's below.
 
 Mac comes with `lesskey`, which allows key binding on less, disabled. Use the version that does:
 
@@ -312,13 +312,13 @@ Run lesskey, which will automatically read from .lesskey:
 
 
 ##### vim
-Configurations and key bindings. Solarized colorscheme. Sensible key bindings.
+Configurations and key bindings. Solarized colorscheme. Sensible key bindings, such as:
 
 ```
-w                  up one paragraph<br/>
-shift-w            beginning of file <br/>
-s to scroll down   down one paragraph<br/>
-shift-s            end of file<br/>
+w                  up one paragraph
+shift-w            beginning of file
+s to scroll down   down one paragraph
+shift-s            end of file
 shift-u            re-do, so it matching undo (u)
 ```
 
@@ -332,6 +332,8 @@ Put `.vimrc` in home directory:
 
 <a name="sublime"></a>
 ##### Sublime Text
+Solarized colorscheme. Key bindings.
+
 Download <a href="https://www.sublimetext.com/3">Sublime Text</a>.
 
 Add `subl` as a terminal command to open sublime:
