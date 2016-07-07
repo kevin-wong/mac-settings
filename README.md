@@ -11,6 +11,7 @@ Developer
 - [iTerm](#iterm)
 - [Brew](#brew)
 - [Git](#git)
+- [less](#less)
 
 Text Editors
 - [vim](#vim)
@@ -170,6 +171,8 @@ The problem with ⌘-TAB is that it switches between apps, but skips over window
 
 <a href="http://manytricks.com/witch/">Witch</a> allows ⌘-TAB to cycle between windows.
 
+Note: There's a slight delay when ⌘-TABing quickly.
+
 Run WitchConfigure.sh to set customizations:
 
 `./WitchConfigure.sh`
@@ -292,15 +295,13 @@ $ git config --global color.status.untracked red
 ```
 
 
-##### vim
-Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized">these</a> directions.
-
-Put `.vimrc` in home directory:
-
-`cp .vimrc ~/`
-
 ##### less
-The default `less` doesn't support `lesskey`, which allows keybinding. Download the version that does:
+Use key bindings so navigation is consistent with vim key bindings:
+
+w to scroll up <br/>
+s to scroll down
+
+Mac comes with `lesskey`, which allows key binding on less, disabled. Use the version that does:
 
 `brew install homebrew/dupes/less`
 
@@ -311,6 +312,17 @@ Put .lesskey in home directory:
 Run lesskey, which will automatically read from .lesskey:
 
 `lesskey`
+
+
+##### vim
+Configurations and key bindings. Solarized colorscheme. Sensible key bindings.
+
+Download <a href="https://github.com/altercation/vim-colors-solarized/tree/master/colors">Solarized for vim.</a><br/>
+Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized#installation">this</a> manual installation.
+
+Put `.vimrc` in home directory:
+
+`cp .vimrc ~/`
 
 
 <a name="sublime"></a>
