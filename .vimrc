@@ -20,6 +20,9 @@ set laststatus=2
 " Customzize status bar. Options available at :help statusline
 set statusline=%<%F\ %h%m%r%=%-14.(%l,%c%)\ %P
 
+" Status bar colors.
+hi StatusLine ctermbg=010 ctermfg=008
+
 " Visual autocomplete for command menu
 set wildmenu
 
