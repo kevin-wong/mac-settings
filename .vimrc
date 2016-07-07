@@ -1,49 +1,94 @@
-
-" vim colors
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Colors and Fonts
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax enable
 set background=dark
 colorscheme solarized
 
-" remove vim recording
-map q <Nop>
+set encoding=utf8
 
-" beginning of line
-map 1 0
 
-" end of line
-map 2 $
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Appearance
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Show the filename in the window titlebar
+set title
 
-" up paragraph
-map w <S-{>
-map K <S-{>
+" Always show status bar
+set laststatus=2
 
-" down paragraph
-map s <S-}>
-map J <S-}>
+" Customzize status bar. Options available at :help statusline
+set statusline=%<%F\ %h%m%r%=%-14.(%l,%c%)\ %P
 
-" beginning of file
-map W gg
+" Visual autocomplete for command menu
+set wildmenu
 
-" end of file
-map S G
-
-" move back one word
-map H B
-
-" move forward one word
-map L E
-
-" Adapted from: https://github.com/mathiasbynens/dotfiles/blob/master/.vimrc
-" change tabs to 2 spaces
-set tabstop=2
+" Highlight current line
+set cursorline
 
 " Enable line numbers
 set number
 
-" Enable syntax highlighting
-syntax on
-" Highlight current line
-set cursorline
+" Change tabs to 2 spaces
+set tabstop=2
+
+" Highlight searches
+set hlsearch
+
+" Ignore case of searches
+set ignorecase
+
+" Highlight dynamically as pattern is typed
+set incsearch
+
+" Optimize for fast terminal connections
+set ttyfast
+
+" When cursor is on a brace, highlights its matching brace
+set showmatch
+
+" Enable mouse in all modes
+" Drawback is that to copy, need to hold OPTION.
+" Otherwise, copying enters visual mode.
+" set mouse=a
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Mappings
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Remove vim recording
+map q <Nop>
+
+" Beginning of line
+map 1 0
+
+" End of line
+map 2 $
+
+" Up paragraph
+map w <S-{>
+map K <S-{>
+
+" Down paragraph
+map s <S-}>
+map J <S-}>
+
+" Beginning of file
+map W gg
+
+" End of file
+map S G
+
+" Move back one word
+map H B
+
+" Move forward one word
+map L E
+
+" Redo is shift-undo (u).
+map <S-u> <C-r>
+
+" Go to matching brace
+map ` %
 
 " Automatic commands
 if has("autocmd")

@@ -222,7 +222,7 @@ Day-O in menu bar > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
 
 Download <a href="https://www.iterm2.com">iTerm</a>. <br />
 Download <a href="https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it">Source Code Pro Light</a>
-and add the OTF fonts to Font book.
+and add the OTF fonts to Font Book.
 
 Put `.bash_profile`, `.bashrc`, `.bash_prompt`, `.bash_aliases`, and `.bash_exports` in
 home directory:
@@ -298,7 +298,7 @@ $ git config --global color.status.untracked red
 ##### less
 Use key bindings so navigation is consistent with the vim's below.
 
-Mac comes with `lesskey`, which allows key binding on less, disabled. Use the version that does:
+Mac has disabled`lesskey`, which allows key binding on less. Use the version that does:
 
 `brew install homebrew/dupes/less`
 
