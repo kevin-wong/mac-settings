@@ -317,8 +317,8 @@ Run lesskey, which will automatically read from .lesskey:
 ##### vim
 Configurations and key bindings. Solarized colorscheme. Sensible key bindings.
 
-Download <a href="https://github.com/altercation/vim-colors-solarized/tree/master/colors">Solarized for vim.</a><br/>
-Follow <a href="http://ethanschoonover.com/solarized/vim-colors-solarized#installation">this</a> manual installation.
+<a href="https://github.com/altercation/vim-colors-solarized/tree/master/colors">Download</a> Solarized for vim.<br/>
+Follow the manual installation <a href="http://ethanschoonover.com/solarized/vim-colors-solarized#installation">here</a>.
 
 Put `.vimrc` in home directory:
 
