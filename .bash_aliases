@@ -15,7 +15,7 @@ alias v="vim"
 
 alias ls="ls -FG"
 alias ll="ls -lhFG"
-alias la="ls -ahFG"s
+alias la="ls -ahFG"
 alias lla="ls -lahFG"
 alias lt="ls -lahtFG" # sort by time, non-ascending order
 
