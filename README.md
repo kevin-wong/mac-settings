@@ -132,7 +132,7 @@ Accessibility > Display > check Increase contrast
 
 
 ##### Launchpad
-[![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)
+![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)
 
 Change to use only 2 columns:
 ```
@@ -143,7 +143,7 @@ $ killall Dock
 
 
 ##### Finder
-[![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Finder.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Finder.tiff)
+![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Finder.tiff)
 
 ```
 Preferences > General > New Finder windows show: Downloads
@@ -165,7 +165,7 @@ Menu bar > View > Show only the following:
 
 
 ##### Witch
-[![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.tiff)
+![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.tiff)
 
 The problem with ⌘-TAB is that it switches between apps, but skips over windows within those apps. <br/>
 
@@ -181,7 +181,7 @@ Register the settings by clicking on Witch: `System Preferences > Witch`
 
 
 ##### Moom
-[![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Moom.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Moom.tiff)
+![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Moom.tiff)
 
 <a href="https://manytricks.com/moom/">Moom</a> allows quick window resizing. No more dragging corners.
 
@@ -199,7 +199,7 @@ Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both s
 
 
 ##### Fliqlo
-[![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Fliqlo.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Fliqlo.tiff)
+![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Fliqlo.tiff)
 
 <a href="http://fliqlo.com">Fliqlo</a> screensaver.
 
@@ -207,7 +207,6 @@ Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both s
 
 
 ##### Day-O
-[![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Day-O.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Day-O.tiff)
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Day-O.tiff)
 <a href="http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock">Day-O</a> calendar dropdown.
 
@@ -218,7 +217,7 @@ Day-O in menu bar > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
 
 
 ##### iTerm
-[![Screen](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.tiff)](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.tiff)
+![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.tiff)
 
 Download <a href="https://www.iterm2.com">iTerm</a>. <br />
 Download <a href="https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it">Source Code Pro Light</a>
