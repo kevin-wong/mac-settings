@@ -254,6 +254,9 @@ Preferences > Appearance > check Dimming affects only text, not background
                                 ⌥ - ←     : 0x1b 0x62    # move one word forward
                                 ⌥ - →     : 0x1b 0x66    # move one word back
                                 ⌘ - z     : 0x1f         # undo
+            > Pointer > check ⌥ - Click moves cursor
+                      > check Focus follows mouse
+                      > check Triple-click selects entire wrapped line
             > Advanced > Disable the Tip of the Day?: Yes
                        > Supress offer to silence bell when it rings to much: Yes
 ```
@@ -317,9 +320,9 @@ Configurations and key bindings. Solarized colorscheme. Sensible key bindings, s
 ```
 w                  up one paragraph
 shift-w            beginning of file
-s to scroll down   down one paragraph
+s                  down one paragraph
 shift-s            end of file
-shift-u            re-do, so it matching undo (u)
+shift-u            re-do to match undo (u)
 ```
 
 <a href="https://github.com/altercation/vim-colors-solarized/tree/master/colors">Download</a> Solarized for vim.<br/>
