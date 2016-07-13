@@ -55,7 +55,7 @@ function __prompt_command() {
 }
 PROMPT_COMMAND=__prompt_command
 
-PS2="\[$prompt_color_cyan\]⥤\[$prompt_color_reset\] "            # contined line after \
+PS2="\[$prompt_color_cyan\]⥤\[$prompt_color_reset\] "            # continued line after \
 
 
 # Use the following command to view all 256 tput colors with their associated numeric values.
