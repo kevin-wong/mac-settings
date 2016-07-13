@@ -9,5 +9,5 @@ shopt -s histappend;
 # Autocorrect typos in path names when using `cd`   
 shopt -s cdspell;
 
-# Add tab completion for SSH hostnames based on ~/.ssh/config, ignoring wildcards
+# ssh hostname tab completion, according to ~/.ssh/config
 [ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2- | tr ' ' '\n')" scp sftp ssh;

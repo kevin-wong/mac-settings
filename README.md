@@ -232,7 +232,8 @@ home directory:
 Configure:
 
 ```
-Preferences > Appearance > check Dimming affects only text, not background
+Preferences > General > check Confirm closing multiple sessions
+            > Appearance > check Dimming affects only text, not background
                          > Dimming amount: ~10%
                          > check Dim inactive split panes
                          > check Dim background windows
@@ -315,7 +316,8 @@ Run lesskey, which will automatically read from .lesskey:
 
 
 ##### vim
-Configurations and key bindings. Solarized colorscheme. Sensible key bindings, such as:
+Configurations. Solarized colorscheme. Detailed status bar.
+Sensible key bindings, such as:
 
 ```
 w                  up one paragraph
