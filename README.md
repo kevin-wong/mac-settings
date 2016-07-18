@@ -151,6 +151,7 @@ $ killall Dock
 <br/>
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Finder.tiff)
 
+Configure:
 ```
 Preferences > General > New Finder windows show: Downloads
             > Sidebar > check only the following:
