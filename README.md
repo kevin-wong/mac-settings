@@ -128,7 +128,7 @@ Accessibility > Display > check Increase contrast
                                                        > check Enable dragging: three finger drag
 ```
 
-
+<br/>
 #### Launchpad
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)
 
