@@ -85,10 +85,10 @@ Keyboard > Keyboard > Key Repeat > Fastest
                      > Keyboard > check Move focus to the window toolbar: OPTION-`
                      > Keyboard > check Move focus to next window: ⌘-`
                      > App Shortcuts > add shortcut ⌘-ESC to all following menu titles:
-                             Toggle Full Screen
-                             Fullscreen
-                             Enter Full Screen
-                             Exit Full Screen
+                                       - Toggle Full Screen
+                                       - Fullscreen
+                                       - Enter Full Screen
+                                       - Exit Full Screen
 ```
 
 ```
