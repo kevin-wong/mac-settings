@@ -8,10 +8,10 @@
 7.  [Day-O](#day-o)
 
 ### Developer
-  8  [iTerm](#iterm) <br/>
-  9  [Brew](#brew) <br/>
-  10 [Git](#git) <br/>
-  11 [less](#less) <br/>
+- 8  [iTerm](#iterm) <br/>
+- 9  [Brew](#brew) <br/>
+- 10 [Git](#git) <br/>
+- 11 [less](#less) <br/>
 
 ### Text Editors
 12. [vim](#vim)
