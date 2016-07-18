@@ -419,7 +419,9 @@ hold down OPTION and drag.
 
 <br/>
 <a href="https://github.com/altercation/vim-colors-solarized/tree/master/colors">Download</a> Solarized for vim.<br/>
-Follow the manual installation <a href="http://ethanschoonover.com/solarized/vim-colors-solarized#installation">here</a>.
+
+<br/>
+Follow the <a href="http://ethanschoonover.com/solarized/vim-colors-solarized#installation">manual installation</a>.
 
 <br/>
 Put `.vimrc` in home directory:
