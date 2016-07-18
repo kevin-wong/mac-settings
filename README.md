@@ -128,7 +128,7 @@ Accessibility > Display > check Increase contrast
                                                        > check Enable dragging: three finger drag
 ```
 
-<br/><br/><br/>
+<br/><br/><br/><br/>
 #### Launchpad
 Hide what you don't use. Collapse to 2 columns.
 
