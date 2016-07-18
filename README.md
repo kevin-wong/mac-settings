@@ -161,7 +161,7 @@ $ killall Dock
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Finder.tiff)
 
 <br/>
-Configure:
+Configure from menu bar:
 ```
 Preferences > General > New Finder windows show: Downloads
             > Sidebar > check only the following:
@@ -219,7 +219,7 @@ System Preferences > Witch
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Moom.gif)
 
 <br/>
-Configure:
+Launch Moom and configure:
 ```
 General > uncheck Show preferences on launch
         > Run as: faceless
@@ -258,10 +258,10 @@ System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Day-O.gif)
 
 <br/>
-Configure:
+Configure from menu bar:
 ```
-Day-O in menu bar > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
-                                > uncheck Show Icon
+Day-O > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
+                    > uncheck Show Icon
 ```
 
 
@@ -279,7 +279,7 @@ Solarized colorscheme. Colors responsive to git. Mac-inspired key bindings.
 <br/>
 Download <a href="https://www.iterm2.com">iTerm</a>.
 
-Download <a href="https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it">Source Code Pro Light</a>
+Download <a href="https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it">Source Code Pro Light</a>,
 and add the OTF fonts to Font Book.
 
 <br/>
@@ -289,7 +289,7 @@ cp .bash_profile .bashrc .bash_prompt .bash_aliases .bash_exports ~/
 ```
 
 <br/>
-Configure:
+Configure from menu bar:
 ```
 Preferences > General > check Confirm closing multiple sessions
             > Appearance > check Dimming affects only text, not background
@@ -336,15 +336,18 @@ Install <a href="http://brew.sh">brew</a>.
 #### Git
 <br/>
 Install git:
+```
+brew install git
+```
 
-`brew install git`
-
+<br/>
 Put `.gitignore` in home directory:
+```
+cp .gitignore ~/
+```
 
-`cp .gitignore ~/`
-
-Configure git with the following commands:
-
+<br/>
+Configure:
 ```
 $ git config --global user.name <name>
 $ git config --global user.email <email>
@@ -373,17 +376,23 @@ $ git config --global color.status.untracked red
 <br/>
 Use key bindings so navigation is consistent with the vim's below.
 
+<br/>
 Mac has disabled`lesskey`, which allows key binding on less. Use the version that does:
+```
+brew install homebrew/dupes/less
+```
 
-`brew install homebrew/dupes/less`
-
+<br/>
 Put .lesskey in home directory:
+```
+cp .lesskey ~/
+```
 
-`cp .lesskey ~/`
-
+<br/>
 Run lesskey, which will automatically read from .lesskey:
-
-`lesskey`
+```
+lesskey
+```
 
 
 
@@ -391,11 +400,8 @@ Run lesskey, which will automatically read from .lesskey:
 <br/><br/><br/><br/>
 #### vim
 <br/>
-![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/vim.gif)
-
-Configurations. Solarized colorscheme. Detailed status bar.
+Solarized colorscheme. Detailed status bar. Mouse click and scroll.
 Sensible key bindings, such as:
-
 ```
 w                  up one paragraph
 shift-w            beginning of file
@@ -404,20 +410,30 @@ shift-s            end of file
 shift-u            re-do to match undo (u)
 ```
 
+NOTE: Mouse is enabled, so dragging to copy toggles visual mode. To copy,
+hold down OPTION and drag.
+
+<br/>
+![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/vim.gif)
+
+
+<br/>
 <a href="https://github.com/altercation/vim-colors-solarized/tree/master/colors">Download</a> Solarized for vim.<br/>
 Follow the manual installation <a href="http://ethanschoonover.com/solarized/vim-colors-solarized#installation">here</a>.
 
+<br/>
 Put `.vimrc` in home directory:
-
-`cp .vimrc ~/`
+```
+cp .vimrc ~/
+```
 
 
 
 
 <br/><br/><br/><br/>
 <a name="sublime"></a>
-<br/>
 #### Sublime Text
+<br/>
 Solarized colorscheme. Key bindings.
 
 Download <a href="https://www.sublimetext.com/3">Sublime Text</a>.
