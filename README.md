@@ -197,8 +197,9 @@ NOTE: There's a slight delay when ⌘-TABing quickly.
 
 <br/>
 Run WitchConfigure.sh to set customizations:
-
-`./WitchConfigure.sh`
+```
+./WitchConfigure.sh
+```
 
 Register the settings by clicking on Witch:
 ```
