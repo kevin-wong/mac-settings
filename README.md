@@ -17,6 +17,7 @@
 - [vim](#vim)
 - [Sublime Text](#sublime)
 
+
 <br/><br/><br/><br/>
 #### System Preferences
 <br/>
@@ -130,6 +131,7 @@ Accessibility > Display > check Increase contrast
                                                        > check Enable dragging: three finger drag
 ```
 
+
 <br/><br/><br/><br/>
 #### Launchpad
 <br/>
@@ -145,6 +147,7 @@ $ defaults write com.apple.dock springboard-columns -int 2;
 $ defaults write com.apple.dock ResetLaunchPad -bool TRUE;
 $ killall Dock
 ```
+
 
 <br/><br/><br/><br/>
 #### Finder
@@ -171,6 +174,7 @@ Menu bar > View > Show only the following:
                   - Preview
 ```
 
+
 <br/><br/><br/><br/>
 #### Witch
 <br/>
@@ -181,7 +185,6 @@ The problem with ⌘-TAB is that it switches between apps, but skips over window
 <br/>
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.gif)
 
-
 <br/>
 Run WitchConfigure.sh to set customizations:
 
@@ -189,8 +192,6 @@ Run WitchConfigure.sh to set customizations:
 
 Register the settings by clicking on Witch: `System Preferences > Witch`
 
-<br/><br/>
-NOTE: There's a slight delay when ⌘-TABing quickly.
 
 <br/><br/><br/><br/>
 #### Moom
