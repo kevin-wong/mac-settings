@@ -147,6 +147,7 @@ $ killall Dock
 
 <br/><br/><br/><br/>
 #### Finder
+<br/>
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Finder.tiff)
 
 ```
