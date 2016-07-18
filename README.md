@@ -234,11 +234,15 @@ Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both s
 <br/><br/><br/><br/>
 #### Fliqlo
 <br/>
+<a href="http://fliqlo.com">Fliqlo</a> screensaver. Shows you the time.
+
+<br/>
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Fliqlo.gif)
 
-<a href="http://fliqlo.com">Fliqlo</a> screensaver.
-
-`System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours`
+</br>
+```
+System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
+```
 
 
 
