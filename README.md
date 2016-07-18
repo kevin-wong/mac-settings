@@ -142,7 +142,7 @@ $ defaults write com.apple.dock ResetLaunchPad -bool TRUE;
 $ killall Dock
 ```
 
-<br/>
+<br/><br/><br/><br/>
 #### Finder
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Finder.tiff)
 
@@ -164,7 +164,7 @@ Menu bar > View > Show only the following:
                   - Preview
 ```
 
-<br/>
+<br/><br/><br/><br/>
 #### Witch
 The problem with ⌘-TAB is that it switches between apps, but skips over windows within those apps. <br/>
 
@@ -182,7 +182,7 @@ Run WitchConfigure.sh to set customizations:
 
 Register the settings by clicking on Witch: `System Preferences > Witch`
 
-<br/>
+<br/><br/><br/><br/>
 #### Moom
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Moom.gif)
 
@@ -200,7 +200,7 @@ Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both s
 
 ```
 
-<br/>
+<br/><br/><br/><br/>
 #### Fliqlo
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Fliqlo.gif)
 
@@ -208,7 +208,7 @@ Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both s
 
 `System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours`
 
-<br/>
+<br/><br/><br/><br/>
 #### Day-O
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Day-O.gif)
 <a href="http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock">Day-O</a> calendar dropdown.
@@ -218,7 +218,7 @@ Day-O in menu bar > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
                                 > uncheck Show Icon
 ```
 
-<br/>
+<br/><br/><br/><br/>
 #### iTerm
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.gif)
 
@@ -264,11 +264,11 @@ Preferences > General > check Confirm closing multiple sessions
                        > Supress offer to silence bell when it rings to much: Yes
 ```
 
-<br/>
+<br/><br/><br/><br/>
 #### Brew
 Install <a href="http://brew.sh">brew</a>.
 
-<br/>
+<br/><br/><br/><br/>
 #### Git
 Install git:
 
@@ -300,7 +300,7 @@ $ git config --global color.status.changed red
 $ git config --global color.status.untracked red
 ```
 
-<br/>
+<br/><br/><br/><br/>
 #### less
 Use key bindings so navigation is consistent with the vim's below.
 
@@ -316,7 +316,7 @@ Run lesskey, which will automatically read from .lesskey:
 
 `lesskey`
 
-<br/>
+<br/><br/><br/><br/>
 #### vim
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/vim.gif)
 
@@ -338,7 +338,7 @@ Put `.vimrc` in home directory:
 
 `cp .vimrc ~/`
 
-<br/>
+<br/><br/><br/><br/>
 <a name="sublime"></a>
 #### Sublime Text
 Solarized colorscheme. Key bindings.
