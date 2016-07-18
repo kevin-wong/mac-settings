@@ -192,17 +192,22 @@ Run WitchConfigure.sh to set customizations:
 
 `./WitchConfigure.sh`
 
-Register the settings by clicking on Witch: `System Preferences > Witch`
+Register the settings by clicking on Witch:
+```
+System Preferences > Witch
+```
 
 
 <br/><br/><br/><br/>
 #### Moom
-![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Moom.gif)
-
+<br/>
 <a href="https://manytricks.com/moom/">Moom</a> allows quick window resizing. No more dragging corners.
 
-Configure:
+<br/>
+![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Moom.gif)
 
+<br/>
+Configure:
 ```
 General > uncheck Show preferences on launch
         > Run as: faceless
