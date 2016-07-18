@@ -132,6 +132,7 @@ Accessibility > Display > check Increase contrast
 #### Launchpad
 Hide what you don't use. Collapse to 2 columns.
 
+<br/>
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)
 
 Run the following in terminal:
@@ -165,11 +166,13 @@ Menu bar > View > Show only the following:
 
 <br/>
 #### Witch
-![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.gif)
-
 The problem with ⌘-TAB is that it switches between apps, but skips over windows within those apps. <br/>
 
 <a href="http://manytricks.com/witch/">Witch</a> allows ⌘-TAB to cycle between windows.
+
+![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.gif)
+
+
 
 Note: There's a slight delay when ⌘-TABing quickly.
 
