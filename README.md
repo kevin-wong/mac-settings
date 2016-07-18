@@ -133,7 +133,7 @@ Accessibility > Display > check Increase contrast
 #### Launchpad
 <br/>
 Hide what you don't use. Collapse to 2 columns.
-<br/>
+<br/><br/>
 
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)
 
