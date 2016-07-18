@@ -182,6 +182,8 @@ The problem with ⌘-TAB is that it switches between apps, but skips over window
 
 <a href="http://manytricks.com/witch/">Witch</a> allows ⌘-TAB to cycle between windows.
 
+NOTE: There's a slight delay when ⌘-TABing quickly.
+
 <br/>
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.gif)
 
