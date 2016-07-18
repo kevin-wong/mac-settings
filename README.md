@@ -139,7 +139,7 @@ $ defaults write com.apple.dock ResetLaunchPad -bool TRUE;
 $ killall Dock
 ```
 
-
+<br/>
 #### Finder
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Finder.tiff)
 
@@ -161,7 +161,7 @@ Menu bar > View > Show only the following:
                   - Preview
 ```
 
-
+<br/>
 #### Witch
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.gif)
 
@@ -177,7 +177,7 @@ Run WitchConfigure.sh to set customizations:
 
 Register the settings by clicking on Witch: `System Preferences > Witch`
 
-
+<br/>
 #### Moom
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Moom.gif)
 
@@ -195,7 +195,7 @@ Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both s
 
 ```
 
-
+<br/>
 #### Fliqlo
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Fliqlo.gif)
 
@@ -213,7 +213,7 @@ Day-O in menu bar > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
                                 > uncheck Show Icon
 ```
 
-
+<br/>
 #### iTerm
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.gif)
 
@@ -259,11 +259,11 @@ Preferences > General > check Confirm closing multiple sessions
                        > Supress offer to silence bell when it rings to much: Yes
 ```
 
-
+<br/>
 #### Brew
 Install <a href="http://brew.sh">brew</a>.
 
-
+<br/>
 #### Git
 Install git:
 
@@ -295,7 +295,7 @@ $ git config --global color.status.changed red
 $ git config --global color.status.untracked red
 ```
 
-
+<br/>
 #### less
 Use key bindings so navigation is consistent with the vim's below.
 
@@ -311,7 +311,7 @@ Run lesskey, which will automatically read from .lesskey:
 
 `lesskey`
 
-
+<br/>
 #### vim
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/vim.gif)
 
