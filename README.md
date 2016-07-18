@@ -203,7 +203,7 @@ Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both s
 
 `System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours`
 
-
+<br/>
 #### Day-O
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Day-O.gif)
 <a href="http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock">Day-O</a> calendar dropdown.
@@ -333,7 +333,7 @@ Put `.vimrc` in home directory:
 
 `cp .vimrc ~/`
 
-
+<br/>
 <a name="sublime"></a>
 #### Sublime Text
 Solarized colorscheme. Key bindings.
