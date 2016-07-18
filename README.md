@@ -1,4 +1,4 @@
-System
+<h3>System</h3>
 - [System Preferences](#system-preferences)
 - [Launchpad](#launchpad)
 - [Finder](#finder)
