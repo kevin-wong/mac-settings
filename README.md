@@ -1,4 +1,4 @@
-#### System
+### System
 - [System Preferences](#system-preferences)
 - [Launchpad](#launchpad)
 - [Finder](#finder)
@@ -7,13 +7,13 @@
 - [Fliqlo](#fliqlo)
 - [Day-O](#day-o)
 
-#### Developer
+### Developer
 - [iTerm](#iterm)
 - [Brew](#brew)
 - [Git](#git)
 - [less](#less)
 
-#### Text Editors
+### Text Editors
 - [vim](#vim)
 - [Sublime Text](#sublime)
 
