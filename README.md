@@ -173,10 +173,12 @@ Menu bar > View > Show only the following:
 
 <br/><br/><br/><br/>
 #### Witch
+<br/>
 The problem with ⌘-TAB is that it switches between apps, but skips over windows within those apps. <br/>
 
 <a href="http://manytricks.com/witch/">Witch</a> allows ⌘-TAB to cycle between windows.
 
+<br/>
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.gif)
 
 
