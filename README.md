@@ -18,7 +18,6 @@
 - [Sublime Text](#sublime)
 
 <br/>
-
 #### System Preferences
 ```
 General > Appearance: Blue
