@@ -279,6 +279,7 @@ Solarized colorscheme. Colors responsive to git. Mac-inspired key bindings.
 <br/>
 Download <a href="https://www.iterm2.com">iTerm</a>.
 
+<br/>
 Download <a href="https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it">Source Code Pro Light</a>
 and add the OTF fonts to Font Book.
 
