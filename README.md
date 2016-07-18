@@ -201,6 +201,7 @@ Run WitchConfigure.sh to set customizations:
 ./WitchConfigure.sh
 ```
 
+<br/>
 Register the settings by clicking on Witch:
 ```
 System Preferences > Witch
