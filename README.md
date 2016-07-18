@@ -201,6 +201,7 @@ Run WitchConfigure.sh to set customizations:
 ./WitchConfigure.sh
 ```
 
+<br/>
 Register the settings by clicking on Witch:
 ```
 System Preferences > Witch
@@ -270,21 +271,25 @@ Day-O in menu bar > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
 <br/><br/><br/><br/>
 #### iTerm
 <br/>
-Solarized colorscheme. Mac-inspired key bindings. Colors responsive to git.
+Solarized colorscheme. Colors responsive to git. Mac-inspired key bindings.
 
 <br/>
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.gif)
 
 <br/>
-Download <a href="https://www.iterm2.com">iTerm</a>. <br />
+Download <a href="https://www.iterm2.com">iTerm</a>.
+
 Download <a href="https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it">Source Code Pro Light</a>
 and add the OTF fonts to Font Book.
 
+<br/>
 Put `.bash_profile`, `.bashrc`, `.bash_prompt`, `.bash_aliases`, and `.bash_exports` in
 home directory:
+```
+cp .bash_profile .bashrc .bash_prompt .bash_aliases .bash_exports ~/
+```
 
-`cp .bash_profile .bashrc .bash_prompt .bash_aliases .bash_exports ~/`
-
+<br/>
 Configure:
 
 ```
