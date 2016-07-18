@@ -78,14 +78,14 @@ Energy Saver > Battery Power > Turn display off after: Never
 
 ```
 Keyboard > Keyboard > Key Repeat > Fastest
-         > Delay Until Repeat > Shortest
-         > uncheck Adjust keyboard brightness in low light
-         > Turn off when computer is not used for: Never
-
-         > Shortcuts > uncheck everything.
-                       check Keyboard > Move focus to the window toolbar: OPTION-`
-                       check Keyboard > Move focus to next window: ⌘-`
-                     > App Shortcuts > add shortcut ⌘-ESC to all following menu titles: Toggle Full Screen
+                    > Delay Until Repeat > Shortest
+                    > uncheck Adjust keyboard brightness in low light
+                    > Turn off when computer is not used for: Never
+         > Shortcuts > uncheck everything, except:
+                     > Keyboard > check Move focus to the window toolbar: OPTION-`
+                     > Keyboard > check Move focus to next window: ⌘-`
+                     > App Shortcuts > add shortcut ⌘-ESC to all following menu titles:
+                      Toggle Full Screen
 											Fullscreen
 											Enter Full Screen
 											Exit Full Screen
