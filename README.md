@@ -183,13 +183,13 @@ The problem with ⌘-TAB is that it switches between apps, but skips over window
 
 
 <br/>
-Note: There's a slight delay when ⌘-TABing quickly.
-
 Run WitchConfigure.sh to set customizations:
 
 `./WitchConfigure.sh`
 
 Register the settings by clicking on Witch: `System Preferences > Witch`
+
+Note: There's a slight delay when ⌘-TABing quickly.
 
 <br/><br/><br/><br/>
 #### Moom
