@@ -1,5 +1,5 @@
 ### System
-- [System Preferences](#system-preferences)
+- 1. [System Preferences](#system-preferences)
 - [Launchpad](#launchpad)
 - [Finder](#finder)
 - [Witch](#witch)
