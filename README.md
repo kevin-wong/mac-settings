@@ -1,4 +1,4 @@
-<h4>System</h4>
+#### System
 - [System Preferences](#system-preferences)
 - [Launchpad](#launchpad)
 - [Finder](#finder)
@@ -7,7 +7,7 @@
 - [Fliqlo](#fliqlo)
 - [Day-O](#day-o)
 
-Developer
+#### Developer
 - [iTerm](#iterm)
 - [Brew](#brew)
 - [Git](#git)
@@ -19,7 +19,7 @@ Text Editors
 
 <br/>
 
-##### System Preferences
+#### System Preferences
 ```
 General > Appearance: Blue
         > Highlight color > Other > 2nd tab > RGB Sliders. R: 233 G: 219 B: 184
