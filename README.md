@@ -432,22 +432,23 @@ cp .vimrc ~/
 
 
 
-<a name="sublime"></a>
 <br/><br/><br/><br/>
+<a name="sublime"></a>
 #### Sublime Text
 <br/>
 Solarized colorscheme. Key bindings.
 
+<br/>
 Download <a href="https://www.sublimetext.com/3">Sublime Text</a>.
 
+<br/>
 Add `subl` as a terminal command to open sublime:
-
 ```
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/ /usr/local/bin/subl
 ```
 
-Preferences > Settings - User > Paste the following:
-
+<br/>
+Launch Sublime > Preferences > Settings - User > Paste the following:
 ```
 {
   "_comment": "Find all fields in: Preferences > Settings - Default",
@@ -472,7 +473,8 @@ Preferences > Settings - User > Paste the following:
 }
 ```
 
-Preferences > Key Bindings - User > Paste the following:
+<br/>
+Launch Sublime > Preferences > Key Bindings - User > Paste the following:
 ```
 [
   {"_comment": "Find all fields in: Preferences > Key Bindings - Default"},
