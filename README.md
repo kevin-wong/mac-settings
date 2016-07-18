@@ -19,6 +19,7 @@
 
 <br/><br/><br/><br/>
 #### System Preferences
+
 ```
 General > Appearance: Blue
         > Highlight color > Other > 2nd tab > RGB Sliders. R: 233 G: 219 B: 184
