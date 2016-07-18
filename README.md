@@ -240,6 +240,7 @@ Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both s
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Fliqlo.gif)
 
 </br>
+Configure:
 ```
 System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
 ```
@@ -250,9 +251,13 @@ System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
 <br/><br/><br/><br/>
 #### Day-O
 <br/>
-![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Day-O.gif)
 <a href="http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock">Day-O</a> calendar dropdown.
 
+<br/>
+![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Day-O.gif)
+
+<br/>
+Configure:
 ```
 Day-O in menu bar > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
                                 > uncheck Show Icon
@@ -265,8 +270,12 @@ Day-O in menu bar > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
 <br/><br/><br/><br/>
 #### iTerm
 <br/>
+Solarized colorscheme. Mac-inspired key bindings. Colors responsive to git.
+
+<br/>
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.gif)
 
+<br/>
 Download <a href="https://www.iterm2.com">iTerm</a>. <br />
 Download <a href="https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it">Source Code Pro Light</a>
 and add the OTF fonts to Font Book.
