@@ -134,9 +134,8 @@ Accessibility > Display > check Increase contrast
 <br/>
 Hide what you don't use. Collapse to 2 columns.
 <br/>
-
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)
-
+<br/>
 Run the following in terminal:
 ```
 $ defaults write com.apple.dock springboard-columns -int 2;
