@@ -18,6 +18,8 @@
 - [Sublime Text](#sublime)
 
 
+
+
 <br/><br/><br/><br/>
 #### System Preferences
 <br/>
@@ -132,6 +134,8 @@ Accessibility > Display > check Increase contrast
 ```
 
 
+
+
 <br/><br/><br/><br/>
 #### Launchpad
 <br/>
@@ -147,6 +151,8 @@ $ defaults write com.apple.dock springboard-columns -int 2;
 $ defaults write com.apple.dock ResetLaunchPad -bool TRUE;
 $ killall Dock
 ```
+
+
 
 
 <br/><br/><br/><br/>
@@ -175,6 +181,8 @@ Menu bar > View > Show only the following:
 ```
 
 
+
+
 <br/><br/><br/><br/>
 #### Witch
 <br/>
@@ -198,6 +206,8 @@ System Preferences > Witch
 ```
 
 
+
+
 <br/><br/><br/><br/>
 #### Moom
 <br/>
@@ -215,19 +225,26 @@ Mouse > Delay: None
       > check Enable access to custom controls, check Show on hover
       > uncheck Bring moomed windows to the front automatically
 Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both sides.
-
 ```
+
+
+
 
 <br/><br/><br/><br/>
 #### Fliqlo
+<br/>
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Fliqlo.gif)
 
 <a href="http://fliqlo.com">Fliqlo</a> screensaver.
 
 `System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours`
 
+
+
+
 <br/><br/><br/><br/>
 #### Day-O
+<br/>
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Day-O.gif)
 <a href="http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock">Day-O</a> calendar dropdown.
 
@@ -236,8 +253,13 @@ Day-O in menu bar > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
                                 > uncheck Show Icon
 ```
 
+
+
+
+
 <br/><br/><br/><br/>
 #### iTerm
+<br/>
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.gif)
 
 Download <a href="https://www.iterm2.com">iTerm</a>. <br />
@@ -282,12 +304,20 @@ Preferences > General > check Confirm closing multiple sessions
                        > Supress offer to silence bell when it rings to much: Yes
 ```
 
+
+
+
 <br/><br/><br/><br/>
 #### Brew
+<br/>
 Install <a href="http://brew.sh">brew</a>.
+
+
+
 
 <br/><br/><br/><br/>
 #### Git
+<br/>
 Install git:
 
 `brew install git`
@@ -318,8 +348,12 @@ $ git config --global color.status.changed red
 $ git config --global color.status.untracked red
 ```
 
+
+
+
 <br/><br/><br/><br/>
 #### less
+<br/>
 Use key bindings so navigation is consistent with the vim's below.
 
 Mac has disabled`lesskey`, which allows key binding on less. Use the version that does:
@@ -334,8 +368,12 @@ Run lesskey, which will automatically read from .lesskey:
 
 `lesskey`
 
+
+
+
 <br/><br/><br/><br/>
 #### vim
+<br/>
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/vim.gif)
 
 Configurations. Solarized colorscheme. Detailed status bar.
@@ -356,8 +394,12 @@ Put `.vimrc` in home directory:
 
 `cp .vimrc ~/`
 
+
+
+
 <br/><br/><br/><br/>
 <a name="sublime"></a>
+<br/>
 #### Sublime Text
 Solarized colorscheme. Key bindings.
 
