@@ -19,7 +19,7 @@
 
 <br/>
 
-##### System Preferences
+#### System Preferences
 ```
 General > Appearance: Blue
         > Highlight color > Other > 2nd tab > RGB Sliders. R: 233 G: 219 B: 184
@@ -130,7 +130,7 @@ Accessibility > Display > check Increase contrast
 ```
 
 
-##### Launchpad
+#### Launchpad
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)
 
 Change to use only 2 columns:
@@ -141,7 +141,7 @@ $ killall Dock
 ```
 
 
-##### Finder
+#### Finder
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Finder.tiff)
 
 ```
@@ -163,7 +163,7 @@ Menu bar > View > Show only the following:
 ```
 
 
-##### Witch
+#### Witch
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.gif)
 
 The problem with ⌘-TAB is that it switches between apps, but skips over windows within those apps. <br/>
@@ -179,7 +179,7 @@ Run WitchConfigure.sh to set customizations:
 Register the settings by clicking on Witch: `System Preferences > Witch`
 
 
-##### Moom
+#### Moom
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Moom.gif)
 
 <a href="https://manytricks.com/moom/">Moom</a> allows quick window resizing. No more dragging corners.
@@ -197,7 +197,7 @@ Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both s
 ```
 
 
-##### Fliqlo
+#### Fliqlo
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Fliqlo.gif)
 
 <a href="http://fliqlo.com">Fliqlo</a> screensaver.
@@ -205,7 +205,7 @@ Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both s
 `System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours`
 
 
-##### Day-O
+#### Day-O
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Day-O.gif)
 <a href="http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock">Day-O</a> calendar dropdown.
 
@@ -215,7 +215,7 @@ Day-O in menu bar > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
 ```
 
 
-##### iTerm
+#### iTerm
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.gif)
 
 Download <a href="https://www.iterm2.com">iTerm</a>. <br />
@@ -261,11 +261,11 @@ Preferences > General > check Confirm closing multiple sessions
 ```
 
 
-##### Brew
+#### Brew
 Install <a href="http://brew.sh">brew</a>.
 
 
-##### Git
+#### Git
 Install git:
 
 `brew install git`
@@ -297,7 +297,7 @@ $ git config --global color.status.untracked red
 ```
 
 
-##### less
+#### less
 Use key bindings so navigation is consistent with the vim's below.
 
 Mac has disabled`lesskey`, which allows key binding on less. Use the version that does:
@@ -313,7 +313,7 @@ Run lesskey, which will automatically read from .lesskey:
 `lesskey`
 
 
-##### vim
+#### vim
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/vim.gif)
 
 Configurations. Solarized colorscheme. Detailed status bar.
@@ -336,7 +336,7 @@ Put `.vimrc` in home directory:
 
 
 <a name="sublime"></a>
-##### Sublime Text
+#### Sublime Text
 Solarized colorscheme. Key bindings.
 
 Download <a href="https://www.sublimetext.com/3">Sublime Text</a>.
