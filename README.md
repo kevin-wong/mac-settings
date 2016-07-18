@@ -46,7 +46,6 @@ Mission Control > uncheck Automatically rearrange Spaces based on most recent us
                 > check When switching to an application, switch to a Space with open windows
                 > uncheck Group windows by application
                 > check Displays have separate Spaces
-                > Display have separate Spaces
                 > Dashboard: Off
 ```
 
@@ -94,7 +93,7 @@ Keyboard > Keyboard > Key Repeat > Fastest
 
 ```
 Trackpad > Point & Click > check Look up & data detectors
-         		 > check Secondary click (two fingers)
+                         > check Secondary click (two fingers)
                          > check Tap to click
                          > Click: Lightest
                          > Tracking speed: Fastest
