@@ -130,9 +130,11 @@ Accessibility > Display > check Increase contrast
 
 <br/>
 #### Launchpad
+Hide what you don't use. Collapse to 2 columns.
+
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.tiff)
 
-Change to use only 2 columns:
+Run the following in terminal:
 ```
 $ defaults write com.apple.dock springboard-columns -int 2;
 $ defaults write com.apple.dock ResetLaunchPad -bool TRUE;
