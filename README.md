@@ -150,7 +150,7 @@ $ killall Dock
 #### Finder
 <br/>
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Finder.tiff)
-
+<br/>
 Configure:
 ```
 Preferences > General > New Finder windows show: Downloads
