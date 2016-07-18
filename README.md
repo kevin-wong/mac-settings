@@ -8,7 +8,7 @@
 7.  [Day-O](#day-o)
 
 ### Developer
-8  [iTerm](#iterm)
+>8  [iTerm](#iterm)
 9  [Brew](#brew)
 10 [Git](#git)
 11 [less](#less)
