@@ -432,8 +432,8 @@ cp .vimrc ~/
 
 
 
-<br/><br/><br/><br/>
 <a name="sublime"></a>
+<br/><br/><br/><br/>
 #### Sublime Text
 <br/>
 Solarized colorscheme. Key bindings.
