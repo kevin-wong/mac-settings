@@ -13,13 +13,13 @@
 - [Git](#git)
 - [less](#less)
 
-Text Editors
+#### Text Editors
 - [vim](#vim)
 - [Sublime Text](#sublime)
 
 <br/>
 
-#### System Preferences
+##### System Preferences
 ```
 General > Appearance: Blue
         > Highlight color > Other > 2nd tab > RGB Sliders. R: 233 G: 219 B: 184
