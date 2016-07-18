@@ -1,22 +1,23 @@
 ### System
-1.  [System Preferences](#system-preferences)
-2.  [Launchpad](#launchpad)
-3.  [Finder](#finder)
-4.  [Witch](#witch)
-5.  [Moom](#moom)
-6.  [Fliqlo](#fliqlo)
-7.  [Day-O](#day-o)
+- [System Preferences](#system-preferences)
+- [Launchpad](#launchpad)
+- [Finder](#finder)
+- [Witch](#witch)
+- [Moom](#moom)
+- [Fliqlo](#fliqlo)
+- [Day-O](#day-o)
+
 ### Developer
-1.  [iTerm](#iterm) <br/>
-9  [Brew](#brew) <br/>
-10 [Git](#git) <br/>
-11 [less](#less) <br/>
+- [iTerm](#iterm)
+- [Brew](#brew)
+- [Git](#git)
+- [less](#less)
 
 ### Text Editors
-12. [vim](#vim)
-13. [Sublime Text](#sublime)
+- [vim](#vim)
+- [Sublime Text](#sublime)
 
-<br/>
+<br/><br/><br/><br/>
 #### System Preferences
 ```
 General > Appearance: Blue
