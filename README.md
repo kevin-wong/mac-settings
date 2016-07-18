@@ -118,8 +118,8 @@ Date & Time > Clock > uncheck Show date and time in menu bar
 
 ```
 Accessibility > Display > check Increase contrast
-	                > Display contrast: Normal
-                        > Cursor size: one right of Normal
+                        > Display contrast: Furthest left
+                        > Cursor size: Second bar from left
                         > check Shake mouse pointer to locate
               > Mouse & Trackpad > Double-click speed: two left of Fast
                                  > check Spring loading delay: two right of Short
