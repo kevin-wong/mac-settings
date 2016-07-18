@@ -189,6 +189,7 @@ Run WitchConfigure.sh to set customizations:
 
 Register the settings by clicking on Witch: `System Preferences > Witch`
 
+<br/>
 Note: There's a slight delay when ⌘-TABing quickly.
 
 <br/><br/><br/><br/>
