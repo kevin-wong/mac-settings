@@ -131,7 +131,7 @@ Accessibility > Display > check Increase contrast
 
 <br/><br/><br/><br/>
 #### Launchpad
-
+<br/>
 Hide what you don't use. Collapse to 2 columns.
 <br/>
 
