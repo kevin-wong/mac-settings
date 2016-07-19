@@ -34,6 +34,7 @@ General > Appearance: Blue
         > Recent items: None
 ```
 
+<br/>
 ```
 Dock > Size: Max
      > uncheck Magnification
@@ -46,7 +47,7 @@ Dock > Size: Max
 ```
 
 <br/>
-To make the dock instantly show/hide, run in terminal:
+To make the hidden dock instantly show/hide, run in terminal:
 ```
 defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock
 ```
