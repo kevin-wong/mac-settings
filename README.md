@@ -52,6 +52,7 @@ To make the hidden dock instantly show/hide, run in terminal:
 defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock
 ```
 
+<br/>
 ```
 Mission Control > uncheck Automatically rearrange Spaces based on most recent use
                 > check When switching to an application, switch to a Space with open windows
@@ -60,21 +61,25 @@ Mission Control > uncheck Automatically rearrange Spaces based on most recent us
                 > Dashboard: Off
 ```
 
+<br/>
 ```
 Language & Region > First day of the week: Monday
                   > Time format: 24-hour Time
 ```
 
+<br/>
 ```
 Notifications > for all apps, uncheck Play sound for notifications
               > Messages > uncheck Show message preview
 ```
 
+<br/>
 ```
 Displays > uncheck Automatically adjust brightness
          > uncheck Show mirroring options in the menu bar
 ```
 
+<br/>
 ```
 Energy Saver > Battery Power > Turn display off after: Never
              > uncheck Put hard disks to sleep when possible
@@ -87,6 +92,7 @@ Energy Saver > Battery Power > Turn display off after: Never
              > check Enable Power Nap while plugged into power adapter
 ```
 
+<br/>
 ```
 Keyboard > Keyboard > Key Repeat > Fastest
                     > Delay Until Repeat > Shortest
@@ -102,6 +108,7 @@ Keyboard > Keyboard > Key Repeat > Fastest
                                        - Exit Full Screen
 ```
 
+<br/>
 ```
 Trackpad > Point & Click > check Look up & data detectors
                          > check Secondary click (two fingers)
@@ -123,10 +130,12 @@ Trackpad > Point & Click > check Look up & data detectors
                          > uncheck Show Desktop
 ```
 
+<br/>
 ```
 Date & Time > Clock > uncheck Show date and time in menu bar
 ```
 
+<br/>
 ```
 Accessibility > Display > check Increase contrast
                         > Display contrast: Furthest left
