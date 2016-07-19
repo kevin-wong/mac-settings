@@ -45,6 +45,12 @@ Dock > Size: Max
      > check indicators for open applications
 ```
 
+<br/>
+To make the dock instantly show/hide, run in terminal:
+```
+defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock
+```
+
 ```
 Mission Control > uncheck Automatically rearrange Spaces based on most recent use
                 > check When switching to an application, switch to a Space with open windows
