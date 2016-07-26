@@ -1,4 +1,6 @@
-# Prompt colors. Includes history number, date, time, and git display.
+# Colorized prompt configuration.
+# history # |       date and time    | user   | directory
+# [4293]     2016/07/26 11:30 Tuesday  kevin in ~
 function __prompt_command() {
   local EXIT="$?" # Exit status determines history number color
   PS1=""
@@ -56,10 +58,3 @@ function __prompt_command() {
 PROMPT_COMMAND=__prompt_command
 
 PS2="\[$prompt_color_cyan\]⥤\[$prompt_color_reset\] "            # continued line after \
-
-
-# Use the following command to view all 256 tput colors with their associated numeric values.
-# The number is limited by mod 256.
-#
-# for i in {0..255}; do tput setab $i; echo -n "  $i  "; done; tput sgr0; echo; unset i
-
