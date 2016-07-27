@@ -471,21 +471,43 @@ Launch Sublime > Preferences > Settings - User > Paste the following:
 
   "color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
 
-  "font_face": "Source Code Pro Light",
-  "font_size": 14,
+  "tab_completion": false,
+  "auto_complete": true,
+  "auto_complete_delay": 0,
+  "auto_complete_commit_on_tab": true,
+  "auto_complete_with_fields": true,
+  "auto_complete_cycle": true,
 
   "bold_folder_labels": true,
+  "font_face": "Source Code Pro Light",
+  "font_size": 14,
   "highlight_modified_tabs": true,
   "indent_to_bracket": true,
+  "open_files_in_new_window": false,
+
+  "highlight_line": true,
+  "caret_style": "solid",
+  "caret_extra_top": 3,
+  "caret_extra_bottom": 3,
+  "caret_extra_width": 0,
+
+  "show_full_path": true,
+  "show_encoding": true,
+  "always_show_minimap_viewport": true,
+
+  "animation_enabled": false,
 
   "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+
   "trim_trailing_white_space_on_save": true,
-  "word_wrap": false,
+
+  "word_wrap": true,
 
   "rulers":
   [
     80
-  ],
+  ]
 }
 ```
 
@@ -563,6 +585,19 @@ Launch Sublime > Preferences > Key Bindings - User > Paste the following:
       "file": "res://Packages/Default/Delete Line.sublime-macro"
     },
     "_comment": "delete selection, or line if no selection"
+  },
+
+  {
+    "keys": ["super+shift+,"],
+    "command": "open_file",
+    "args": {"file": "${packages}/User/Default (OSX).sublime-keymap"},
+    "_comment": "opens key bindings. matches super + , to open settings."
+  },
+
+  {
+    "keys": ["super+k"],
+    "command": "toggle_side_bar",
+    "_comment": "overrides other default ⌘-k shortcuts"
   }
 ]
 ```
