@@ -316,7 +316,7 @@ Preferences > General > check Confirm closing multiple sessions
             > Profiles > Colors > Color Presets... > Import > SolarizedDark.itermcolors
                                                             > Click SolarizedDark
                        > Terminal > check Unlimited Scrollback
-                       > Text > Cursor: Underline
+                       > Text > Cursor: Vertical Bar
                               > uncheck Blinking cursor
                        > Font > 14pt Source Code Pro Light
                        > Window > Transparency: ~5%
