@@ -102,17 +102,17 @@ Keyboard > Keyboard > Key Repeat > Fastest
                      > Keyboard > check Move focus to the window toolbar: OPTION-`
                      > Keyboard > check Move focus to next window: ⌘-`
                      > App Shortcuts > for All Applications, add to the following menu titles
-                                       the shortcut ⌘-ESC. This makes entering and exiting
-                                       fullscreen consistent.
+                                       the shortcut ⌘-ESC.
+                                       This makes entering and exiting fullscreen consistent.
                                        so the shortcut :
                                        - Toggle Full Screen
                                        - Fullscreen
                                        - Enter Full Screen
                                        - Exit Full Screen
                                      > for All Applications, add to menu title "Minimize"
-                                       the shortcut ⌘-SHIFT-CTRL-OPTION-M. This is intended
-                                       to be an impractical shortcut, to nullify the action
-                                       so that it is not accidently toggled.
+                                       the shortcut ⌘-SHIFT-CTRL-OPTION-M.
+                                       This is intended to be an impractical shortcut,
+                                       to nullify the action so that it is not accidently toggled.
 ```
 
 <br/>
