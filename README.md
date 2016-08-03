@@ -111,8 +111,8 @@ Keyboard > Keyboard > Key Repeat > Fastest
                                        - Exit Full Screen
                                      > for All Applications, add to menu title "Minimize"
                                        the shortcut ⌘-SHIFT-CTRL-OPTION-M. This is intended
-                                       to be an impractical shortcut so that a rarely used
-                                       feature is not accidently toggled.
+                                       to be an impractical shortcut, to nullify the action
+                                       so that it is not accidently toggled.
 ```
 
 <br/>
