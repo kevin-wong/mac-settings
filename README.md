@@ -502,8 +502,6 @@ Launch Sublime > Preferences > Settings - User > Paste the following:
 
   "trim_trailing_white_space_on_save": true,
 
-  "word_wrap": true,
-
   "rulers":
   [
     80
