@@ -104,7 +104,6 @@ Keyboard > Keyboard > Key Repeat > Fastest
                      > App Shortcuts > for All Applications, add to the following menu titles
                                        the shortcut ⌘-ESC.
                                        This makes entering and exiting fullscreen consistent.
-                                       so the shortcut :
                                        - Toggle Full Screen
                                        - Fullscreen
                                        - Enter Full Screen
