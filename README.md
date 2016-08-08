@@ -2,10 +2,15 @@
 - [System Preferences](#system-preferences)
 - [Launchpad](#launchpad)
 - [Finder](#finder)
-- [Witch](#witch)
-- [Moom](#moom)
 - [Fliqlo](#fliqlo)
 - [Day-O](#day-o)
+
+### Safari Extensions
+- [Omnikey](#omnikey)
+
+### Non-free
+- [Witch](#witch)
+- [Moom](#moom)
 
 ### Developer
 - [iTerm](#iterm)
@@ -206,6 +211,49 @@ Menu bar > View > Show only the following:
 
 
 <br/><br/><br/><br/>
+#### Fliqlo
+<br/>
+<a href="http://fliqlo.com">Fliqlo</a> screensaver. Shows you the time.
+
+<br/>
+![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Fliqlo.gif)
+
+</br>
+Configure:
+```
+System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
+```
+
+
+
+
+<br/><br/><br/><br/>
+#### Day-O
+<br/>
+<a href="http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock">Day-O</a> calendar dropdown.
+
+<br/>
+![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Day-O.gif)
+
+<br/>
+Configure from menu bar:
+```
+Day-O > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
+                    > uncheck Show Icon
+```
+
+
+
+
+<br/><br/><br/><br/>
+#### Omnikey
+<br/>
+Besides the obvious
+
+
+
+
+<br/><br/><br/><br/>
 #### Witch
 <br/>
 The problem with ⌘-TAB is that it switches between apps, but skips over windows within those apps. <br/>
@@ -255,42 +303,6 @@ Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both s
 
 
 <br/><br/><br/><br/>
-#### Fliqlo
-<br/>
-<a href="http://fliqlo.com">Fliqlo</a> screensaver. Shows you the time.
-
-<br/>
-![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Fliqlo.gif)
-
-</br>
-Configure:
-```
-System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
-```
-
-
-
-
-<br/><br/><br/><br/>
-#### Day-O
-<br/>
-<a href="http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock">Day-O</a> calendar dropdown.
-
-<br/>
-![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Day-O.gif)
-
-<br/>
-Configure from menu bar:
-```
-Day-O > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
-                    > uncheck Show Icon
-```
-
-
-
-
-
-<br/><br/><br/><br/>
 #### iTerm
 <br/>
 Solarized colorscheme. Colors responsive to git. Mac-inspired key bindings.
@@ -329,13 +341,13 @@ Preferences > General > check Confirm closing multiple sessions
                                 > Columns: 135
                                 > Rows: 33
                        > Keys > Add the following with action Send Hex Code:
-                                ⌘ - DELETE: 0x15         # delete all characters to left of cursor
-                                ⌥ - DELETE: 0x1b 0x08    # delete one word to left of cursor
-                                ⌘ - ←     : 0x01         # go to line start
-                                ⌘ - →     : 0x05         # go to line end
-                                ⌥ - ←     : 0x1b 0x62    # move one word forward
-                                ⌥ - →     : 0x1b 0x66    # move one word back
-                                ⌘ - z     : 0x1f         # undo
+                                ⌘ - DELETE     : 0x15         # delete all characters to left of cursor
+                                OPTION - DELETE : 0x1b 0x08    # delete one word to left of cursor
+                                ⌘ - ←          : 0x01         # go to line start
+                                ⌘ - →          : 0x05         # go to line end
+                                OPTION - ←      : 0x1b 0x62    # move one word forward
+                                OPTION - →      : 0x1b 0x66    # move one word back
+                                ⌘ - z          : 0x1f         # undo
             > Pointer > check ⌥ - Click moves cursor
                       > check Focus follows mouse
                       > check Triple-click selects entire wrapped line
@@ -507,6 +519,8 @@ Launch Sublime > Preferences > Settings - User > Paste the following:
   "translate_tabs_to_spaces": true,
 
   "trim_trailing_white_space_on_save": true,
+
+  "word_wrap": "false",
 
   "rulers":
   [
