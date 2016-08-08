@@ -179,7 +179,7 @@ Accessibility > Display > check Increase contrast
 Hide what you don't use. Collapse to 2 columns.
 
 <br/>
-![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Launchpad.gif)
+![](https://github.com/kevin-wong/mac-settings/blob/master/images/Launchpad.gif)
 
 <br/>
 Run in terminal:
