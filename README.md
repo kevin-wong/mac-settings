@@ -248,7 +248,38 @@ Day-O > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
 <br/><br/><br/><br/>
 #### Omnikey
 <br/>
-Besides the obvious
+<a href="http://marioestrada.github.io/safari-omnikey/">Omnikey</a> expands keywords when searching
+in the address bar.
+
+Set mappings:
+```
+Omnikey icon in safari toolbar:
+
+Key      URL
+amazon   https://www.amazon.com/s/field-keywords={search}       # Amazon
+maps     https://www.google.com/maps/search/{search}            # Google Maps
+wiki     https://en.wikipedia.org/wiki/{search}                 # Wikipedia
+youtube  https://www.youtube.com/results?search_query={search}  # Youtube
+google   https://www.google.com/#q={search}                     # Google
+```
+
+The last mapping is for those occassions when you want the full URL for a google search.
+Safari hides the URL, and there's no way to display the URL when you do a search.
+The option at ```Preferences > Advanced > Show full website address``` only displays
+non-search addresses.
+
+<a href="https://safari-extensions.apple.com/details/?id=com.betafish.adblockforsafari-UAMUU4S2D9">Adblock</a>.
+<a href="https://safari-extensions.apple.com/details/?id=com.betteradvertising.ghostery-HPY23A294X">Ghostery</a>.
+
+For Ghostery, enable blocking all tracking by default:
+```
+Ghostery icon in safari toolbar > Options > General tab > Blocking Options > Trackers > Select all
+```
+
+Hide the extensions you no longer need to worry about (e.g. Ghostery and Omnikey):
+```
+Right click safari toolbar > Customize Toolbar... > Drag the icons from the toolbar
+```
 
 
 
@@ -258,7 +289,7 @@ Besides the obvious
 <br/>
 The problem with ⌘-TAB is that it switches between apps, but skips over windows within those apps. <br/>
 
-<a href="http://manytricks.com/witch/">Witch</a> allows ⌘-TAB to cycle between windows.
+<a href="http://manytricks.com/witch/">Witch</a> makes ⌘-TAB cycle between windows.
 
 NOTE: There's a slight delay when ⌘-TABing quickly.
 
@@ -283,7 +314,7 @@ System Preferences > Witch
 <br/><br/><br/><br/>
 #### Moom
 <br/>
-<a href="https://manytricks.com/moom/">Moom</a> allows quick window resizing. No more dragging corners.
+<a href="https://manytricks.com/moom/">Moom</a> quickly resizes windows. No more dragging corners.
 
 <br/>
 ![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Moom.gif)
@@ -341,13 +372,13 @@ Preferences > General > check Confirm closing multiple sessions
                                 > Columns: 135
                                 > Rows: 33
                        > Keys > Add the following with action Send Hex Code:
-                                ⌘ - DELETE      : 0x15         # delete all characters to left of cursor
-                                OPTION - DELETE : 0x1b 0x08    # delete one word to left of cursor
-                                ⌘ - ←           : 0x01         # go to line start
-                                ⌘ - →           : 0x05         # go to line end
-                                OPTION - ←      : 0x1b 0x62    # move one word forward
-                                OPTION - →      : 0x1b 0x66    # move one word back
-                                ⌘ - z           : 0x1f         # undo
+                                ⌘ - DELETE: 0x15         # delete all characters to left of cursor
+                                ⌥ - DELETE: 0x1b 0x08    # delete one word to left of cursor
+                                ⌘ - ←     : 0x01         # go to line start
+                                ⌘ - →     : 0x05         # go to line end
+                                ⌥ - ←     : 0x1b 0x62    # move one word forward
+                                ⌥ - →     : 0x1b 0x66    # move one word back
+                                ⌘ - z     : 0x1f         # undo
             > Pointer > check ⌥ - Click moves cursor
                       > check Focus follows mouse
                       > check Triple-click selects entire wrapped line
