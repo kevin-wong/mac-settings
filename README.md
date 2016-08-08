@@ -195,7 +195,7 @@ $ killall Dock
 <br/><br/><br/><br/>
 #### Finder
 <br/>
-![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Finder.gif)
+![](https://github.com/kevin-wong/mac-settings/blob/master/images/Finder.gif)
 
 <br/>
 Configure from menu bar:
@@ -226,7 +226,7 @@ Menu bar > View > Show only the following:
 <a href="http://fliqlo.com">Fliqlo</a> screensaver. Shows you the time.
 
 <br/>
-![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Fliqlo.gif)
+![](https://github.com/kevin-wong/mac-settings/blob/master/images/Fliqlo.gif)
 
 </br>
 Configure:
@@ -243,7 +243,7 @@ System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
 <a href="http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock">Day-O</a> calendar dropdown.
 
 <br/>
-![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Day-O.gif)
+![](https://github.com/kevin-wong/mac-settings/blob/master/images/Day-O.gif)
 
 <br/>
 Configure from menu bar:
@@ -314,7 +314,7 @@ The problem with ⌘-TAB is that it switches between apps, but skips over window
 NOTE: There's a slight delay when ⌘-TABing quickly.
 
 <br/>
-![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Witch.gif)
+![](https://github.com/kevin-wong/mac-settings/blob/master/images/Witch.gif)
 
 <br/>
 Run WitchConfigure.sh to set customizations:
@@ -337,7 +337,7 @@ System Preferences > Witch
 <a href="https://manytricks.com/moom/">Moom</a> quickly resizes windows. No more dragging corners.
 
 <br/>
-![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Moom.gif)
+![](https://github.com/kevin-wong/mac-settings/blob/master/images/Moom.gif)
 
 <br/>
 Launch Moom and configure:
@@ -359,7 +359,7 @@ Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both s
 Solarized colorscheme. Colors responsive to git. Mac-inspired key bindings.
 
 <br/>
-![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/iTerm.gif)
+![](https://github.com/kevin-wong/mac-settings/blob/master/images/iTerm.gif)
 
 <br/>
 Download <a href="https://www.iterm2.com">iTerm</a>.
@@ -499,7 +499,7 @@ NOTE: Mouse is enabled, so dragging to copy toggles visual mode. To copy,
 hold down OPTION and drag.
 
 <br/>
-![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/vim.gif)
+![](https://github.com/kevin-wong/mac-settings/blob/master/images/vim.gif)
 
 
 <br/>
