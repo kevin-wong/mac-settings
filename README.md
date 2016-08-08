@@ -7,6 +7,7 @@ still follow these instructions.
 You, smart user, should use this like a cookbook, picking what you like, adapting the recipe
 to your preferences, and making the dish yours.
 
+<br/>
 ### System
 - [System Preferences](#system-preferences)
 - [Launchpad](#launchpad)
@@ -265,9 +266,9 @@ customize bindings, and the search only comes up in the drop-down menu, rather t
 keyword substitution.
 
 <br/>
-![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Safari-Omnibox.gif)
+![](https://github.com/kevin-wong/mac-settings/blob/master/images/Safari-Omnikey.gif)
 
-
+<br/>
 Set mappings:
 ```
 Omnikey icon in safari toolbar:
