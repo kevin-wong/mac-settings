@@ -264,11 +264,12 @@ google   https://www.google.com/#q={search}                     # Google
 ```
 
 The last mapping is for those occassions when you want the full URL for a google search.
-Safari hides the URL, and there's no way to display the URL when you do a search.
+Safari hides the URL, and there's no way to display the URL when you do a search directly
+in the address bar.
 The option at ```Preferences > Advanced > Show full website address``` expands only
 non-search addresses.
 
-
+<br/>
 <a href="https://safari-extensions.apple.com/details/?id=com.betafish.adblockforsafari-UAMUU4S2D9">Adblock</a>.
 <a href="https://safari-extensions.apple.com/details/?id=com.betteradvertising.ghostery-HPY23A294X">Ghostery</a>.
 
