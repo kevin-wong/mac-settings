@@ -1,3 +1,12 @@
+I am paranoid. My machine may die, backups may not work, and I may not recall my settings.
+I wrote this page as another layer of backup. I have assumed I will be struck by lightning,
+my memory failing, my days ahead shortening. This page is exhaustive, and is intended to be
+this way so that when I'm bedridden, confused, and holding on to dear life, I can
+still follow these instructions.
+
+You, smart user, should use this like a cookbook, picking what you like, adapting the recipe
+to your preferences, and making the dish yours.
+
 ### System
 - [System Preferences](#system-preferences)
 - [Launchpad](#launchpad)
@@ -251,16 +260,24 @@ Day-O > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
 <a href="http://marioestrada.github.io/safari-omnikey/">Omnikey</a> expands keywords when searching
 in the address bar.
 
+Safari has a similar built-in feature ```Preferences > Search > Quick Website Search```, but you can't
+customize bindings, and the search only comes up in the drop-down menu, rather than direct
+keyword substitution.
+
+<br/>
+![](https://raw.githubusercontent.com/kevin-wong/mac-settings/master/images/Safari-Omnibox.gif)
+
+
 Set mappings:
 ```
 Omnikey icon in safari toolbar:
 
 Key      URL
-amazon   https://www.amazon.com/s/field-keywords={search}       # Amazon
-maps     https://www.google.com/maps/search/{search}            # Google Maps
-wiki     https://en.wikipedia.org/wiki/{search}                 # Wikipedia
-youtube  https://www.youtube.com/results?search_query={search}  # Youtube
-google   https://www.google.com/#q={search}                     # Google
+amazon   https://www.amazon.com/s/field-keywords={search}                         # Amazon
+maps     https://www.google.com/maps/search/{search}                              # Google Maps
+wiki     http://en.wikipedia.org/w/index.php?title=Special:Search&search={search} # Wikipedia
+youtube  https://www.youtube.com/results?search_query={search}                    # Youtube
+google   https://www.google.com/#q={search}                                       # Google
 ```
 
 The last mapping is for those occassions when you want the full URL for a google search.
