@@ -258,8 +258,8 @@ Day-O > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
 <br/><br/><br/><br/>
 #### Omnikey
 <br/>
-<a href="http://marioestrada.github.io/safari-omnikey/">Omnikey</a> expands keywords when searching
-in the address bar.
+<a href="http://marioestrada.github.io/safari-omnikey/">Omnikey</a> puts multiple search engines in your address bar.
+It maps a keyword to each search engine, so you just prefix your search with the keyword.
 
 Safari has a similar built-in feature ```Preferences > Search > Quick Website Search```, but you can't
 customize bindings, and the search only comes up in the drop-down menu, rather than direct
