@@ -274,7 +274,7 @@ Set mappings:
 Omnikey icon in safari toolbar:
 
 Key      URL
-amazon   https://www.amazon.com/s/field-keywords={search}                         # Amazon
+amazon   https://www.amazon.com/s/?field-keywords={search}                         # Amazon
 maps     https://www.google.com/maps/search/{search}                              # Google Maps
 wiki     http://en.wikipedia.org/w/index.php?title=Special:Search&search={search} # Wikipedia
 youtube  https://www.youtube.com/results?search_query={search}                    # Youtube
