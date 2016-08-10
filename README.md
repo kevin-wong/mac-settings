@@ -368,13 +368,13 @@ Download <a href="https://github.com/adobe-fonts/source-code-pro/releases/tag/2.
 and add the OTF fonts to Font Book.
 
 <br/>
-Put config files in home directory:
+Put config files in home directory. These set the bash colors:
 ```
 cp .bash_profile .bashrc .bash_prompt .bash_aliases .bash_exports ~/
 ```
 
 <br/>
-Configure from menu bar:
+Configure iTerm's background color and set key bindings from menu bar:
 ```
 Preferences > General > check Confirm closing multiple sessions
             > Appearance > check Dimming affects only text, not background
