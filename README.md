@@ -165,7 +165,7 @@ Accessibility > Display > check Increase contrast
               > Mouse & Trackpad > Double-click speed: two left of Fast
                                  > check Spring loading delay: two right of Short
                                  > uncheck Ignore built-in trackpad when mouse or wireless trackpad is present
-                                 > Trackpad Options... > Scrolling speed: one left of Fast
+                                 > Trackpad Options... > Scrolling speed: Fastest
                                                        > check Scrolling: with inertia
                                                        > check Enable dragging: three finger drag
 ```
