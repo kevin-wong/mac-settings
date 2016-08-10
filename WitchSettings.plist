@@ -34,6 +34,8 @@
 	</data>
 	<key>Cancel Item</key>
 	<false/>
+	<key>Cancel Item Mode</key>
+	<integer>1</integer>
 	<key>Cycle All Windows</key>
 	<dict>
 		<key>Backward</key>
@@ -75,11 +77,11 @@
 	ZmZmg2InZT+DYidlP4NiJ2U/AYY=
 	</data>
 	<key>Last Tab</key>
-	<string>triggers</string>
+	<string>behavior</string>
 	<key>Maximum Width</key>
 	<real>0.3929106593132019</real>
 	<key>Panel Delay</key>
-	<integer>100</integer>
+	<integer>0</integer>
 	<key>Panel Shadow</key>
 	<false/>
 	<key>Preview Border Color</key>
