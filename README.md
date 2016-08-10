@@ -1,8 +1,11 @@
-I am paranoid. My machine may die, backups may not work, and I may not recall my settings.
-I wrote this page as another layer of backup. I have assumed I will be struck by lightning,
-my memory failing, my days ahead shortening. This page is exhaustive, and is intended to be
-this way so that when I'm bedridden, confused, and holding on to dear life, I can
-still follow these instructions.
+I am paranoid.
+
+My machine may die, backups may not work, and I may not recall my settings.
+I wrote this page so I have another storage layer.
+
+I have assumed I will be struck by lightning, my memory failing, my days ahead shortening.
+This page is exhaustive, and is intended to be this way so that when I'm bedridden,
+confused, and holding on to dear life, I can still follow these instructions.
 
 You, smart user, should use this like a cookbook. Pick what you like, adapt the recipe
 to your preferences, and make the dish yours.
