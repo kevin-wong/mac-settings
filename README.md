@@ -4,8 +4,8 @@ my memory failing, my days ahead shortening. This page is exhaustive, and is int
 this way so that when I'm bedridden, confused, and holding on to dear life, I can
 still follow these instructions.
 
-You, smart user, should use this like a cookbook, picking what you like, adapting the recipe
-to your preferences, and making the dish yours.
+You, smart user, should use this like a cookbook. Pick what you like, adapt the recipe
+to your preferences, and make the dish yours.
 
 <br/>
 ### System
