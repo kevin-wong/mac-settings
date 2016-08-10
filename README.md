@@ -371,8 +371,9 @@ Download <a href="https://github.com/adobe-fonts/source-code-pro/releases/tag/2.
 and add the OTF fonts to Font Book.
 
 <br/>
-Put config files in home directory. These set the bash colors:
+Save existing paths, and put config files in home directory. These set the bash colors:
 ```
+grep "export PATH" ~/.profile ~/.bash_profile ~/.bashrc 2>/dev/null | awk -F ":" '{print $2}' >> .bash_exports
 cp .bash_profile .bashrc .bash_prompt .bash_aliases .bash_exports ~/
 ```
 
