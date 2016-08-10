@@ -317,9 +317,9 @@ NOTE: There's a slight delay when ⌘-TABing quickly.
 ![](https://github.com/kevin-wong/mac-settings/blob/master/images/Witch.gif)
 
 <br/>
-Run WitchConfigure.sh to set customizations:
+Run WitchConf to set customizations:
 ```
-./WitchConfigure.sh
+./WitchConf
 ```
 
 <br/>
