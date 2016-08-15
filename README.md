@@ -259,6 +259,17 @@ Day-O > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
 
 
 <br/><br/><br/><br/>
+#### Skala Color
+<br/>
+<a href="https://bjango.com/mac/skalacolor/">Skala Color</a> is a color picker.
+
+<br/>
+![](https://github.com/kevin-wong/mac-settings/blob/master/images/Skala-Color.gif)
+
+
+
+
+<br/><br/><br/><br/>
 #### Omnikey
 <br/>
 <a href="http://marioestrada.github.io/safari-omnikey/">Omnikey</a> puts multiple search engines in your address bar.
