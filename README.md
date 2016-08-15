@@ -17,6 +17,8 @@ to your preferences, and make the dish yours.
 - [Finder](#finder)
 - [Fliqlo](#fliqlo)
 - [Day-O](#day-o)
+- [MenuMeters](#menumeters)
+- [Skala Color](#skala-color)
 
 ### Safari Extensions
 - [Omnikey](#omnikey)
@@ -254,6 +256,18 @@ Configure from menu bar:
 Day-O > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
                     > uncheck Show Icon
 ```
+
+
+
+
+<br/><br/><br/><br/>
+#### MenuMeters
+<br/>
+<a href="http://member.ipmu.jp/yuji.tachikawa/MenuMetersElCapitan/">MenuMeters</a>
+shows memory, network, and CPU usage in the menu bar.
+
+<br/>
+![](https://github.com/kevin-wong/mac-settings/blob/master/images/MenuMeters.gif)
 
 
 
