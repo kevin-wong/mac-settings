@@ -231,7 +231,7 @@ Menu bar > View > Show only the following:
 [Fliqlo](http://fliqlo.com) screensaver. Shows you the time.
 
 <br/>
-![Fliqlo](../blob/master/images/Fliqlo.gif)
+![Fliqlo](../master/images/Fliqlo.gif)
 
 </br>
 Configure:
