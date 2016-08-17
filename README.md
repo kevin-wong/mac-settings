@@ -184,7 +184,7 @@ Accessibility > Display > check Increase contrast
 Hide what you don't use. Collapse to 2 columns.
 
 <br/>
-![Launchpad](https://github.com/kevin-wong/mac-settings/blob/master/images/Launchpad.gif)
+![Launchpad](../master/images/Launchpad.gif)
 
 <br/>
 Run in terminal:
@@ -200,7 +200,7 @@ $ killall Dock
 <br/><br/><br/><br/>
 #### Finder
 <br/>
-![Finder](https://github.com/kevin-wong/mac-settings/blob/master/images/Finder.gif)
+![Finder](../master/images/Finder.gif)
 
 <br/>
 Configure from menu bar:
@@ -248,7 +248,7 @@ System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
 [Day-O](http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock) calendar dropdown.
 
 <br/>
-![Day-O](https://github.com/kevin-wong/mac-settings/blob/master/images/Day-O.gif)
+![Day-O](../master/images/Day-O.gif)
 
 <br/>
 Configure from menu bar:
@@ -267,7 +267,7 @@ Day-O > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
 shows memory, network, and CPU usage in the menu bar.
 
 <br/>
-![MenuMeters](https://github.com/kevin-wong/mac-settings/blob/master/images/MenuMeters.gif)
+![MenuMeters](../master/images/MenuMeters.gif)
 
 
 
@@ -278,7 +278,7 @@ shows memory, network, and CPU usage in the menu bar.
 [Skala Color](https://bjango.com/mac/skalacolor/) is a color picker.
 
 <br/>
-![Skala Color](https://github.com/kevin-wong/mac-settings/blob/master/images/Skala-Color.gif)
+![Skala Color](../master/images/Skala-Color.gif)
 
 
 
@@ -294,7 +294,7 @@ customize bindings, and the search only comes up in the drop-down menu, so you h
 than Omnikey's direct substitution.
 
 <br/>
-![Safari Omnikey](https://github.com/kevin-wong/mac-settings/blob/master/images/Safari-Omnikey.gif)
+![Safari Omnikey](../master/images/Safari-Omnikey.gif)
 
 <br/>
 Set mappings:
@@ -346,7 +346,7 @@ The problem with ⌘-TAB is that it switches between apps, but skips over window
 NOTE: There's a slight delay when ⌘-TABing quickly.
 
 <br/>
-![Witch](https://github.com/kevin-wong/mac-settings/blob/master/images/Witch.gif)
+![Witch](../master/images/Witch.gif)
 
 <br/>
 Run WitchConf to set customizations:
@@ -369,7 +369,7 @@ System Preferences > Witch
 [Moom](https://manytricks.com/moom/) quickly resizes windows. No more dragging corners.
 
 <br/>
-![Moom](https://github.com/kevin-wong/mac-settings/blob/master/images/Moom.gif)
+![Moom](../master/images/Moom.gif)
 
 <br/>
 Launch Moom and configure:
@@ -391,7 +391,7 @@ Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both s
 Solarized colorscheme. Colors responsive to git. Mac-inspired key bindings.
 
 <br/>
-![Solarized iTerm](https://github.com/kevin-wong/mac-settings/blob/master/images/iTerm.gif)
+![Solarized iTerm](../master/images/iTerm.gif)
 
 <br/>
 Download [iTerm](https://www.iterm2.com).
@@ -532,7 +532,7 @@ NOTE: Mouse is enabled, so dragging to copy toggles visual mode. To copy,
 hold down OPTION and drag.
 
 <br/>
-![vim](https://github.com/kevin-wong/mac-settings/blob/master/images/vim.gif)
+![vim](../master/images/vim.gif)
 
 
 <br/>
