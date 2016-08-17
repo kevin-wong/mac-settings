@@ -184,7 +184,7 @@ Accessibility > Display > check Increase contrast
 Hide what you don't use. Collapse to 2 columns.
 
 <br/>
-![](https://github.com/kevin-wong/mac-settings/blob/master/images/Launchpad.gif)
+![Launchpad](https://github.com/kevin-wong/mac-settings/blob/master/images/Launchpad.gif)
 
 <br/>
 Run in terminal:
@@ -200,7 +200,7 @@ $ killall Dock
 <br/><br/><br/><br/>
 #### Finder
 <br/>
-![](https://github.com/kevin-wong/mac-settings/blob/master/images/Finder.gif)
+![Finder](https://github.com/kevin-wong/mac-settings/blob/master/images/Finder.gif)
 
 <br/>
 Configure from menu bar:
@@ -228,10 +228,10 @@ Menu bar > View > Show only the following:
 <br/><br/><br/><br/>
 #### Fliqlo
 <br/>
-<a href="http://fliqlo.com">Fliqlo</a> screensaver. Shows you the time.
+[Fliqlo](http://fliqlo.com) screensaver. Shows you the time.
 
 <br/>
-![](https://github.com/kevin-wong/mac-settings/blob/master/images/Fliqlo.gif)
+![Fliqlo](https://github.com/kevin-wong/mac-settings/blob/master/images/Fliqlo.gif)
 
 </br>
 Configure:
@@ -245,10 +245,10 @@ System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
 <br/><br/><br/><br/>
 #### Day-O
 <br/>
-<a href="http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock">Day-O</a> calendar dropdown.
+[Day-O](http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock) calendar dropdown.
 
 <br/>
-![](https://github.com/kevin-wong/mac-settings/blob/master/images/Day-O.gif)
+![Day-O](https://github.com/kevin-wong/mac-settings/blob/master/images/Day-O.gif)
 
 <br/>
 Configure from menu bar:
@@ -263,11 +263,11 @@ Day-O > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
 <br/><br/><br/><br/>
 #### MenuMeters
 <br/>
-<a href="http://member.ipmu.jp/yuji.tachikawa/MenuMetersElCapitan/">MenuMeters</a>
+[MenuMeters](http://member.ipmu.jp/yuji.tachikawa/MenuMetersElCapitan/)
 shows memory, network, and CPU usage in the menu bar.
 
 <br/>
-![](https://github.com/kevin-wong/mac-settings/blob/master/images/MenuMeters.gif)
+![MenuMeters](https://github.com/kevin-wong/mac-settings/blob/master/images/MenuMeters.gif)
 
 
 
@@ -275,10 +275,10 @@ shows memory, network, and CPU usage in the menu bar.
 <br/><br/><br/><br/>
 #### Skala Color
 <br/>
-<a href="https://bjango.com/mac/skalacolor/">Skala Color</a> is a color picker.
+[Skala Color](https://bjango.com/mac/skalacolor/) is a color picker.
 
 <br/>
-![](https://github.com/kevin-wong/mac-settings/blob/master/images/Skala-Color.gif)
+![Skala Color](https://github.com/kevin-wong/mac-settings/blob/master/images/Skala-Color.gif)
 
 
 
@@ -286,7 +286,7 @@ shows memory, network, and CPU usage in the menu bar.
 <br/><br/><br/><br/>
 #### Omnikey
 <br/>
-<a href="http://marioestrada.github.io/safari-omnikey/">Omnikey</a> puts multiple search engines in your address bar.
+[Omnikey](http://marioestrada.github.io/safari-omnikey/) puts multiple search engines in your address bar.
 It maps a keyword to each search engine, so you just prefix your search with the keyword.
 
 Safari has a similar built-in feature in ```Preferences > Search > Quick Website Search```, but you can't
@@ -294,7 +294,7 @@ customize bindings, and the search only comes up in the drop-down menu, so you h
 than Omnikey's direct substitution.
 
 <br/>
-![](https://github.com/kevin-wong/mac-settings/blob/master/images/Safari-Omnikey.gif)
+![Safari Omnikey](https://github.com/kevin-wong/mac-settings/blob/master/images/Safari-Omnikey.gif)
 
 <br/>
 Set mappings:
@@ -320,8 +320,8 @@ non-search addresses, and Safari does not provide a way to expand searches.
 
 
 <br/>
-<a href="https://safari-extensions.apple.com/details/?id=com.betafish.adblockforsafari-UAMUU4S2D9">Adblock</a>.
-<a href="https://safari-extensions.apple.com/details/?id=com.betteradvertising.ghostery-HPY23A294X">Ghostery</a>.
+[Adblock](https://safari-extensions.apple.com/details/?id=com.betafish.adblockforsafari-UAMUU4S2D9).
+[Ghostery](https://safari-extensions.apple.com/details/?id=com.betteradvertising.ghostery-HPY23A294X).
 
 For Ghostery, enable blocking all tracking by default:
 ```
@@ -341,12 +341,12 @@ Right click safari toolbar > Customize Toolbar... > Drag the icons from the tool
 <br/>
 The problem with ⌘-TAB is that it switches between apps, but skips over windows within those apps. <br/>
 
-<a href="http://manytricks.com/witch/">Witch</a> makes ⌘-TAB cycle between windows.
+[Witch](http://manytricks.com/witch/) makes ⌘-TAB cycle between windows.
 
 NOTE: There's a slight delay when ⌘-TABing quickly.
 
 <br/>
-![](https://github.com/kevin-wong/mac-settings/blob/master/images/Witch.gif)
+![Witch](https://github.com/kevin-wong/mac-settings/blob/master/images/Witch.gif)
 
 <br/>
 Run WitchConf to set customizations:
@@ -366,10 +366,10 @@ System Preferences > Witch
 <br/><br/><br/><br/>
 #### Moom
 <br/>
-<a href="https://manytricks.com/moom/">Moom</a> quickly resizes windows. No more dragging corners.
+[Moom](https://manytricks.com/moom/) quickly resizes windows. No more dragging corners.
 
 <br/>
-![](https://github.com/kevin-wong/mac-settings/blob/master/images/Moom.gif)
+![Moom](https://github.com/kevin-wong/mac-settings/blob/master/images/Moom.gif)
 
 <br/>
 Launch Moom and configure:
@@ -391,12 +391,12 @@ Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both s
 Solarized colorscheme. Colors responsive to git. Mac-inspired key bindings.
 
 <br/>
-![](https://github.com/kevin-wong/mac-settings/blob/master/images/iTerm.gif)
+![Solarized iTerm](https://github.com/kevin-wong/mac-settings/blob/master/images/iTerm.gif)
 
 <br/>
-Download <a href="https://www.iterm2.com">iTerm</a>.
+Download [iTerm](https://www.iterm2.com).
 
-Download <a href="https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it">Source Code Pro Light</a>,
+Download [Source Code Pro Light](https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it),
 and add the OTF fonts to Font Book.
 
 <br/>
@@ -445,7 +445,7 @@ Preferences > General > check Confirm closing multiple sessions
 <br/><br/><br/><br/>
 #### Brew
 <br/>
-Install <a href="http://brew.sh">brew</a>.
+Install [brew](http://brew.sh).
 
 
 
@@ -532,14 +532,14 @@ NOTE: Mouse is enabled, so dragging to copy toggles visual mode. To copy,
 hold down OPTION and drag.
 
 <br/>
-![](https://github.com/kevin-wong/mac-settings/blob/master/images/vim.gif)
+![vim](https://github.com/kevin-wong/mac-settings/blob/master/images/vim.gif)
 
 
 <br/>
-<a href="https://github.com/altercation/vim-colors-solarized/tree/master/colors">Download</a> Solarized for vim.<br/>
+[Download](https://github.com/altercation/vim-colors-solarized/tree/master/colors) Solarized for vim.<br/>
 
 <br/>
-Follow the <a href="http://ethanschoonover.com/solarized/vim-colors-solarized#installation">manual installation</a>.
+Follow the [manual installation](http://ethanschoonover.com/solarized/vim-colors-solarized#installation).
 
 <br/>
 Put `.vimrc` in home directory:
@@ -557,7 +557,7 @@ cp .vimrc ~/
 Solarized colorscheme. Key bindings.
 
 <br/>
-Download <a href="https://www.sublimetext.com/3">Sublime Text</a>.
+Download [Sublime Text](https://www.sublimetext.com/3).
 
 <br/>
 Add `subl` as a terminal command to open sublime:
