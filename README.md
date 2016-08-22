@@ -46,7 +46,7 @@ to your preferences, and make the dish yours.
 Configure:
 ```
 General > Appearance: Blue
-        > Highlight color > Other > 2nd tab > RGB Sliders. R: 233 G: 219 B: 184
+        > Highlight color > Other > 2nd tab > RGB Sliders:  rgb(233, 221, 180)
         > Sidebar icon size: Large
         > Show scrollbars: Always
         > check Ask to keep changes when closing documents
