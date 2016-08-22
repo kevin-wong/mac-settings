@@ -270,6 +270,32 @@ shows memory, network, and CPU usage in the menu bar.
 ![MenuMeters](../master/images/MenuMeters.gif)
 
 
+<br/>
+Configure:
+```
+System Preferences > MenuMeters > CPU > Thermometer
+                                      > Update interval (seconds): 5.0
+                                      > Miscellaneous > check Show average for multiple processors as single display
+                                      > Colors > User:   rgb(46, 46, 46)
+                                               > System: rgb(46, 46, 46)
+                                > Disk > uncheck Display Disk Activity Menu Meter
+                                > Memory > Usage Bar
+                                         > Update intervals (seconds): 5.0
+                                         > Colors > Active:     rgb(46, 46, 46)
+                                                  > Wired:      rgb(46, 46, 46)
+                                                  > Inactive:   rgb(140, 140, 140)
+                                                  > Compressed: rgb(46, 46, 46)
+                                > Network > Throughput
+                                          > Update interval (seconds): 5.0
+                                          > General > Display orientation: Transmit/Receive
+                                                    > Display preferes interface: Primary (automatic)
+                                          > Throughput Display > check Show throughput labels (Tx/Rx)
+                                          > Colors > Transmit: rgb(0, 0, 0)
+                                                   > Receive:  rgb(0, 0, 0)
+                                                   > Inactive: rgb(0, 0, 0)
+```
+
+
 
 
 <br/><br/><br/><br/>
