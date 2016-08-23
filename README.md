@@ -463,6 +463,7 @@ Preferences > General > check Confirm closing multiple sessions
                       > check Triple-click selects entire wrapped line
             > Advanced > Disable the Tip of the Day?: Yes
                        > Supress offer to silence bell when it rings to much: Yes
+                       > Indicate the number of bells rung while inactive: No
 ```
 NOTE: SolarizedDark and Solarized Dark are not the same. Solarized Dark's
 highlight color was too similar to the background color, so SolarizedDark has
