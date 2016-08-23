@@ -592,7 +592,7 @@ Download [Sublime Text](https://www.sublimetext.com/3).
 <br/>
 Add `subl` as a terminal command to open sublime:
 ```
-ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/ /usr/local/bin/subl
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
 
 <br/>
