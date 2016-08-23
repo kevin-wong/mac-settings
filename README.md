@@ -464,6 +464,10 @@ Preferences > General > check Confirm closing multiple sessions
             > Advanced > Disable the Tip of the Day?: Yes
                        > Supress offer to silence bell when it rings to much: Yes
 ```
+NOTE: SolarizedDark and Solarized Dark are not the same. Solarized Dark's
+highlight color was too similar to the background color, so SolarizedDark has
+the highlight color slightly modified to increase the contrast. This is the only
+difference.
 
 
 
