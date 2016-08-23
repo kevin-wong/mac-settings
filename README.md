@@ -29,7 +29,7 @@ to your preferences, and make the dish yours.
 
 ### Developer
 - [iTerm](#iterm)
-- [Brew](#brew)
+- [Homebrew](#homebrew)
 - [Git](#git)
 - [less](#less)
 
@@ -473,7 +473,7 @@ difference.
 
 
 <br/><br/><br/><br/>
-#### Brew
+#### Homebrew
 <br/>
 Install [brew](http://brew.sh).
 
