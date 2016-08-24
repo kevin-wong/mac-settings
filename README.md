@@ -426,6 +426,11 @@ Download [Source Code Pro Light](https://github.com/adobe-fonts/source-code-pro/
 and add the OTF fonts to Font Book.
 
 <br/>
+The colors in the above image used a combination of both iTerm and bash prompt colors.
+The two can be configured separately, though for consistency I have set them both
+to solarized dark.
+
+<br/>
 Save existing paths. Put config files in home directory. Set the prompt colors:
 ```
 grep "export PATH" ~/.profile ~/.bash_profile ~/.bashrc 2>/dev/null | awk -F ":" '{print $2}' >> .bash_exports
@@ -465,13 +470,14 @@ Preferences > General > check Confirm closing multiple sessions
                        > Supress offer to silence bell when it rings to much: Yes
                        > Indicate the number of bells rung while inactive: No
 ```
-NOTE: SolarizedDark and Solarized Dark are not the same. Solarized Dark's
-highlight color was too similar to the background color, so SolarizedDark has
-the highlight color slightly modified to increase the contrast. This is the only
-difference.
 
-NOTE: Setting the exact solarized colors requires 24-bit colors. Although `tput`
-has more readable color selections:
+NOTE: SolarizedDark (found in this git repo) and Solarized Dark (comes with iTerm)
+are not the same. Solarized Dark's highlight color was too similar to the background
+color, so SolarizedDark has the highlight color slightly modified to increase the
+contrast. This is the only difference.
+
+NOTE: Setting the exact solarized colors in the prompt requires 24-bit colors.
+Although `tput` has more readable color selections:
 ```
 tput setaf <number>
 ```
@@ -482,26 +488,54 @@ approximate them. The tput values found on the
 are these approximations.
 
 I'm using the 24-bit colors, and the only way to access 24-bit colors are through
-the color codes. They come in this format:
+the ANSI escape codes. They come in this format:
 ```
-\e[${fg-or-bg};${style};${r};${g};${b}m
+\033[${fg-or-bg};${style};${r};${g};${b}m
 ```
 
-So to set solarized yellow: `\e[38;2;147;161;161m`
+`\033`                      bash escape character. `\e` and `\x1b` are also escape characters,
+                            though on the Mac `\e` works with `printf` but not `echo`. Linux
+                            can use all three.
 
-`\e[`           bash escape sequence
+`[`                         begins color sequence
 
-`${fg-or-bg}`   toggles foreground or background. 38 is foreground. 48 is background
+`${fg-or-bg}`               toggles foreground or background. 38 is foreground. 48 is background
 
-`${style}`      value between 0 and 4. sets bold, italics, underline. 2 adds no style, but lets the color through
+`${style}`                  value between 0 and 4. sets bold, italics, underline. 2 adds no style, but lets the color through
 
-`${r}`          red value, from 0 to 255
+`${r}`, `${g}`, and `${b}`  red, green, and blue values, from 0 to 255
 
-`${g}`          green value, from 0 to 255
+`m`                         signals this is a color sequence
 
-`${b}`          blue value, from 0 to 255
+So to set solarized yellow: `\033[38;2;147;161;161m`
 
-`m`             signals this is a color sequence
+To strip all formatting and colors: `\033[0m`. This should be appended at the end of
+any colorized text.
+
+When using escape codes to colorize the prompt, sandwich the codes between `\[` and `\]`
+so the terminal counts the escape codes as output characters. Without them, when
+a line gets full, instead of writing to the next line, new characters start
+overwriting the existing line.
+
+Working examples:
+
+Colorize prompt:
+```bash
+solarized_yellow="\033[38;2;181;137;0m"
+color_reset="\033[0m"
+user="\u"
+dir="\w"
+
+PS1=""
+PS1+="\[$solarized_yellow\]$user\[$color_reset\] "
+PS1+="at "
+PS1+="\[$solarized_yellow\]$dir\[$color_reset\]$ "
+```
+
+Add colors to output using `echo`:
+```bash
+echo -e "\033[38;2;181;137;0mThis text will be colored in solarized yellow.\033[0m"
+```
 
 
 
