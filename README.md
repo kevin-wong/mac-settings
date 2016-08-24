@@ -512,7 +512,9 @@ the ANSI escape codes. They come in this format:
 
 `${r}`, `${g}`, and `${b}`  red, green, and blue values, from 0 to 255
 
-`m`                         signals this is a color sequence
+`m`                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            signals this is a color sequence
 
 <br/>
 So to set solarized yellow: `\033[38;2;147;161;161m`
