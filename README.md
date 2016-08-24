@@ -506,8 +506,13 @@ the ANSI escape codes. They come in this format:
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;
+>                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+>                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+>                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+>                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            escape character. `\e` and `\x1b` are also escape characters,
->                            though on the Mac `\e` works with `printf` but not `echo`. Linux can use all three.
+>                            though on the Mac
+>                            `\e` works with `printf` but not `echo`. Linux can use all three.
 >
 >`[`                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -533,7 +538,7 @@ the ANSI escape codes. They come in this format:
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            signals this is a color sequence
 
-<br/><br/>
+<br/>
 So to set solarized yellow: `\033[38;2;147;161;161m`
 
 To strip all formatting and colors: `\033[0m`. This should be appended at the end of
@@ -544,7 +549,7 @@ so the terminal counts the escape codes as output characters. Without them, when
 a line gets full, instead of writing to the next line, new characters start
 overwriting the existing line.
 
-<br/><br/>
+<br/>
 Working examples:
 
 Colorize prompt:
