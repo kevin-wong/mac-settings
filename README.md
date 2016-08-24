@@ -471,11 +471,15 @@ the highlight color slightly modified to increase the contrast. This is the only
 difference.
 
 NOTE: To exact capture the solarized colors, 24-bit colors are used. `tput` has
-more readable color selections: `tput setaf <number>`, where `<number>` can be any
-integer from 0 to 255, but it is limited to 8-bit colors. The solarized colors don't
-fall into those 256 colors, so at best `tput` can only approximate them. The tput
-values found on the [solarized site](http://ethanschoonover.com/solarized#The-Values),
-listed under XTERM, are these approximations.
+more readable color selections:
+```
+tput setaf <number>
+```
+where `<number>` can be any integer from 0 to 255, but it is limited to 8-bit colors.
+The solarized colors don't fall into those 256 colors, so at best `tput` can only
+approximate them. The tput values, found on the
+[solarized site](http://ethanschoonover.com/solarized#The-Values), listed under XTERM,
+are these approximations.
 
 I'm using the 24-bit colors, and the only way to access 24-bit colors are through
 the color codes. They come in this format:
