@@ -530,7 +530,7 @@ the ANSI escape codes. They come in this format:
 >                            &nbsp;&nbsp;&nbsp;&nbsp;
 >                            It still works with `printf` and setting prompt colors.
 >
->``                            I recommend [updating](#bash) to fix this issue,
+>                            I recommend [updating](#bash) to fix this issue,
 >                            because `\e` is the most readable of the three. I'm
 >                            using `\033` on this page so the reader doesn't have
 >                            this dependency, but the configuration files use `\e`.
