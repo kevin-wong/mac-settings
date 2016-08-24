@@ -522,7 +522,14 @@ the ANSI escape codes. They come in this format:
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;&nbsp;
 >                            bash 3 (the default on Mac), `\e` doesn't work with `echo`.
->                            It still works with `printf` and setting prompt colors.
+>                            It still works with `printf` and
+>                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+>                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+>                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+>                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+>                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+>                            &nbsp;&nbsp;&nbsp;&nbsp;
+>                            setting prompt colors.
 >                            I recommend updating bash (further down this page)
 >                            to fix this issue, because `\e` is the most readable
 >                            of the three. I'm using `\033` on this page so the
