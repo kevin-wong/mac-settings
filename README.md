@@ -514,14 +514,20 @@ the ANSI escape codes. They come in this format:
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;
 >                            escape character. `\e` and `\x1b` are also escape characters,
->                            though on the Mac
+>                            though if you're using bash 3 (the default on Mac),
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;
->                            `\e` works with `printf` but not `echo`. Linux can use all three.
+>                            `\e` doesn't work with `echo`. It still works with `printf`
+>                            and setting prompt colors.
+>
+>                            I recommend [updating](#bash) to fix this issue,
+>                            because `\e` is the most readable of the three. I'm
+>                            using `\033` on this page so the reader doesn't have
+>                            this dependency, but the configuration files use `\e`.
 >
 >`[`                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -601,15 +607,15 @@ Install [brew](http://brew.sh).
 <br/><br/><br/><br/>
 #### Bash
 <br/>
-The Mac is running bash 3, and bash 4 is licensed under GPLv3, which Apple can't use.
+Mac runs bash 3. Bash 4 is licensed under GPLv3, which Apple can't use.
 
-Run `bash --version`, and you'll find a decade-old bash:
+Run `echo $BASH_VERSION`. You'll find a decade-old bash:
 ```
 GNU bash, version 3.2.57(1)-release (x86_64-apple-darwin15)
 Copyright (C) 2007 Free Software Foundation, Inc.
 ```
 
-Use `brew` to download bash 4. Add path to shell file. Change shell:
+Install bash 4. Add path to shell file. Change shell:
 ```bash
 brew install bash
 sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
