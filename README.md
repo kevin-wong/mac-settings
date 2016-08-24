@@ -509,14 +509,17 @@ the ANSI escape codes. They come in this format:
 
 `${fg-or-bg}`               toggles foreground or background. 38 is foreground. 48 is background
 
-`${style}`                  value between 0 and 4. sets bold, italics, underline. 2 adds no style, but lets the color through
+`${style}`                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            value between 0 and 4. sets bold, italics, underline.
+                            2 adds no style, but lets the color through
 
 `${r}`, `${g}`, and `${b}`  red, green, and blue values, from 0 to 255
 
 `m`                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             signals this is a color sequence
 
 <br/><br/>
