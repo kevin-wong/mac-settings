@@ -477,6 +477,7 @@ Preferences > General > check Confirm closing multiple sessions
                        > Indicate the number of bells rung while inactive: No
 ```
 
+<br/>
 NOTE: SolarizedDark (from this git repo) and Solarized Dark (comes with iTerm)
 are not the same. Solarized Dark's highlight color was too similar to the background
 color, so SolarizedDark has the highlight color slightly modified to increase the
@@ -500,7 +501,7 @@ the ANSI escape codes. They come in this format:
 ```
 
 <br/>
-`\033`                      bash escape character. `\e` and `\x1b` are also escape characters,
+`\033`                      escape character. `\e` and `\x1b` are also escape characters,
                             though on the Mac `\e` works with `printf` but not `echo`. Linux can use all three.
 
 `[`                         begins color sequence
