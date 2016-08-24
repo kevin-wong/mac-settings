@@ -470,6 +470,29 @@ highlight color was too similar to the background color, so SolarizedDark has
 the highlight color slightly modified to increase the contrast. This is the only
 difference.
 
+NOTE: To exact capture the solarized colors, 24-bit colors are used. `tput` has
+more readable color selections: `tput setaf <number>`, where `<number>` can be any
+integer from 0 to 255, but it is limited to 8-bit colors. The solarized colors don't
+fall into those 256 colors, so at best `tput` can only approximate them. The tput
+values found on the [solarized site](http://ethanschoonover.com/solarized#The-Values),
+listed under XTERM, are these approximations.
+
+I'm using the 24-bit colors, and the only way to access 24-bit colors are through
+the color codes. They come in this format:
+```
+\e[${fg-or-bg};${style};${r};${g};${b}m
+```
+
+So to set solarized yellow: `\e[38;2;147;161;161m`
+
+`\e[`           bash escape sequence
+`${fg-or-bg}`   toggles foreground or background. 38 is foreground. 48 is background
+`${style}`      value between 0 and 4. sets bold, italics, underline. 2 adds no style, but lets the color through
+`${r}`          red value, from 0 to 255
+`${g}`          green value, from 0 to 255
+`${b}`          blue value, from 0 to 255
+`m`             signals this is a color sequence
+
 
 
 
