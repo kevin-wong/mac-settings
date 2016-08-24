@@ -420,7 +420,7 @@ Solarized colorscheme. Colors responsive to git. Mac-inspired key bindings.
 ![Solarized iTerm](../master/images/iTerm.gif)
 
 <br/>
-The colors in the above image used a combination of both iTerm and bash prompt colors.
+The terminal above uses a combination of both iTerm and bash prompt colors.
 The two can be configured separately, though for consistency I have set them both
 to solarized dark.
 
@@ -494,19 +494,19 @@ the ANSI escape codes. They come in this format:
 ```
 
 <br/>
-`\033`                      bash escape character. `\e` and `\x1b` are also escape characters,
-                            though on the Mac `\e` works with `printf` but not `echo`. Linux
-                            can use all three.
-
-`[`                         begins color sequence
-
-`${fg-or-bg}`               toggles foreground or background. 38 is foreground. 48 is background
-
-`${style}`                  value between 0 and 4. sets bold, italics, underline. 2 adds no style, but lets the color through
-
-`${r}`, `${g}`, and `${b}`  red, green, and blue values, from 0 to 255
-
-`m`                         signals this is a color sequence
+> `\033`                      bash escape character. `\e` and `\x1b` are also escape characters,
+>                             though on the Mac `\e` works with `printf` but not `echo`. Linux
+>                             can use all three.
+>
+> `[`                         begins color sequence
+>
+> `${fg-or-bg}`               toggles foreground or background. 38 is foreground. 48 is background
+>
+> `${style}`                  value between 0 and 4. sets bold, italics, underline. 2 adds no style, but lets the color through
+>
+> `${r}`, `${g}`, and `${b}`  red, green, and blue values, from 0 to 255
+>
+> `m`                         signals this is a color sequence
 
 <br/>
 So to set solarized yellow: `\033[38;2;147;161;161m`
@@ -537,7 +537,7 @@ PS1+="\[$solarized_yellow\]$dir\[$color_reset\]$ "
 
 Add colors to output using `echo`:
 ```bash
-echo -e "\033[38;2;181;137;0mThis text will be colored in solarized yellow.\033[0m"
+echo -e "\033[38;2;181;137;0mThis text is colored in solarized yellow.\033[0m"
 ```
 
 
