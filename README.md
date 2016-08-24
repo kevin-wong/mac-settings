@@ -514,14 +514,14 @@ the ANSI escape codes. They come in this format:
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;
 >                            escape character. `\e` and `\x1b` are also escape characters,
->                            though if you're using bash 3 (the default on Mac),
+>                            though if you're using
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;
->                            `\e` doesn't work with `echo`. It still works with `printf`
+>                            bash 3 (the default on Mac), `\e` doesn't work with `echo`. It still works with `printf`
 >                            and setting prompt colors.
 >
 >                            I recommend [updating](#bash) to fix this issue,
