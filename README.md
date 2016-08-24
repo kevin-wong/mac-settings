@@ -530,7 +530,13 @@ the ANSI escape codes. They come in this format:
 >                            &nbsp;&nbsp;&nbsp;&nbsp;
 >                            setting prompt colors.
 >                            I recommend updating bash (further down this page)
->                            to fix this issue, because `\e` is the most readable
+>                            to fix this
+>                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+>                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+>                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+>                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+>                            &nbsp;&nbsp;&nbsp;&nbsp;
+>                            issue, because `\e` is the most readable
 >                            of the three. I'm using `\033` on this page so the
 >                            reader doesn't have this dependency, but the
 >                            configuration files use `\e`.
