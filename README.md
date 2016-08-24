@@ -30,6 +30,7 @@ to your preferences, and make the dish yours.
 ### Developer
 - [iTerm](#iterm)
 - [Homebrew](#homebrew)
+- [Bash](#bash)
 - [Git](#git)
 - [less](#less)
 
@@ -593,6 +594,28 @@ echo -e "\033[38;2;181;137;0mThis text is colored in solarized yellow.\033[0m"
 #### Homebrew
 <br/>
 Install [brew](http://brew.sh).
+
+
+
+
+<br/><br/><br/><br/>
+#### Bash
+<br/>
+The Mac is running bash 3, and bash 4 is licensed under GPLv3, which Apple can't use.
+
+Run `bash --version`, and you'll find a decade-old bash:
+```
+GNU bash, version 3.2.57(1)-release (x86_64-apple-darwin15)
+Copyright (C) 2007 Free Software Foundation, Inc.
+```
+
+Use `brew` to download bash 4. Add path to shell file. Change shell:
+```bash
+brew install bash
+sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
+# Change to the new shell
+chsh -s /usr/local/bin/bash
+```
 
 
 
