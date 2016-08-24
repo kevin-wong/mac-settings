@@ -613,7 +613,6 @@ Use `brew` to download bash 4. Add path to shell file. Change shell:
 ```bash
 brew install bash
 sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
-# Change to the new shell
 chsh -s /usr/local/bin/bash
 ```
 
