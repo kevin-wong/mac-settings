@@ -470,14 +470,14 @@ highlight color was too similar to the background color, so SolarizedDark has
 the highlight color slightly modified to increase the contrast. This is the only
 difference.
 
-NOTE: To exact capture the solarized colors, 24-bit colors are used. `tput` has
-more readable color selections:
+NOTE: Setting the exact solarized colors requires 24-bit colors. Although `tput`
+has more readable color selections:
 ```
 tput setaf <number>
 ```
 where `<number>` can be any integer from 0 to 255, but it is limited to 8-bit colors.
 The solarized colors don't fall into those 256 colors, so at best `tput` can only
-approximate them. The tput values, found on the
+approximate them. The tput values found on the
 [solarized site](http://ethanschoonover.com/solarized#The-Values), listed under XTERM,
 are these approximations.
 
