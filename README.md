@@ -420,15 +420,15 @@ Solarized colorscheme. Colors responsive to git. Mac-inspired key bindings.
 ![Solarized iTerm](../master/images/iTerm.gif)
 
 <br/>
+The colors in the above image used a combination of both iTerm and bash prompt colors.
+The two can be configured separately, though for consistency I have set them both
+to solarized dark.
+
+<br/>
 Download [iTerm](https://www.iterm2.com).
 
 Download [Source Code Pro Light](https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it),
 and add the OTF fonts to Font Book.
-
-<br/>
-The colors in the above image used a combination of both iTerm and bash prompt colors.
-The two can be configured separately, though for consistency I have set them both
-to solarized dark.
 
 <br/>
 Save existing paths. Put config files in home directory. Set the prompt colors:
@@ -471,7 +471,7 @@ Preferences > General > check Confirm closing multiple sessions
                        > Indicate the number of bells rung while inactive: No
 ```
 
-NOTE: SolarizedDark (found in this git repo) and Solarized Dark (comes with iTerm)
+NOTE: SolarizedDark (from this git repo) and Solarized Dark (comes with iTerm)
 are not the same. Solarized Dark's highlight color was too similar to the background
 color, so SolarizedDark has the highlight color slightly modified to increase the
 contrast. This is the only difference.
@@ -493,6 +493,7 @@ the ANSI escape codes. They come in this format:
 \033[${fg-or-bg};${style};${r};${g};${b}m
 ```
 
+<br/>
 `\033`                      bash escape character. `\e` and `\x1b` are also escape characters,
                             though on the Mac `\e` works with `printf` but not `echo`. Linux
                             can use all three.
@@ -507,6 +508,7 @@ the ANSI escape codes. They come in this format:
 
 `m`                         signals this is a color sequence
 
+<br/>
 So to set solarized yellow: `\033[38;2;147;161;161m`
 
 To strip all formatting and colors: `\033[0m`. This should be appended at the end of
@@ -517,6 +519,7 @@ so the terminal counts the escape codes as output characters. Without them, when
 a line gets full, instead of writing to the next line, new characters start
 overwriting the existing line.
 
+<br/>
 Working examples:
 
 Colorize prompt:
