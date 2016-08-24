@@ -438,7 +438,7 @@ and add the OTF fonts to Font Book.
 
 <br/>
 Save existing paths. Put config files in home directory. Set the prompt colors:
-```
+```bash
 grep "export PATH" ~/.profile ~/.bash_profile ~/.bashrc 2>/dev/null | awk -F ":" '{print $2}' >> .bash_exports
 cp .bash_profile .bashrc .bash_prompt .bash_aliases .bash_exports ~/
 ```
@@ -484,7 +484,7 @@ contrast. This is the only difference.
 
 NOTE: Setting the exact solarized colors in the prompt requires 24-bit colors.
 Although `tput` has more readable color selections:
-```
+```bash
 tput setaf <number>
 ```
 where `<number>` can be any integer from 0 to 255, but it is limited to 8-bit colors.
@@ -495,15 +495,13 @@ are these approximations.
 
 I'm using the 24-bit colors, and the only way to access 24-bit colors are through
 the ANSI escape codes. They come in this format:
-```
+```bash
 \033[${fg-or-bg};${style};${r};${g};${b}m
 ```
 
 <br/>
 `\033`                      bash escape character. `\e` and `\x1b` are also escape characters,
-                            though on the Mac `\e` works with
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            `printf` but not `echo`. Linux can use all three.
+                            though on the Mac `\e` works with `printf` but not `echo`. Linux can use all three.
 
 `[`                         begins color sequence
 
