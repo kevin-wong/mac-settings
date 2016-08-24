@@ -1,20 +1,36 @@
+export PATH=/Applications/SnowSQL.app/Contents/MacOS:$PATH
+export PATH=/Users/kevin/Applications/anaconda2/bin:$PATH
+
+# Legacy colors. Limited to tput's 256 colors.
+#export prompt_color_red=$(tput setaf 160)
+#export prompt_color_green=$(tput setaf 40)
+#export prompt_color_blue=$(tput setaf 39)
+#export prompt_color_cyan=$(tput setaf 45)
+#export prompt_color_yellow=$(tput setaf 184)
+#export prompt_color_magenta=$(tput setaf 198)
+#export prompt_color_orange=$(tput setaf 208)
+#export prompt_color_light_orange=$(tput setaf 214)
+#export prompt_color_pink=$(tput setaf 213)
+#export prompt_color_grey=$(tput setaf 10)
+#export prompt_color_light_grey=$(tput setaf 14)
+#export prompt_color_white=$(tput setaf 15)
+#export prompt_color_reset=$(tput sgr0)
+
 export TERM="xterm-256color"
-export prompt_color_red=$(tput setaf 160)
-export prompt_color_green=$(tput setaf 40)
-export prompt_color_blue=$(tput setaf 39)
-export prompt_color_cyan=$(tput setaf 45)
-export prompt_color_yellow=$(tput setaf 184)
-export prompt_color_magenta=$(tput setaf 198)
-export prompt_color_orange=$(tput setaf 208)
-export prompt_color_light_orange=$(tput setaf 214)
-export prompt_color_pink=$(tput setaf 213)
-export prompt_color_grey=$(tput setaf 10)
-export prompt_color_light_grey=$(tput setaf 14)
-export prompt_color_white=$(tput setaf 15)
-export prompt_color_reset=$(tput sgr0)
+export solarized_base="\e[38;2;147;161;161m"
+export solarized_yellow="\e[38;2;181;137;0m"
+export solarized_orange="\e[38;2;203;75;22m"
+export solarized_red="\e[38;2;220;50;47m"
+export solarized_magenta="\e[38;2;211;54;130m"
+export solarized_violet="\e[38;2;108;113;196m"
+export solarized_blue="\e[38;2;38;139;210m"
+export solarized_cyan="\e[38;2;42;161;152m"
+export solarized_green="\e[38;2;133;153;0m"
+export color_reset="\e[0m"
 
 export EDITOR='vim';
 
+# Locale
 export LANG='en_US.UTF-8';
 export LC_ALL='en_US.UTF-8';
 
@@ -22,7 +38,10 @@ export LC_ALL='en_US.UTF-8';
 export MANPAGER='less -X';
 
 # Colorize section titles and flags in manual pages.
-export LESS_TERMCAP_md="$prompt_color_light_orange";
+# Color codes don't work with less, so tput is used instead.
+# This color approximates solarized yellow.
+export less_solarized_yellow=$(tput setaf 136)
+export LESS_TERMCAP_md="$less_solarized_yellow";
 
 # Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
 export PYTHONIOENCODING='UTF-8';

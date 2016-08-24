@@ -1,6 +1,7 @@
 # Colorized prompt configuration.
-# history # |       date and time    | user   | directory
-# [4293]     2016/07/26 11:30 Tuesday  kevin in ~
+# FORMAT : history # |         date and time     |  user   | directory
+# EXAMPLE: [4293]       2016/07/26 11:30 Tuesday   kevin  in  ~
+
 function __prompt_command() {
   local EXIT="$?" # Exit status determines history number color
   PS1=""
@@ -9,35 +10,35 @@ function __prompt_command() {
   # Green    Previous command succeeded.
   # Red      Previous command failed.
   if [ $EXIT -eq 0 ]; then
-    PS1+="\[$prompt_color_green\][\!]\[$prompt_color_reset\] ";
+    PS1+="\[$solarized_green\][\!]\[$color_reset\] ";
   else
-    PS1+="\[$prompt_color_red\][\!]\[$prompt_color_reset\] ";
+    PS1+="\[$solarized_red\][\!]\[$color_reset\] ";
   fi
 
 	prompt_date=$(date '+%Y/%m/%d %H:%M %A')
 	prompt_username="\u"
 	prompt_directory="\w"
 
-  PS1+="\[$prompt_color_orange\]$prompt_date\[$prompt_color_reset\]  "
-  PS1+="\[$prompt_color_magenta\]$prompt_username\[$prompt_color_reset\] "
-  PS1+="\[$prompt_color_white\]in\[$prompt_color_reset\] "
-  PS1+="\[$prompt_color_blue\]$prompt_directory\[$prompt_color_reset\] "
+  PS1+="\[$solarized_yellow\]$prompt_date\[$color_reset\]  "
+  PS1+="\[$solarized_magenta\]$prompt_username\[$color_reset\] "
+  PS1+="\[$solarized_base\]in\[$color_reset\] "
+  PS1+="\[$solarized_cyan\]$prompt_directory\[$color_reset\] "
 
   # Display git branch when in repo with helper message in appropriate color.
   local git_status="`git status -unormal 2>&1`"
   if ! [[ "$git_status" =~ Not\ a\ git\ repo ]]; then
     if [[ "$git_status" =~ Untracked\ files ]] \
           || [[ "$git_status" =~ Changes\ not\ staged ]]; then
-      local git_color=$prompt_color_red
+      local git_color=$solarized_red
       local git_message="there's something to add"
     elif [[ "$git_status" =~ Changes\ to\ be\ committed ]]; then
-      local git_color=$prompt_color_orange
+      local git_color=$solarized_orange
       local git_message="there's something to commit"
     elif [[ "$git_status" =~ Your\ branch\ is\ ahead\ of ]]; then
-      local git_color=$prompt_color_yellow
+      local git_color=$solarized_yellow
       local git_message="there's something to push"
     else
-      local git_color=$prompt_color_green
+      local git_color=$solarized_green
       local git_message="everything is up-to-date"
     fi
 
@@ -47,14 +48,14 @@ function __prompt_command() {
         local git_branch="(`git describe --all --contains --abbrev=4 HEAD 2> /dev/null || echo HEAD`)"
     fi
 
-    PS1+="\[$prompt_color_white\]on\[$prompt_color_reset\] "
-    PS1+="\[$prompt_color_pink\]$git_branch\[$prompt_color_reset\] "
-    PS1+="\[$prompt_color_white\]where\[$prompt_color_reset\] "
-    PS1+="\[$git_color\]$git_message\[$prompt_color_reset\]"
+    PS1+="\[$solarized_base\]on\[$color_reset\] "
+    PS1+="\[$solarized_orange\]$git_branch\[$color_reset\] "
+    PS1+="\[$solarized_base\]where\[$color_reset\] "
+    PS1+="\[$git_color\]$git_message\[$color_reset\]"
   fi
 
-  PS1+="\n\[$prompt_color_cyan\]⥤\[$prompt_color_reset\] "       # new line
+  PS1+="\n\[$solarized_cyan\]⥤\[$color_reset\] "       # new line
 }
 PROMPT_COMMAND=__prompt_command
 
-PS2="\[$prompt_color_cyan\]⥤\[$prompt_color_reset\] "            # continued line after \
+PS2="\[$solarized_cyan\]⥤\[$color_reset\] "            # continued line after \

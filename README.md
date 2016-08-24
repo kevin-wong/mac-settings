@@ -426,14 +426,14 @@ Download [Source Code Pro Light](https://github.com/adobe-fonts/source-code-pro/
 and add the OTF fonts to Font Book.
 
 <br/>
-Save existing paths, and put config files in home directory. These set the bash colors:
+Save existing paths. Put config files in home directory. Set the prompt colors:
 ```
 grep "export PATH" ~/.profile ~/.bash_profile ~/.bashrc 2>/dev/null | awk -F ":" '{print $2}' >> .bash_exports
 cp .bash_profile .bashrc .bash_prompt .bash_aliases .bash_exports ~/
 ```
 
 <br/>
-Configure iTerm's background color and set key bindings from menu bar:
+Configure iTerm colors. Set key bindings from menu bar:
 ```
 Preferences > General > check Confirm closing multiple sessions
             > Appearance > check Dimming affects only text, not background
