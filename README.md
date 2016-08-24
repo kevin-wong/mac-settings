@@ -67,9 +67,15 @@ Dock > Size: Max
 ```
 
 <br/>
+Auto hide-and-show dock has an animation, so there's a slight delay.
 To make the hidden dock instantly show/hide, run in terminal:
-```
+```bash
 defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock
+```
+
+To revert:
+```bash
+defaults delete com.apple.dock autohide-time-modifier;killall Dock
 ```
 
 <br/>
@@ -188,7 +194,7 @@ Hide what you don't use. Collapse to 2 columns.
 
 <br/>
 Run in terminal:
-```
+```bash
 $ defaults write com.apple.dock springboard-columns -int 2;
 $ defaults write com.apple.dock ResetLaunchPad -bool TRUE;
 $ killall Dock
@@ -376,7 +382,7 @@ NOTE: There's a slight delay when ⌘-TABing quickly.
 
 <br/>
 Run WitchConf to set customizations:
-```
+```bash
 ./WitchConf
 ```
 
@@ -494,19 +500,20 @@ the ANSI escape codes. They come in this format:
 ```
 
 <br/>
-> `\033`                      bash escape character. `\e` and `\x1b` are also escape characters,
->                             though on the Mac `\e` works with `printf` but not `echo`. Linux
->                             can use all three.
->
-> `[`                         begins color sequence
->
-> `${fg-or-bg}`               toggles foreground or background. 38 is foreground. 48 is background
->
-> `${style}`                  value between 0 and 4. sets bold, italics, underline. 2 adds no style, but lets the color through
->
-> `${r}`, `${g}`, and `${b}`  red, green, and blue values, from 0 to 255
->
-> `m`                         signals this is a color sequence
+`\033`                      bash escape character. `\e` and `\x1b` are also escape characters,
+                            though on the Mac `\e` works with
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            `printf` but not `echo`. Linux can use all three.
+
+`[`                         begins color sequence
+
+`${fg-or-bg}`               toggles foreground or background. 38 is foreground. 48 is background
+
+`${style}`                  value between 0 and 4. sets bold, italics, underline. 2 adds no style, but lets the color through
+
+`${r}`, `${g}`, and `${b}`  red, green, and blue values, from 0 to 255
+
+`m`                         signals this is a color sequence
 
 <br/>
 So to set solarized yellow: `\033[38;2;147;161;161m`
@@ -555,19 +562,19 @@ Install [brew](http://brew.sh).
 #### Git
 <br/>
 Install git:
-```
+```bash
 brew install git
 ```
 
 <br/>
 Put `.gitignore` in home directory:
-```
+```bash
 cp .gitignore ~/
 ```
 
 <br/>
 Configure:
-```
+```bash
 $ git config --global user.name <name>
 $ git config --global user.email <email>
 $ git config --global core.editor vim
@@ -597,19 +604,19 @@ Use key bindings so navigation is consistent with the vim's below.
 
 <br/>
 Mac has disabled`lesskey`, which allows key binding on less. Use the version that does:
-```
+```bash
 brew install homebrew/dupes/less
 ```
 
 <br/>
 Put .lesskey in home directory:
-```
+```bash
 cp .lesskey ~/
 ```
 
 <br/>
 Run lesskey, which will automatically read from .lesskey:
-```
+```bash
 lesskey
 ```
 
@@ -644,7 +651,7 @@ Follow the [manual installation](http://ethanschoonover.com/solarized/vim-colors
 
 <br/>
 Put `.vimrc` in home directory:
-```
+```bash
 cp .vimrc ~/
 ```
 
@@ -662,7 +669,7 @@ Download [Sublime Text](https://www.sublimetext.com/3).
 
 <br/>
 Add `subl` as a terminal command to open sublime:
-```
+```bash
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
 
