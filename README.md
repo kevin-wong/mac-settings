@@ -542,7 +542,8 @@ the ANSI escape codes. They come in this format:
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
->                            &nbsp;&nbsp;&nbsp;through. I recommend avoiding featuritis.
+>                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+>                            through. I recommend avoiding featuritis.
 >                            Always use 2.
 >
 >`${r}`, `${g}`, and `${b}`  red, green, and blue values, from 0 to 255
