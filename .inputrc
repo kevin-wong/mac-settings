@@ -1,0 +1,6 @@
+# Search history based on prefix.
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+# Tab-completion ignores case
+set completion-ignore-case on
