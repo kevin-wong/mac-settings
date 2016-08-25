@@ -11,6 +11,7 @@ alias gs="git status"
 alias gd="git diff"
 alias grep="grep --color=auto"
 alias v="vim"
+alias functions="declare -f | grep '()'"
 
 alias ls="ls -FG"
 alias ll="ls -lhFG"
