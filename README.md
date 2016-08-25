@@ -442,12 +442,12 @@ Set the prompt colors. Save existing paths, backup existing config files,
 put new config files in home directory:
 ```bash
 grep "export PATH" ~/.profile ~/.bash_profile ~/.bashrc 2>/dev/null | awk -F ":" '{print $2}' >> .bash_exports
-for config in ~/.{profile,bash_profile,bashrc}; do
+for config in ~/.{profile,bash_profile,bashrc,inputrc}; do
   if [ -f $config ]; then
     mv $config ${config}_bak
   fi
 done;
-cp .bash_profile .bashrc .bash_prompt .bash_aliases .bash_exports ~/
+cp .bash_profile .bashrc .bash_prompt .bash_aliases .bash_exports .inputrc ~/
 ```
 
 <br/>
