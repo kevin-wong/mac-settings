@@ -609,12 +609,14 @@ PS1+="\[$solarized_yellow\]$user\[$color_reset\] "
 PS1+="at "
 PS1+="\[$solarized_yellow\]$dir\[$color_reset\]$ "
 ```
+![check-true-colors-prompt](../master/images/check-true-colors-prompt.tiff)
 
 <a name="check-true-colors"></a>
 Add colors to output using `echo`:
 ```bash
 echo -e "\033[38;2;181;137;0mThis text is colored in solarized yellow.\033[0m"
 ```
+![check-true-colors-echo](../master/images/check-true-colors-echo.tiff)
 
 
 
