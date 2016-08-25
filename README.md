@@ -432,8 +432,8 @@ The two can be configured separately, though for consistency I have set them bot
 to solarized dark.
 
 <br/>
-These colors are true colors. If you're not using iTerm, [check](#check-true-colors)
-that your terminal supports true colors.
+These colors are [true colors](https://en.wikipedia.org/wiki/Color_depth#True_color_.2824-bit.29).
+If you're not using iTerm, [check](#check-true-colors) that your terminal supports true colors.
 
 <br/>
 Download [iTerm](https://www.iterm2.com).
