@@ -2,7 +2,7 @@
 # FORMAT : history # |         date and time     |  user   | directory
 # EXAMPLE: [4293]       2016/07/26 11:30 Tuesday   kevin  in  ~
 
-function __prompt_command() {
+_prompt_command() {
   local EXIT="$?" # Exit status determines history number color
   PS1=""
 
@@ -25,16 +25,16 @@ function __prompt_command() {
   PS1+="\[$solarized_cyan\]$prompt_directory\[$color_reset\] "
 
   # Display git branch when in repo with helper message in appropriate color.
-  local git_status="`git status -unormal 2>&1`"
-  if ! [[ "$git_status" =~ Not\ a\ git\ repo ]]; then
-    if [[ "$git_status" =~ Untracked\ files ]] \
-          || [[ "$git_status" =~ Changes\ not\ staged ]]; then
+  local git_status="$(git status 2>&1)"
+  if ! [[ "$git_status" =~ "Not a git repo" ]]; then
+    if [[ "$git_status" =~ "Untracked files" ]] \
+          || [[ "$git_status" =~ "Changes not staged" ]]; then
       local git_color=$solarized_red
       local git_message="there's something to add"
-    elif [[ "$git_status" =~ Changes\ to\ be\ committed ]]; then
+    elif [[ "$git_status" =~ "Changes to be committed" ]]; then
       local git_color=$solarized_orange
       local git_message="there's something to commit"
-    elif [[ "$git_status" =~ Your\ branch\ is\ ahead\ of ]]; then
+    elif [[ "$git_status" =~ "Your branch is ahead of" ]]; then
       local git_color=$solarized_yellow
       local git_message="there's something to push"
     else
@@ -56,6 +56,6 @@ function __prompt_command() {
 
   PS1+="\n\[$solarized_cyan\]⥤\[$color_reset\] "       # new line
 }
-PROMPT_COMMAND=__prompt_command
+PROMPT_COMMAND=_prompt_command
 
 PS2="\[$solarized_cyan\]⥤\[$color_reset\] "            # continued line after \
