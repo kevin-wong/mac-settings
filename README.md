@@ -640,6 +640,10 @@ sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
 chsh -s /usr/local/bin/bash
 ```
 
+Commands executed directly on the command line will run with bash 4, but scripts
+may still specify bash 3 in the shebang `#!/bin/bash`. Make sure to use
+`#!/usr/bin/env bash` instead, which runs the shell identified by `$SHELL`.
+
 
 
 
