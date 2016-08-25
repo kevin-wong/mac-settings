@@ -444,16 +444,16 @@ Download [Source Code Pro Light](https://github.com/adobe-fonts/source-code-pro/
 and add the OTF fonts to Font Book.
 
 <br/>
-Set the prompt colors. Save existing paths, backup existing config files,
+Set the prompt colors. Save existing paths, backup config files which will be overwritten,
 put new config files in home directory:
 ```bash
-grep "export PATH" ~/.profile ~/.bash_profile ~/.bashrc 2>/dev/null | awk -F ":" '{print $2}' >> .bash_exports
-for config in ~/.{profile,bash_profile,bashrc,inputrc}; do
+grep "export PATH" ~/.bash_profile ~/.bashrc 2>/dev/null | awk -F ":" '{print $2}' >> .bash_exports
+for config in ~/.{bash_profile,bashrc,inputrc}; do
   if [ -f $config ]; then
     mv $config ${config}_bak
   fi
 done;
-cp .bash_profile .bashrc .bash_prompt .bash_aliases .bash_exports .inputrc ~/
+cp .bash_profile .bashrc .bash_prompt .bash_aliases .bash_functions .bash_exports .inputrc ~/
 ```
 
 <br/>
