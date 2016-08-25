@@ -432,6 +432,10 @@ The two can be configured separately, though for consistency I have set them bot
 to solarized dark.
 
 <br/>
+These colors are true colors. If you're not using iTerm, [check](#check-true-colors)
+that your terminal supports true colors.
+
+<br/>
 Download [iTerm](https://www.iterm2.com).
 
 Download [Source Code Pro Light](https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it),
@@ -606,6 +610,7 @@ PS1+="at "
 PS1+="\[$solarized_yellow\]$dir\[$color_reset\]$ "
 ```
 
+<a name="check-true-colors"></a>
 Add colors to output using `echo`:
 ```bash
 echo -e "\033[38;2;181;137;0mThis text is colored in solarized yellow.\033[0m"
