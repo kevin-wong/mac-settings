@@ -1,3 +1,7 @@
+# This file configures readline.
+# Includes tab-complete options
+# and key bindings to scroll through history.
+
 # Enables colors. Uses LS_COLORS.
 set colored-stats on
 
