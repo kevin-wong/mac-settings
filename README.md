@@ -453,7 +453,7 @@ for config in ~/.{bash_profile,bashrc,inputrc}; do
     mv $config ${config}_bak
   fi
 done;
-cp .bash_profile .bashrc .bash_prompt .bash_aliases .bash_functions .bash_exports .inputrc ~/
+cp .bash_profile .bashrc .bash_prompt .bash_aliases .bash_functions .bash_exports .bash_readline_colors .inputrc ~/
 ```
 
 <br/>
