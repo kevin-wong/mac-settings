@@ -1,0 +1,12 @@
+# Sets tab-complete colors.
+# Setting LS_COLORS seems to not change the colors for `ls`,
+# but rather just the completion colors.
+#
+# These colors simulate the regular `ls` colors. 
+#
+# Options can be found here:
+# http://www.bigsoft.co.uk/blog/index.php/2008/04/11/configuring-ls_colors
+export LS_COLORS='di=34' # directory  blue
+LS_COLORS+=':ln=35'      # symlink    magenta
+LS_COLORS+=':ex=31'      # executable red 
+LS_COLORS+=':st=0'       # sticky     normal
