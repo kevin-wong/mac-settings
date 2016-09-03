@@ -339,17 +339,7 @@ amazon   https://www.amazon.com/s/?field-keywords={search}                      
 maps     https://www.google.com/maps/search/{search}                              # Google Maps
 wiki     http://en.wikipedia.org/w/index.php?title=Special:Search&search={search} # Wikipedia
 youtube  https://www.youtube.com/results?search_query={search}                    # Youtube
-google   https://www.google.com/#q={search}                                       # Google
-
-
-check Use Google.com as the default search for Safari
 ```
-
-Setting the Google mapping as the default search is to show the search's full URL.
-When a search is done directly in the address bar to the default search engine,
-Safari hides the URL and displays only the query.
-The option at ```Preferences > Advanced > Show full website address``` expands only
-non-search addresses, and Safari does not provide a way to expand searches.
 
 
 <br/>
