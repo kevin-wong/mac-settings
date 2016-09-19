@@ -29,3 +29,7 @@ show_solarized() {
   printf "      \e[48;2;133;153;0m                      \e[0m\n"
   printf "\n\n"
 }
+
+show_dot_files() {
+  ls -a | grep '^\.'
+}
