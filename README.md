@@ -402,6 +402,17 @@ General > uncheck Show preferences on launch
 Mouse > Delay: None
       > check Enable access to custom controls, check Show on hover
       > uncheck Bring moomed windows to the front automatically
+Keyboard > Trigger keyboard control with hot key: ^`
+         > check Show cheat sheet
+         > Arrow keys: Move
+         > Arrow with command: Move & Zoom to Half Screen
+         > Arrow with Option: Grow
+         > Arrow with Control: Shrink
+         > Return: Revert to Original Dimensions
+         > Space: Move & Zoom to full screen
+         > Tab: Center
+
+         > Auto-dismiss keyboard control after: uncheck all
 Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both sides.
 ```
 
