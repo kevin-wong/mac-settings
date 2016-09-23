@@ -402,7 +402,7 @@ General > uncheck Show preferences on launch
 Mouse > Delay: None
       > check Enable access to custom controls, check Show on hover
       > uncheck Bring moomed windows to the front automatically
-Keyboard > Trigger keyboard control with hot key: ^`
+Keyboard > Trigger keyboard control with hot key: CTRL-`
          > check Show cheat sheet
          > Arrow keys: Move
          > Arrow with command: Move & Zoom to Half Screen
