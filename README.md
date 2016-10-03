@@ -366,7 +366,6 @@ The problem with ⌘-TAB is that it switches between apps, but skips over window
 
 [Witch](http://manytricks.com/witch/) makes ⌘-TAB cycle between windows.
 
-NOTE: There's a slight delay when ⌘-TABing quickly.
 
 <br/>
 ![Witch](../master/images/Witch.gif)
