@@ -869,13 +869,13 @@ Launch Sublime > Preferences > Key Bindings - User > Paste the following:
   },
 
   {
-    "keys": ["option+shift+up"],
+    "keys": ["super+option+up"],
     "command": "swap_line_up",
     "_comment": "move line up"
   },
 
   {
-    "keys": ["option+shift+down"],
+    "keys": ["super+option+down"],
     "command": "swap_line_down",
     "_comment": "move line down"
   },
