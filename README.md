@@ -18,6 +18,7 @@ to your preferences, and make the dish yours.
 - [Fliqlo](#fliqlo)
 - [Day-O](#day-o)
 - [MenuMeters](#menumeters)
+- [InsomniaX](#insomniax)
 - [Skala Color](#skala-color)
 
 ### Safari Extensions
@@ -301,6 +302,14 @@ System Preferences > MenuMeters > CPU > Thermometer
                                                    > Receive:  rgb(0, 0, 0)
                                                    > Inactive: rgb(0, 0, 0)
 ```
+
+
+
+
+<br/><br/><br/><br/>
+#### InsomniaX
+<br/>
+[InsomniaX](http://semaja2.net/projects/insomniaxinfo/) disables the sleep when the laptop lid is closed.
 
 
 
