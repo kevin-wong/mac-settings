@@ -309,7 +309,7 @@ System Preferences > MenuMeters > CPU > Thermometer
 <br/><br/><br/><br/>
 #### InsomniaX
 <br/>
-[InsomniaX](http://semaja2.net/projects/insomniaxinfo/) disables the sleep when the laptop lid is closed.
+[InsomniaX](http://semaja2.net/projects/insomniaxinfo/) disables sleep when the laptop lid is closed.
 
 
 
