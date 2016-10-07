@@ -1,3 +1,6 @@
+export PATH=/Applications/SnowSQL.app/Contents/MacOS:$PATH
+export PATH=/Users/kevin/Applications/anaconda2/bin:$PATH
+
 # Legacy colors. Limited to tput's 256 colors.
 #export prompt_color_red=$(tput setaf 160)
 #export prompt_color_green=$(tput setaf 40)
@@ -35,7 +38,6 @@ export LC_ALL='en_US.UTF-8';
 # use keybindings mapped by `lesskey`.
 export MANPAGER='less';
 
-
 # Colorize section titles and flags in manual pages.
 # Color codes don't work with less, so tput is used instead.
 # This color approximates solarized yellow.
@@ -46,9 +48,9 @@ export LESS_TERMCAP_md="$less_solarized_yellow";
 export PYTHONIOENCODING='UTF-8';
 
 # Settings for `history`
-export HISTTIMEFORMAT=$(echo -n %Y/%m/%d %H:%M; echo "  ")		# format history
-export HISTIGNORE="pwd:ls:history:h:ll:lt:la:lla"   # list of commands to ignore
-export HISTCONTROL='ignoredups';      							# ignore consecutive duplicates
+export HISTTIMEFORMAT=$(echo -n %Y/%m/%d %H:%M; echo "  ")	# format history
+export HISTIGNORE="pwd:history:h:ls:ll:lt:la:lla:clear:c"   # list of commands to ignore
+export HISTCONTROL='ignoredups';      							        # ignore consecutive duplicates
 
 export HISTSIZE='32768';              # Increase Bash history size. Allow 32³ entries; the default is 500.
 export HISTFILESIZE="${HISTSIZE}";
