@@ -35,8 +35,13 @@ show_dot_files() {
   ls -a | grep '^\.'
 }
 
-# Pretty print JSON files
-# Usage: Pipe JSON to pretty_json, i.e. `head -n 2 <json file> | pretty_json`
+# Pretty print JSON files.
+# Usage: `head -n 2 <json file> | pretty_json`
 pretty_json() {
   while read line; do echo "$line" | python -m json.tool; done
+}
+
+# Clear previous line. Needed when overwriting lines.
+clear_last_line() {
+  tput cuu 1; tput el
 }
