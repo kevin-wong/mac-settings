@@ -15,14 +15,14 @@ _prompt_command() {
     PS1+="\[$solarized_red\][\!]\[$color_reset\] ";
   fi
 
-	prompt_date=$(date '+%Y/%m/%d %H:%M %A')
-	prompt_username="\u"
-	prompt_directory="\w"
+	timestamp=$(date '+%Y/%m/%d %H:%M %A')
+	username="\u"
+	directory="\w"
 
-  PS1+="\[$solarized_yellow\]$prompt_date\[$color_reset\]  "
-  PS1+="\[$solarized_magenta\]$prompt_username\[$color_reset\] "
+  PS1+="\[$solarized_yellow\]$timestamp\[$color_reset\]  "
+  PS1+="\[$solarized_magenta\]$username\[$color_reset\] "
   PS1+="\[$solarized_base\]in\[$color_reset\] "
-  PS1+="\[$solarized_cyan\]$prompt_directory\[$color_reset\] "
+  PS1+="\[$solarized_cyan\]$directory\[$color_reset\] "
 
   # Display git branch when in repo with helper message in appropriate color.
   local git_status="$(git status 2>&1)"
