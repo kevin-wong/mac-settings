@@ -1,21 +1,19 @@
-# Colorized prompt configuration.
-# FORMAT : history # |         date and time     |  user   | directory
-# EXAMPLE: [4293]       2016/07/26 11:30 Tuesday   kevin  in  ~
+# Add colors to prompt.
+# The colors are set in environment variables in .bash_exports
+#
+# The prompt looks like:
+# FORMAT : (bash history line)        (timestamp)          (user) in (directory) [on (git branch) where        (git status)      ]
+# EXAMPLE:      [4293]          2016/07/26 11:30 Tuesday   kevin  in      ~       on    master    where  everything is up-to-date
 
 _prompt_command() {
-  local EXIT="$?" # Exit status determines history number color
-  PS1=""
-
-  # Display history number with color.
-  # Green    Previous command succeeded.
-  # Red      Previous command failed.
-  if [ $EXIT -eq 0 ]; then
-    PS1+="\[$solarized_green\][\!]\[$color_reset\] ";
+  # Bash history line number. Green if previous command suceeded. Red otherwise.
+  if [ $? -eq 0 ]; then
+    PS1="\[$solarized_green\][\!]\[$color_reset\] "
   else
-    PS1+="\[$solarized_red\][\!]\[$color_reset\] ";
+    PS1="\[$solarized_red\][\!]\[$color_reset\] "
   fi
 
-	timestamp=$(date '+%Y/%m/%d %H:%M %A')
+	timestamp=$(date +"%Y/%m/%d %H:%M %A")
 	username="\u"
 	directory="\w"
 
@@ -24,38 +22,41 @@ _prompt_command() {
   PS1+="\[$solarized_base\]in\[$color_reset\] "
   PS1+="\[$solarized_cyan\]$directory\[$color_reset\] "
 
-  # Display git branch when in repo with helper message in appropriate color.
+  # If in git repo, display git branch and git status.
   local git_status="$(git status 2>&1)"
   if ! [[ "$git_status" =~ "Not a git repo" ]]; then
+    local git_branch=
+    if [[ "$git_status" =~ On\ branch\ ([^[:space:]]+) ]]; then
+        git_branch=${BASH_REMATCH[1]}
+    else # Detached HEAD
+        git_branch=$(git describe --all --contains --abbrev=4 HEAD 2>/dev/null || echo HEAD)
+    fi
+  
+    local git_status_color=
+    local git_message=
     if [[ "$git_status" =~ "Untracked files" ]] \
           || [[ "$git_status" =~ "Changes not staged" ]]; then
-      local git_color=$solarized_red
-      local git_message="there's something to add"
+      git_status_color=$solarized_red
+      git_message="there's something to add"
     elif [[ "$git_status" =~ "Changes to be committed" ]]; then
-      local git_color=$solarized_orange
-      local git_message="there's something to commit"
+      git_status_color=$solarized_orange
+      git_message="there's something to commit"
     elif [[ "$git_status" =~ "Your branch is ahead of" ]]; then
-      local git_color=$solarized_yellow
-      local git_message="there's something to push"
+      git_status_color=$solarized_yellow
+      git_message="there's something to push"
     else
-      local git_color=$solarized_green
-      local git_message="everything is up-to-date"
-    fi
-
-    if [[ "$git_status" =~ On\ branch\ ([^[:space:]]+) ]]; then
-        local git_branch=${BASH_REMATCH[1]}
-    else # Detached HEAD
-        local git_branch="(`git describe --all --contains --abbrev=4 HEAD 2> /dev/null || echo HEAD`)"
+      git_status_color=$solarized_green
+      git_message="everything is up-to-date"
     fi
 
     PS1+="\[$solarized_base\]on\[$color_reset\] "
     PS1+="\[$solarized_orange\]$git_branch\[$color_reset\] "
     PS1+="\[$solarized_base\]where\[$color_reset\] "
-    PS1+="\[$git_color\]$git_message\[$color_reset\]"
+    PS1+="\[$git_status_color\]$git_message\[$color_reset\]"
   fi
 
-  PS1+="\n\[$solarized_cyan\]⥤\[$color_reset\] "       # new line
+  PS1+="\n\[$solarized_cyan\]⥤\[$color_reset\] " # new line to receive input
 }
 PROMPT_COMMAND=_prompt_command
 
-PS2="\[$solarized_cyan\]⥤\[$color_reset\] "            # continued line after \
+PS2="\[$solarized_cyan\]⥤\[$color_reset\] "      # continued line after \
