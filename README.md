@@ -183,11 +183,11 @@ the ANSI escape codes. They come in this format:
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            begins color sequence
 >
->`<fg-or-bg>`               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+>`<fg-or-bg>`                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            toggles foreground or background. 38 is foreground. 48 is background
 >
->`<style>`                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+>`<style>`                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;&nbsp;
 >                            value between 0 and 4. sets bold, italics, underline.
@@ -201,7 +201,7 @@ the ANSI escape codes. They come in this format:
 >                            through. I recommend avoiding featuritis.
 >                            Always use 2.
 >
->`<r>`, `<g>`, and `<b>`  red, green, and blue values, from 0 to 255
+>`<r>`, `<g>`, and `<b>`     red, green, and blue values, from 0 to 255
 >
 >`m`                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 >                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
