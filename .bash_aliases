@@ -18,7 +18,7 @@ alias ls="ls -FG"
 alias ll="ls -lhFG"
 alias la="ls -ahFG"
 alias lla="ls -lahFG"
-alias lt="ls -lahtFG" # sort by time modified, non-ascending order
+alias lt="ls -lahtFG" # sort by most recently modified
 
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
