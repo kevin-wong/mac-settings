@@ -140,27 +140,27 @@ the ANSI escape codes. They come in this format:
 ```
 
 ```bash
-`\033`                      escape character. `\e` and `\x1b` are also escape characters,
-                            though if you're using bash 3 (the default on Mac),
-                            `\e` doesn't work with `echo`. It still works with `printf` and
-                            setting prompt colors.
-                            I recommend updating bash (further down this page)
-                            to fix this issue, because `\e` is the most readable
-                            of the three. I'm using `\033` on this page so the
-                            reader doesn't have this dependency, but my
-                            configuration files use `\e`.
+\033               escape character. \e and \x1b are also escape characters,
+                   though if you're using bash 3 (the default on Mac),
+                   \e doesn't work with `echo`. It still works with `printf` and
+                   setting prompt colors.
+                   I recommend updating bash (further down this page)
+                   to fix this issue, because \e is the most readable
+                   of the three. I'm using \033 on this page so the
+                   reader doesn't have this dependency, but my
+                   configuration files use \e.
 
-`[`                         begins color sequence
+[                  begins color sequence
 
-`<fg-or-bg`                 toggles foreground or background. 38 is foreground. 48 is background
+<fg-or-bg>         toggles foreground or background. 38 is foreground. 48 is background
 
-`<style`                    value between 0 and 4. sets bold, italics, underline.
-                            2 adds no style, but lets the color through.
-                            I recommend avoiding featuritis. Always use 2.
+<style>            value between 0 and 4. sets bold, italics, underline.
+                   2 adds no style, but lets the color through.
+                   I recommend avoiding featuritis. Always use 2.
 
-`<r`, `<g`, and `<b`        red, green, and blue values, from 0 to 255
+<r>, <g>, and <b>  red, green, and blue values, from 0 to 255
 
-`m`                         signals this is a color sequence
+m                  signals this is a color sequence
 ```
 
 <br/>
