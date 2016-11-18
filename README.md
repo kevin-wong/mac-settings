@@ -146,9 +146,9 @@ the ANSI escape codes. They come in this format:
                    setting prompt colors.
                    I recommend updating bash (further down this page)
                    to fix this issue, because \e is the most readable
-                   of the three. I'm using \033 on this page so the
-                   reader doesn't have this dependency, but my
-                   configuration files use \e.
+                   of the three.
+                   I'm using \033 on this page so the reader doesn't have this
+                   dependency, but my configuration files use \e.
 
 [                  begins color sequence
 
@@ -166,6 +166,7 @@ m                  signals this is a color sequence
 <br/>
 So to set solarized yellow: `\033[38;2;147;161;161m`
 
+<br/>
 To strip all formatting and colors: `\033[0m`. This should be appended at the end of
 any colorized text.
 
@@ -184,19 +185,18 @@ color_reset="\033[0m"
 user="\u"
 dir="\w"
 
-PS1=""
-PS1+="\[$solarized_yellow\]$user\[$color_reset\] "
+PS1="\[$solarized_yellow\]$user\[$color_reset\] "
 PS1+="at "
-PS1+="\[$solarized_yellow\]$dir\[$color_reset\]$ "
+PS1+="\[$solarized_yellow\]$dir\[$color_reset\] $ "
 ```
-![check-true-colors-prompt](../master/images/check-true-colors-prompt.tiff)
+![check-true-colors-prompt](../master/images/check-true-colors-prompt.gif)
 
 <a name="check-true-colors"></a>
 Add colors to output using `echo`:
 ```bash
 echo -e "\033[38;2;181;137;0mThis text is colored in solarized yellow.\033[0m"
 ```
-![check-true-colors-echo](../master/images/check-true-colors-echo.tiff)
+![check-true-colors-echo](../master/images/check-true-colors-echo.gif)
 
 
 
