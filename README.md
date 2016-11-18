@@ -139,7 +139,7 @@ the ANSI escape codes. They come in this format:
 \033[<fg-or-bg>;<style>;<r>;<g>;<b>m
 ```
 
-```bash
+```
 \033               escape character. \e and \x1b are also escape characters,
                    though if you're using bash 3 (the default on Mac),
                    \e doesn't work with `echo`. It still works with `printf` and
