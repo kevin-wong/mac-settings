@@ -32,7 +32,7 @@ show_solarized() {
 
 # Show only hidden files.
 show_dot_files() {
-  ls -a | grep '^\.'
+  ls -a | grep '^\.' | egrep -v '^[\.]{1,2}/'
 }
 
 # Pretty print JSON files.
