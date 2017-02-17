@@ -710,7 +710,7 @@ System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
 <br/>
 Configure from menu bar:
 ```
-Day-O > Preferences > Date & Time Format: "  y/MM/dd   h:mm    EEEE"
+Day-O > Preferences > Date & Time Format: "  y-MM-dd   h:mm    EEEE"
                     > uncheck Show Icon
 ```
 
