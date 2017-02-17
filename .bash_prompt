@@ -13,7 +13,7 @@ _prompt_command() {
     PS1="\[$solarized_red\][\!]\[$color_reset\] "
   fi
 
-	timestamp=$(date +"%Y/%m/%d %H:%M %A")
+	timestamp=$(date +"%Y-%m-%d %H:%M %A")
 	username="\u"
 	directory="\w"
 
