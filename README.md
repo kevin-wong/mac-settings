@@ -638,8 +638,8 @@ interpretation, a distracting out-of-body re-evaluation of the state of affairs.
 is an idiosyncratic format. Can't the time have a set standard, dependable, consistent, and
 designed well? Why not? How is it that the day of the week can appear arbitrarily at beginning on one
 occasion, at the end in another? Why not include the year? Why continue using the
-insular, provincial 12-hour-AM-PM-mumbo-gunk and keep from simplicity, elegance, singular
-truth demanded in the international realm? The time's format is not music, not poetry, not literature,
+insular, provincial, backwards 12-hour-AM-PM-mumbo-gunk and keep from simplicity, elegance, singular
+truth demanded on the international realm? The time's format is not music, not poetry, not literature,
 and reading it most definitely has no place for ambiguity. Time moves forward, we grow old, there are
 more important things to do before we drop dead. We are all on the same boat.
 
