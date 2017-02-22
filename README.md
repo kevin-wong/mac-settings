@@ -507,25 +507,31 @@ General > Appearance: Blue
 
 <br/>
 ```
+Desktop & Screensaver > Desktop > Apple > Solid Colors > choose any grey
+                      > Screen Saver > Start after: Never
+                                     > Hot Corners > Set all 4 to null
+```
+
+<br/>
+```
 Dock > Size: Max
      > uncheck Magnification
+     > Position on screen: Bottom
      > Minimize windows using: Scale effect
+     > Prefer tabs when opening documents: Always
      > uncheck Double-click a window's title bar
      > uncheck Minimize windows into application icon
      > uncheck Animate opening applications
      > check Automatically hide and show the Dock
-     > check indicators for open applications
-```
+     > check Show indicators for open applications
 
-<br/>
-Auto hide-and-show dock has an animation, so there's a slight delay.
-To make the hidden dock instantly show/hide, run in terminal:
-```bash
+As indicated above, the dock auto-hides.
+The default hide-and-show transition has an animation, so there's a slight delay.
+
+To remove the animation, run in terminal:
 defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock
-```
 
 To revert:
-```bash
 defaults delete com.apple.dock autohide-time-modifier;killall Dock
 ```
 
@@ -536,6 +542,8 @@ Mission Control > uncheck Automatically rearrange Spaces based on most recent us
                 > uncheck Group windows by application
                 > check Displays have separate Spaces
                 > Dashboard: Off
+
+                > Keyboard and Mouse Shortcuts > Set all 4 to null
 ```
 
 <br/>
@@ -616,6 +624,23 @@ Trackpad > Point & Click > check Look up & data detectors
 <br/>
 ```
 Date & Time > Clock > uncheck Show date and time in menu bar
+
+This will be displayed by Day-O, further down this page.
+Day-O allows customization, and I have set it to a clearer format.
+
+The default is limited to English-centric pomposity, lacking in internationalization,
+programatic modularity, ease of use. It is niche. Each look at the time requires a split-second
+interpretation, a distracting in-body re-evaluation of the state of affairs. The default
+is an idiosyncratic format. Why can't the time have a set standard, dependable, consistent, and
+designed well? How is it that the day of the week can appear arbitrarily at beginning on one
+occasion, at the end in another? Why not include the year? Why continue using the
+insular, provincial 12-hour-AM-PM-mumbo-gunk and keep from simplicity, elegance, singular
+truth on the international realm? The time's format is not music, not poetry, not literature,
+and it most definitely has no place for ambiguity. Time moves forward, we grow old, there are
+more important things to do before we drop dead. We are all on the same boat.
+
+Default:  Wed Jan 1 05:21
+Day-O:    2000-01-05 05:21 Wednesday
 ```
 
 <br/>
