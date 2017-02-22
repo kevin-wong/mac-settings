@@ -803,7 +803,8 @@ System Preferences > Witch
 <br/><br/><br/><br/>
 #### Moom
 <br/>
-[Moom](https://manytricks.com/moom/) quickly resizes windows. No more dragging corners.
+[Moom](https://manytricks.com/moom/) quickly moves and resizes windows. I use the keyboard shortcuts
+to almost seamlessly move windows side-by-side or resize to fullscreen.
 
 <br/>
 ![Moom](../master/images/Moom.gif)
@@ -813,21 +814,22 @@ Launch Moom and configure:
 ```
 General > uncheck Show preferences on launch
         > Run as: faceless
-Mouse > Delay: None
-      > check Enable access to custom controls, check Show on hover
-      > uncheck Bring moomed windows to the front automatically
+Mouse > uncheck Pop up controls when hovering over a Zoom button
 Keyboard > Trigger keyboard control with hot key: CTRL-`
-         > check Show cheat sheet
-         > Arrow keys: Move
-         > Arrow with command: Move & Zoom to Half Screen
-         > Arrow with Option: Grow
-         > Arrow with Control: Shrink
-         > Return: Revert to Original Dimensions
-         > Space: Move & Zoom to full screen
-         > Tab: Center
+         > uncheck Show cheat sheet
+         > uncheck Repeat to show grid
 
-         > Auto-dismiss keyboard control after: uncheck all
-Custom > Move & Zoom. Define window sizes using 13x13. Empty 2 columns on both sides.
+         > Arrow keys:         Move & Zoom to Half Screen
+         > Arrow with Command: -
+         > Arrow with Option:  -
+         > Arrow with Control: Move to Other Display
+         > Return:             -
+         > Space:              -
+         > Tab:                -
+         > Escape:             -
+
+         > Auto-dismiss keyboard control after: check all
+Custom > Delete all
 ```
 
 
