@@ -525,6 +525,8 @@ Dock > Size: Max
      > check Automatically hide and show the Dock
      > check Show indicators for open applications
 
+--
+
 As indicated above, the dock auto-hides.
 The default hide-and-show transition has an animation, so there's a slight delay.
 
@@ -625,6 +627,8 @@ Trackpad > Point & Click > check Look up & data detectors
 ```
 Date & Time > Clock > uncheck Show date and time in menu bar
 
+--
+
 This will be displayed by Day-O, further down this page.
 Day-O allows customization, and I have set it to a clearer format.
 
@@ -710,7 +714,8 @@ Menu bar > View > Show only the following:
 <br/><br/><br/><br/>
 #### Day-O
 <br/>
-[Day-O](http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock) calendar dropdown.
+[Day-O](http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock) as date
+and time replacement for the default. It also has a calendar dropdown.
 
 <br/>
 ![Day-O](../master/images/Day-O.gif)
