@@ -683,23 +683,6 @@ Menu bar > View > Show only the following:
 
 
 <br/><br/><br/><br/>
-#### Fliqlo
-<br/>
-[Fliqlo](http://fliqlo.com) screensaver. Shows you the time.
-
-<br/>
-![Fliqlo](../master/images/Fliqlo.gif)
-
-</br>
-Configure:
-```
-System Preferences > Desktop & Screensaver > Screen Saver Options > 24 hours
-```
-
-
-
-
-<br/><br/><br/><br/>
 #### Day-O
 <br/>
 [Day-O](http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock) calendar dropdown.
