@@ -649,7 +649,8 @@ Day-O:    2000-01-05 05:21 Wednesday
 
 <br/>
 ```
-Accessibility > Display > check Increase contrast
+Accessibility > Display > check Reduce motion
+                        > check Increase contrast
                         > Display contrast: Furthest left
                         > Cursor size: Second bar from left
                         > check Shake mouse pointer to locate
