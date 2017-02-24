@@ -715,7 +715,7 @@ Menu bar > View > Show only the following:
 <br/><br/><br/><br/>
 #### Day-O
 <br/>
-[Day-O](http://shauninman.com/archive/2011/10/20/day_o_mac_menu_bar_clock) as date
+[Day-O](https://shauninman.com/archive/2016/10/20/day_o_2_mac_menu_bar_clock) as date
 and time replacement for the default. It also has a calendar dropdown.
 
 <br/>
