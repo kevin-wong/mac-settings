@@ -838,7 +838,7 @@ Keyboard > Trigger keyboard control with hot key: CTRL-`
          > Arrow with Option:  -
          > Arrow with Control: Move to Other Display
          > Return:             -
-         > Space:              -
+         > Space:              Move & Zoom to Full Screen
          > Tab:                -
          > Escape:             -
 
