@@ -1,12 +1,14 @@
+# documentation at `man lesskey`
+
 #command
-# default key settings:
-# http://www.tutorialspoint.com/unix_commands/lesskey.htm
+w back-line
+s forw-line
+
+W back-scroll
+S forw-scroll
 
 K back-scroll
 J forw-scroll
 
-w back-scroll
-s forw-scroll
-
-W goto-line # beginning of file 
-S goto-end  # end of file
+! goto-line # beginning of file
+@ goto-end  # end of file
