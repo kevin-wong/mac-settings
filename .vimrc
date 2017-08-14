@@ -169,3 +169,6 @@ map H B
 
 " Move forward one word
 map L E
+
+" Save file without first running sudo
+cmap w!! w !sudo tee > /dev/null %
