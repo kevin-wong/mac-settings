@@ -802,7 +802,18 @@ The problem with ⌘-TAB is that it switches between apps, but skips over window
 <br/>
 Set configurations:
 ```
-System Preferences > Witch > Appearance > Presets > Open > /path/to/Grey.witchlayout
+System Preferences > Witch > Actions > Sort by > Window Activity — Orientation: Down
+                                     > uncheck List tabs
+                                     > check List apps without windows > Placeholders > Reopen
+                           > Keyboard > ⌘-TAB and ⇧⌘-TAB
+                                      > uncheck Show in menu bar
+                           > Appearance > Presets > Open > /path/to/Grey.witchlayout
+                                        > check Show keyboard shortcuts with color
+                                        > uncheck Show vertical window lists for horizontal
+                                        > uncheck Show app names in vertical lists when cycling
+                                        > Show: app icons
+                           > Advanced > Show list on: main display — Delay: None
+                                      > App response timeout: 0.1s
 ```
 
 
