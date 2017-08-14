@@ -800,15 +800,9 @@ The problem with ⌘-TAB is that it switches between apps, but skips over window
 ![Witch](../master/images/Witch.gif)
 
 <br/>
-Run WitchConf to set customizations:
-```bash
-./WitchConf
+Set configurations:
 ```
-
-<br/>
-Register the settings by clicking on Witch:
-```
-System Preferences > Witch
+System Preferences > Witch > Appearance > Presets > Open > /path/to/Grey.witchlayout
 ```
 
 
