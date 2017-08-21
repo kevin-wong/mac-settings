@@ -844,9 +844,9 @@ Keyboard > Trigger keyboard control with hot key: CTRL-`
          > Arrow with Option:  -
          > Arrow with Control: Move to Other Display
          > Return:             -
-         > Space:              Move & Zoom to Full Screen
-         > Tab:                -
-         > Escape:             -
+         > Space:              Center
+         > Tab:                Move & Zoom to Full Screen
+         > Escape:             Return to Original Dimensions
 
          > Auto-dismiss keyboard control after: check all
 Custom > Delete all
