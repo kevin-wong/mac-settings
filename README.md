@@ -588,6 +588,7 @@ Keyboard > Keyboard > Key Repeat > Fastest
          > Shortcuts > uncheck everything, except:
                      > Keyboard > check Move focus to the window toolbar: OPTION-`
                      > Keyboard > check Move focus to next window: ⌘-`
+                     > Spotlight > Show Splitlight search: ⌘-Space
                      > App Shortcuts > for All Applications, add to the following menu titles
                                        the shortcut ⌘-ESC:
                                        - Toggle Full Screen
@@ -619,8 +620,8 @@ Trackpad > Point & Click > check Look up & data detectors
                          > check Notification Center
                          > check Mission Control (four fingers)
                          > check App Exposè (four fingers)
-                         > uncheck Launchpad
-                         > uncheck Show Desktop
+                         > check Launchpad
+                         > check Show Desktop
 ```
 
 <br/>
