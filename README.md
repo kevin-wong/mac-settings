@@ -350,7 +350,7 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 ```
 
 <br/>
-Launch Sublime > Preferences > Settings - User > Paste the following:
+Launch Sublime > Preferences > Settings > Paste the following:
 ```
 {
   "_comment": "Find all fields in: Preferences > Settings - Default",
@@ -398,10 +398,10 @@ Launch Sublime > Preferences > Settings - User > Paste the following:
 ```
 
 <br/>
-Launch Sublime > Preferences > Key Bindings - User > Paste the following:
+Launch Sublime > Preferences > Key Bindings > Paste the following:
 ```
 [
-  {"_comment": "Find all fields in: Preferences > Key Bindings - Default"},
+  {"_comment": "Find all fields in: Preferences > Key Bindings"},
 
   {
     "keys": ["super+t"],
@@ -462,15 +462,6 @@ Launch Sublime > Preferences > Key Bindings - User > Paste the following:
     "keys": ["super+shift+w"],
     "command": "wrap_lines",
     "_comment": "wrap lines to fit ruler"
-  },
-
-  {
-    "keys": ["super+d"],
-    "command": "run_macro_file",
-    "args": {
-      "file": "res://Packages/Default/Delete Line.sublime-macro"
-    },
-    "_comment": "delete selection, or line if no selection"
   },
 
   {
