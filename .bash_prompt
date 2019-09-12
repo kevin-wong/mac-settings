@@ -24,7 +24,7 @@ _prompt_command() {
 
   # If in git repo, display git branch and git status.
   local git_status="$(git status 2>&1)"
-  if ! [[ "$git_status" =~ "Not a git repo" ]]; then
+  if ! [[ "$git_status" =~ "not a git repo" ]]; then
     local git_branch=
     if [[ "$git_status" =~ On\ branch\ ([^[:space:]]+) ]]; then
         git_branch=${BASH_REMATCH[1]}
