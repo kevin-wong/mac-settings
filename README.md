@@ -212,7 +212,7 @@ Install [brew](http://brew.sh).
 <br/><br/><br/><br/>
 #### Bash
 <br/>
-Mac runs bash 3. Bash 4 is licensed under GPLv3, which Apple can't use.
+Mac runs bash 3. Bash 5 is licensed under GPLv3, which Apple can't use.
 
 Run `echo $BASH_VERSION`. You'll find a decade-old bash:
 ```
@@ -220,7 +220,7 @@ GNU bash, version 3.2.57(1)-release (x86_64-apple-darwin15)
 Copyright (C) 2007 Free Software Foundation, Inc.
 ```
 
-Install bash 4. Add path to shell file. Change shell:
+Install bash 5. Add path to shell file. Change shell:
 ```bash
 brew install bash
 sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
@@ -281,7 +281,7 @@ Use key bindings so navigation is consistent with the vim's below.
 <br/>
 Mac has disabled`lesskey`, which allows key binding on less. Use the version that does:
 ```bash
-brew install homebrew/dupes/less
+brew install less
 ```
 
 <br/>
