@@ -32,16 +32,33 @@ show_solarized() {
 
 # Show only hidden files.
 show_dot_files() {
-  ls -a | grep '^\.' | egrep -v '^[\.]{1,2}/'
+  ls -a | grep '^\.'
 }
 
-# Pretty print JSON files.
-# Usage: `head -n 2 <json file> | pretty_json`
+# Pretty print JSON files
+# Usage: Pipe JSON to pretty_json, i.e. `head -n 2 <json file> | pretty_json`
 pretty_json() {
   while read line; do echo "$line" | python -m json.tool; done
 }
 
-# Clear previous line. Needed when overwriting lines.
-clear_last_line() {
-  tput cuu 1; tput el
+# This is a temp shortcut. Do not persist to git repo.
+# This command does not use the -f flag to hide the
+# port forward in the background as is common from online.
+# This keeps the port forward command actively running,
+# preventing the user from forgetting the port forward.
+#
+# On the remote server, start jupyter:
+# `jupyter lab --no-browser --port=20000`
+#
+# Takes in a parameter: remote server to port forward to.
+# Can be an alias set in .ssh/config.
+jupyter_port_forward() {
+  ssh -N -L localhost:8888:localhost:20000 $1
 }
+
+# Shows port forwarding processes.
+# Can stop port forward by: `kill <PID>`
+show_port_forwarding() {
+  ps aux | grep -i "ssh.*localhost" | grep -v "grep"
+} 
+

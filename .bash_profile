@@ -13,6 +13,3 @@ shopt -s cdspell;
 # ssh hostname tab completion, according to ~/.ssh/config
 [ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2- | tr ' ' '\n')" scp sftp ssh;
 
-# On Mac, skip the 'Last login' message when starting terminal
-if [[ $(uname -s) = Darwin ]]; then clear; fi
-
