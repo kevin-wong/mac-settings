@@ -10,66 +10,50 @@ confused, and holding on to dear life, I can still follow these instructions.
 You, smart user, should use this like a cookbook. Pick what you like, adapt the recipe
 to your preferences, and make the dish yours.
 
-<br/>
-### Developer
-- [iTerm](#iterm)
-- [Homebrew](#homebrew)
-- [Bash](#bash)
-- [Git](#git)
-- [less](#less)
+OS: Catalina, 10.15.2 <br/>
+Laptop is with touchbar.
 
-### Text Editors
+## Table of Contents
+### Developer
+- [iTerm](#iTerm)
+- [Homebrew](#Homebrew)
+- [bash](#bash)
+- [git](#git)
+- [less](#less)
 - [vim](#vim)
-- [Sublime Text](#sublime)
+- [Sublime Text](#Sublime-Text)
 
 ### System
-- [System Preferences](#system-preferences)
-- [Launchpad](#launchpad)
-- [Finder](#finder)
-- [Fliqlo](#fliqlo)
-- [Day-O](#day-o)
-- [MenuMeters](#menumeters)
-- [InsomniaX](#insomniax)
-- [Skala Color](#skala-color)
+- [System Preferences](#System-Preferences)
+- [Launchpad](#Launchpad)
+- [Finder](#Finder)
+- [Day-O](#Day-O)
+- [MenuMeters](#MenuMeters)
+- [Witch](#Witch)
+- [Moom](#Moom)
 
-### Non-free
-- [Witch](#witch)
-- [Moom](#moom)
-
-### Safari Extensions
-- [Omnikey](#omnikey)
-
-
-
-
-<br/><br/><br/><br/>
-#### iTerm
 <br/>
+
+#### iTerm
 Solarized colorscheme. Colors responsive to git. Mac-inspired key bindings.
 
-<br/>
 ![Solarized iTerm](../master/images/iTerm.gif)
 
-<br/>
 The terminal above uses a combination of both iTerm and bash prompt colors.
 The two can be configured separately, though for consistency I have set them both
 to solarized dark.
 
-<br/>
-These colors are [true colors](https://en.wikipedia.org/wiki/Color_depth#True_color_.2824-bit.29).
+These colors are [true colors](https://en.wikipedia.org/wiki/Color_depth#True_color_(24-bit)).
 If you're not using iTerm, check that your terminal supports true colors by running
-the [echo](#check-true-colors) at the end of this section. If the output is not
+the [command at the end of this section](#check-true-colors). If the output is not
 colored, then your terminal does not support true colors.
 
-<br/>
-Download [iTerm](https://www.iterm2.com).
-
-Download [Source Code Pro Light](https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it),
+1. Download [iTerm](https://www.iterm2.com).
+2. Download [Source Code Pro Light](https://github.com/adobe-fonts/source-code-pro/releases/tag/2.010R-ro/1.030R-it),
 and add the OTF fonts to Font Book.
-
-<br/>
-Set the prompt colors. Save existing paths, backup config files which will be overwritten,
+3. Set the prompt colors. Save existing paths, backup config files which will be overwritten,
 put new config files in home directory:
+
 ```bash
 grep "export PATH" ~/.bash_profile ~/.bashrc 2>/dev/null | awk -F ":" '{print $2}' >> .bash_exports
 for config in ~/.{bash_profile,bashrc,inputrc}; do
@@ -80,8 +64,8 @@ done;
 cp .bash_profile .bashrc .bash_prompt .bash_aliases .bash_functions .bash_exports .bash_readline_colors .inputrc ~/
 ```
 
-<br/>
-Configure iTerm colors and key bindings from menu bar:
+4. Configure iTerm colors and key bindings from menu bar:
+
 ```
 Preferences > General > check Confirm closing multiple sessions
             > Appearance > check Dimming affects only text, not background
@@ -120,13 +104,14 @@ are not the same. Solarized Dark's highlight color was too similar to the backgr
 color, so SolarizedDark has the highlight color slightly modified to increase the
 contrast. This is the only difference.
 
-</br>
 NOTE: A word about how the bash prompt was colored. Setting the exact solarized
 colors in the prompt requires 24-bit colors. Although `tput` has more readable color
 selections:
+
 ```bash
 tput setaf <number>
 ```
+
 where `<number>` can be any integer from 0 to 255, but it is limited to 8-bit colors.
 The solarized colors don't fall into those 256 colors, so at best `tput` can only
 approximate them. The tput values found on the
@@ -135,6 +120,7 @@ are these approximations.
 
 I'm using the 24-bit colors, and the only way to access 24-bit colors are through
 the ANSI escape codes. They come in this format:
+
 ```bash
 \033[<fg-or-bg>;<style>;<r>;<g>;<b>m
 ```
@@ -163,10 +149,12 @@ the ANSI escape codes. They come in this format:
 m                  signals this is a color sequence
 ```
 
-<br/>
-So to set solarized yellow: `\033[38;2;147;161;161m`
+So to set solarized yellow: 
 
-<br/>
+```
+\033[38;2;147;161;161m
+```
+
 To strip all formatting and colors: `\033[0m`. This should be appended at the end of
 any colorized text.
 
@@ -175,10 +163,10 @@ so the terminal counts the escape codes as output characters. Without them, when
 a line gets full, instead of writing to the next line, new characters start
 overwriting the existing line.
 
-<br/>
-Working examples:
+##### Working examples
 
 Colorize prompt:
+
 ```bash
 solarized_yellow="\033[38;2;181;137;0m"
 color_reset="\033[0m"
@@ -189,28 +177,26 @@ PS1="\[$solarized_yellow\]$user\[$color_reset\] "
 PS1+="at "
 PS1+="\[$solarized_yellow\]$dir\[$color_reset\] $ "
 ```
+
 ![check-true-colors-prompt](../master/images/check-true-colors-prompt.gif)
 
 <a name="check-true-colors"></a>
 Add colors to output using `echo`:
+
 ```bash
 echo -e "\033[38;2;181;137;0mThis text is colored in solarized yellow.\033[0m"
 ```
+
 ![check-true-colors-echo](../master/images/check-true-colors-echo.gif)
 
+<br/> 
 
-
-
-<br/><br/><br/><br/>
 #### Homebrew
-<br/>
 Install [brew](http://brew.sh).
 
+<br/>
 
-
-
-<br/><br/><br/><br/>
-#### Bash
+#### bash
 <br/>
 Mac runs bash 3. Bash 5 is licensed under GPLv3, which Apple can't use.
 
@@ -231,79 +217,72 @@ Commands executed directly on the command line will run with bash 4, but scripts
 may still specify bash 3 in the shebang `#!/bin/bash`. Make sure to use
 `#!/usr/bin/env bash` instead, which runs the shell identified by `$SHELL`.
 
-
-
-
-<br/><br/><br/><br/>
-#### Git
 <br/>
+
+#### git
 Install git:
+
 ```bash
 brew install git
 ```
 
-<br/>
 Put `.gitignore` in home directory:
+
 ```bash
 cp .gitignore ~/
 ```
 
-<br/>
 Configure:
+
 ```bash
-$ git config --global user.name <name>
-$ git config --global user.email <email>
-$ git config --global core.editor vim
-$ git config --global core.excludesfile ~/.gitignore_global
-$ git config --global credential.helper osxkeychain
-$ git config --global push.default simple
-$ git config --global color.ui auto
-$ git config --global color.branch.current yellow reverse
-$ git config --global color.branch.local yellow
-$ git config --global color.branch.remote green
-$ git config --global color.diff.meta yellow bold
-$ git config --global color.diff.frag magenta bold
-$ git config --global color.diff.old red bold
-$ git config --global color.diff.new green bold
-$ git config --global color.status.added yellow
-$ git config --global color.status.changed red
-$ git config --global color.status.untracked red
+git config --global user.name <name>
+git config --global user.email <email>
+git config --global core.editor vim
+git config --global core.excludesfile ~/.gitignore_global
+git config --global credential.helper osxkeychain
+git config --global push.default simple
+git config --global color.ui auto
+git config --global color.branch.current yellow reverse
+git config --global color.branch.local yellow
+git config --global color.branch.remote green
+git config --global color.diff.meta yellow bold
+git config --global color.diff.frag magenta bold
+git config --global color.diff.old red bold
+git config --global color.diff.new green bold
+git config --global color.status.added yellow
+git config --global color.status.changed red
+git config --global color.status.untracked red
 ```
 
-
-
-
-<br/><br/><br/><br/>
-#### less
 <br/>
+
+#### less
 Use key bindings so navigation is consistent with the vim's below.
 
-<br/>
 Mac has disabled`lesskey`, which allows key binding on less. Use the version that does:
+
 ```bash
 brew install less
 ```
 
-<br/>
 Put .lesskey in home directory:
+
 ```bash
 cp .lesskey ~/
 ```
 
-<br/>
 Run lesskey, which will automatically read from .lesskey:
+
 ```bash
 lesskey
 ```
 
-
-
-
-<br/><br/><br/><br/>
-#### vim
 <br/>
+
+#### vim
 Solarized colorscheme. Detailed status bar. Mouse click and scroll.
 Sensible key bindings, such as:
+
 ```
 w                  up one paragraph
 shift-w            beginning of file
@@ -313,95 +292,77 @@ shift-u            re-do to match undo (u)
 ```
 
 NOTE: Mouse is enabled, so dragging to copy toggles visual mode. To copy,
-hold down OPTION and drag.
+hold down OPTION and drag over desired text.
 
-<br/>
 ![vim](../master/images/vim.gif)
 
+[Download](https://github.com/altercation/vim-colors-solarized/tree/master/colors) Solarized for vim.
 
-<br/>
-[Download](https://github.com/altercation/vim-colors-solarized/tree/master/colors) Solarized for vim.<br/>
-
-<br/>
 Follow the [manual installation](http://ethanschoonover.com/solarized/vim-colors-solarized#installation).
 
-<br/>
 Put `.vimrc` in home directory:
+
 ```bash
 cp .vimrc ~/
 ```
 
-
-
-
-<br/><br/><br/><br/>
-<a name="sublime"></a>
-#### Sublime Text
 <br/>
+
+#### Sublime Text
 Solarized colorscheme. Key bindings.
 
-<br/>
-Download [Sublime Text](https://www.sublimetext.com/3).
+1. Download [Sublime Text](https://www.sublimetext.com/3). <br/>
+2. Add `subl` as a terminal command to open sublime:
 
-<br/>
-Add `subl` as a terminal command to open sublime:
 ```bash
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
 
-<br/>
-Launch Sublime > Preferences > Settings > Paste the following:
+3. Launch Sublime > Preferences > Settings > Paste the following in User settings:
+
 ```
 {
-  "_comment": "Find all fields in: Preferences > Settings - Default",
-
-  "color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
-
-  "tab_completion": false,
+  "_comment": "These fields override the defaults",
+  "always_show_minimap_viewport": true,
+  "animation_enabled": false,
   "auto_complete": true,
-  "auto_complete_delay": 0,
   "auto_complete_commit_on_tab": true,
-  "auto_complete_with_fields": true,
   "auto_complete_cycle": true,
-
+  "auto_complete_delay": 0,
+  "auto_complete_with_fields": true,
   "bold_folder_labels": true,
+  "caret_extra_bottom": 3,
+  "caret_extra_top": 3,
+  "caret_extra_width": 0,
+  "caret_style": "solid",
+  "color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
   "font_face": "Source Code Pro Light",
-  "font_size": 14,
+  "font_size": 15,
+  "highlight_line": true,
   "highlight_modified_tabs": true,
   "indent_to_bracket": true,
   "open_files_in_new_window": false,
-
-  "highlight_line": true,
-  "caret_style": "solid",
-  "caret_extra_top": 3,
-  "caret_extra_bottom": 3,
-  "caret_extra_width": 0,
-
-  "show_full_path": true,
-  "show_encoding": true,
-  "always_show_minimap_viewport": true,
-
-  "animation_enabled": false,
-
-  "tab_size": 2,
-  "translate_tabs_to_spaces": true,
-
-  "trim_trailing_white_space_on_save": true,
-
-  "word_wrap": "false",
-
   "rulers":
   [
     80
-  ]
+  ],
+  "show_encoding": true,
+  "show_full_path": true,
+  "tab_completion": false,
+  "tab_size": 2,
+  "theme": "Default.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": "false"
 }
+
 ```
 
-<br/>
-Launch Sublime > Preferences > Key Bindings > Paste the following:
+4. Launch Sublime > Preferences > Key Bindings > Paste the following in User settings:
+
 ```
 [
-  {"_comment": "Find all fields in: Preferences > Key Bindings"},
+  {"_comment": "These fields override the defaults"},
 
   {
     "keys": ["super+t"],
@@ -465,6 +426,15 @@ Launch Sublime > Preferences > Key Bindings > Paste the following:
   },
 
   {
+    "keys": ["super+d"],
+    "command": "run_macro_file",
+    "args": {
+      "file": "res://Packages/Default/Delete Line.sublime-macro"
+    },
+    "_comment": "delete selection, or line if no selection"
+  },
+
+  {
     "keys": ["super+shift+,"],
     "command": "open_file",
     "args": {"file": "${packages}/User/Default (OSX).sublime-keymap"},
@@ -479,46 +449,41 @@ Launch Sublime > Preferences > Key Bindings > Paste the following:
 ]
 ```
 
-
-
-
-<br/><br/><br/><br/>
-#### System Preferences
 <br/>
+
+#### System Preferences
 Configure:
+
 ```
-General > Appearance: Blue
-        > Highlight color > Other > 2nd tab > RGB Sliders:  rgb(233, 221, 180)
-        > Sidebar icon size: Large
+General > Appearance: Light
+        > Accent color: grey
+        > Highlight color > Graphite
+        > Sidebar icon size: Medium
+        > uncheck Automatically hide and show the menu bar
         > Show scrollbars: Always
+        > Click in the scroll bar to: Jump to the spot that's clicked
         > check Ask to keep changes when closing documents
         > check Close windows when quitting an app
         > Recent items: None
-```
 
-<br/>
-```
-Desktop & Screensaver > Desktop > Apple > Solid Colors > choose any grey
+Desktop & Screensaver > Desktop > Apple > Colors > Space Gray Pro
                       > Screen Saver > Start after: Never
                                      > Hot Corners > Set all 4 to null
-```
 
-<br/>
-```
-Dock > Size: Max
+Dock > Size: ~20%
      > uncheck Magnification
      > Position on screen: Bottom
      > Minimize windows using: Scale effect
-     > Prefer tabs when opening documents: Always
+     > Prefer tabs when opening documents: In Full Screen Only
      > uncheck Double-click a window's title bar
      > uncheck Minimize windows into application icon
      > uncheck Animate opening applications
      > check Automatically hide and show the Dock
      > check Show indicators for open applications
+     > uncheck Show recent applications in Dock
 
---
-
-As indicated above, the dock auto-hides.
+---------------------------------------------------
+NOTE: As indicated above, the dock auto-hides.
 The default hide-and-show transition has an animation, so there's a slight delay.
 
 To remove the animation, run in terminal:
@@ -526,56 +491,39 @@ defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock
 
 To revert:
 defaults delete com.apple.dock autohide-time-modifier;killall Dock
-```
+---------------------------------------------------
 
-<br/>
-```
 Mission Control > uncheck Automatically rearrange Spaces based on most recent use
                 > check When switching to an application, switch to a Space with open windows
-                > uncheck Group windows by application
+                > check Group windows by application
                 > check Displays have separate Spaces
-                > Dashboard: Off
 
                 > Keyboard and Mouse Shortcuts > Set all 4 to null
-```
 
-<br/>
-```
 Language & Region > First day of the week: Monday
-                  > Time format: 24-hour Time
-```
 
-<br/>
-```
 Notifications > for all apps, uncheck Play sound for notifications
               > Messages > uncheck Show message preview
-```
 
-<br/>
-```
-Displays > uncheck Automatically adjust brightness
-         > uncheck Show mirroring options in the menu bar
-```
+Accessibility > Display > check Increase contrast
+                        > Display contrast: Furthest left
+              > Cursor > check Shake mouse pointer to locate
+                       > Cursor size: Second bar from left
+                        
+              > Pointer Control > Double-click speed: third bar from right of Fast
+                                > check Spring loading delay: fifth from left of Short
+                                > uncheck Ignore built-in trackpad when mouse or wireless trackpad is present
+                                > Trackpad Options... > Scrolling speed: Fastest
+                                                       > check Scrolling: with inertia
+                                                       > check Enable dragging: three finger drag
+                                > Mouse Options... > Scrolling speed: Fastest
 
-<br/>
-```
-Energy Saver > Battery Power > Turn display off after: Never
-             > uncheck Put hard disks to sleep when possible
-             > uncheck dim the display while on battery power
-             > uncheck Power Nap
-             > Power Adapter > Turn display off after: Never
-             > check Prevent computer from sleeping automatically
-             > uncheck Put hard disks to sleep when possible
-             > check wake for Wi-Fi network access
-             > check Enable Power Nap while plugged into power adapter
-```
-
-<br/>
-```
 Keyboard > Keyboard > Key Repeat > Fastest
                     > Delay Until Repeat > Shortest
                     > uncheck Adjust keyboard brightness in low light
-                    > Turn off when computer is not used for: Never
+                    > uncheck Turn keyboard backlight off after inactivity
+                    > Touch bar shows: Expanded Control Strip
+                    > Press Fn key to Show F1, F2, etc. Keys
          > Shortcuts > uncheck everything, except:
                      > Keyboard > check Move focus to the window toolbar: OPTION-`
                      > Keyboard > check Move focus to next window: ⌘-`
@@ -587,248 +535,231 @@ Keyboard > Keyboard > Key Repeat > Fastest
                                        - Enter Full Screen
                                        - Exit Full Screen
                                        This makes entering and exiting fullscreen consistent.
-                                     > for All Applications, add to menu title "Minimize"
-                                       the shortcut ⌘-SHIFT-CTRL-OPTION-M.
-                                       This is intended to be an impractical shortcut,
-                                       to nullify the action so that it is not accidently toggled.
-```
 
-<br/>
-```
 Trackpad > Point & Click > check Look up & data detectors
                          > check Secondary click (two fingers)
                          > check Tap to click
                          > Click: Lightest
                          > Tracking speed: Fastest
-                         > check Silent clicking
-                         > uncheck Force Click and haptic feedback
+                         > check Force Click and haptic feedback
          > Scroll & Zoom > uncheck Scroll direction: natural
                          > check Zoom in or out
-                         > uncheck Smart zoom
+                         > check Smart zoom
                          > check Rotate
          > More Gestures > check Swipe between pages (two fingers)
                          > check Swipe between full-screen apps (four fingers)
                          > check Notification Center
                          > check Mission Control (four fingers)
                          > check App Exposè (four fingers)
-                         > check Launchpad
-                         > check Show Desktop
-```
+                         > uncheck Launchpad
+                         > uncheck Show Desktop
+                         
+Displays > Display > uncheck Automatically adjust brightness
+                   > check True Tone
+                   > uncheck Show mirroring options in the menu bar
+         > Night Shift > check Turn On Until Sunrise
 
-<br/>
-```
+Energy Saver > Battery Power > Turn display off after: Never
+             > uncheck Put hard disks to sleep when possible
+             > uncheck dim the display while on battery power
+             > uncheck Power Nap
+             > Power Adapter > Turn display off after: Never
+             > check Prevent computer from sleeping automatically
+             > uncheck Put hard disks to sleep when possible
+             > check wake for Wi-Fi network access
+             > check Enable Power Nap while plugged into power adapter
+
 Date & Time > Clock > uncheck Show date and time in menu bar
 
---
-
+---------------------------------------------------
 This will be displayed by Day-O, further down this page.
-Day-O allows customization, and I have set it to a clearer format.
+Day-O allows customization. I'm using the computing-friendly format.
 
-The default is limited to English-centric pomposity, lacking in internationalization,
-programatic modularity, ease of use. It is niche. Each look at the time requires a split-second
-interpretation, a distracting out-of-body re-evaluation of the state of affairs. The default
-is an idiosyncratic format. Can't the time have a set standard, dependable, consistent, and
-designed well? Why not? How is it that the day of the week can appear arbitrarily at beginning on one
-occasion, at the end in another? Why not include the year? Why continue using the
-insular, provincial, backwards 12-hour-AM-PM-mumbo-gunk and fear the simplicity, elegance, singular
-truth demanded on the international realm? Time's format is not music, not poetry, not metaphor,
-and reading it most definitely has no place for ambiguity. Time moves forward, we grow old, there are
-things to do before we drop dead. We are all on the same boat.
-
-Default:  Wed Jan 1 05:21
-Day-O:    2000-01-05 05:21 Wednesday
+Default:  Wed Jan 5 11:29 PM
+Day-O:    2000-01-05 11:29 PM Wednesday
+---------------------------------------------------
 ```
 
 <br/>
-```
-Accessibility > Display > check Reduce motion
-                        > check Increase contrast
-                        > Display contrast: Furthest left
-                        > Cursor size: Second bar from left
-                        > check Shake mouse pointer to locate
-              > Mouse & Trackpad > Double-click speed: two left of Fast
-                                 > check Spring loading delay: two right of Short
-                                 > uncheck Ignore built-in trackpad when mouse or wireless trackpad is present
-                                 > Trackpad Options... > Scrolling speed: Fastest
-                                                       > check Scrolling: with inertia
-                                                       > check Enable dragging: three finger drag
-```
 
-
-
-
-<br/><br/><br/><br/>
 #### Launchpad
-<br/>
 Hide what you don't use. Collapse to 2 columns.
 
-<br/>
 ![Launchpad](../master/images/Launchpad.gif)
 
-<br/>
 Run in terminal:
+
 ```bash
 $ defaults write com.apple.dock springboard-columns -int 2;
 $ defaults write com.apple.dock ResetLaunchPad -bool TRUE;
 $ killall Dock
 ```
 
+<br/>
 
-
-
-<br/><br/><br/><br/>
 #### Finder
-<br/>
-![Finder](../master/images/Finder.gif)
+![Finder](../master/images/Finder.png)
 
-<br/>
 Configure from menu bar:
+
 ```
-Preferences > General > New Finder windows show: Downloads
-            > Sidebar > check only the following:
-                        - Applications
-                        - Documents
-                        - Downloads
-                        - Music
-                        - <Home Folder>
-                        - External disks
-            > Advanced > Show all filename extensions
+Finder > Preferences > General > New Finder windows show: Downloads
+                     > Sidebar > check only the following:
+                                 - Airdrop
+                                 - Applications
+                                 - Desktop
+                                 - Documents
+                                 - Downloads
+                                 - Music
+                                 - <Current user's home folder>
+                     > Advanced > check only the following:
+                                  - check Show all filename extensions
+                                  - check Show warning before changing an extension
+                                  - check Show warning before removing fro iCloud Drive
+                                  - check Show warning before emptying the Trash
+                                
+                                > When performing a search: Search the Current Folder
 
-Menu bar > View > Show only the following:
-                  - Path bar
-                  - Status bar
-                  - Sidebar
-                  - Preview
+View > as List
+     > Show only the following:
+       - Sidebar
+       - Toolbar
+       - Path bar
+       - Status bar
 ```
 
-
-
-
-<br/><br/><br/><br/>
-#### Day-O
 <br/>
+
+#### Day-O
 [Day-O](https://shauninman.com/archive/2016/10/20/day_o_2_mac_menu_bar_clock) as date
 and time replacement for the default. It also has a calendar dropdown.
 
-<br/>
 ![Day-O](../master/images/Day-O.gif)
 
-<br/>
 Configure from menu bar:
+
 ```
 Day-O > Preferences > Date & Time Format: "  y-MM-dd   h:mm    EEEE"
                     > uncheck Show Icon
+                    > check Launch Day-O at login
 ```
 
+<br/>
 
-
-
-<br/><br/><br/><br/>
 #### MenuMeters
-<br/>
 [MenuMeters](http://member.ipmu.jp/yuji.tachikawa/MenuMetersElCapitan/)
-shows memory, network, and CPU usage in the menu bar.
+shows memory, network, and CPU usage in the menu bar. This useful as a heads-up display of system utilization.
 
-<br/>
 ![MenuMeters](../master/images/MenuMeters.gif)
 
-
-<br/>
 Configure:
+
 ```
 System Preferences > MenuMeters > CPU > Thermometer
                                       > Update interval (seconds): 5.0
                                       > Miscellaneous > check Show average for multiple processors as single display
-                                      > Colors > User:   rgb(46, 46, 46)
-                                               > System: rgb(46, 46, 46)
+                                      For colors, the numbers are brightness values.
+                                      To set them, click the color swatch, then
+                                      go to the second tab in the new window and select 
+                                      Grayscale slider.       
+                                      > Colors > User:   30
+                                               > System: 30
                                 > Disk > uncheck Display Disk Activity Menu Meter
                                 > Memory > Usage Bar
                                          > Update intervals (seconds): 5.0
-                                         > Colors > Active:     rgb(46, 46, 46)
-                                                  > Wired:      rgb(46, 46, 46)
-                                                  > Inactive:   rgb(140, 140, 140)
-                                                  > Compressed: rgb(46, 46, 46)
+                                         > uncheck Show paging activity indicator
+                                         > Colors > Active:     23
+                                                  > Wired:      23
+                                                  > Inactive:   100
+                                                  > Compressed: 23
                                 > Network > Throughput
                                           > Update interval (seconds): 5.0
                                           > General > Display orientation: Transmit/Receive
                                                     > Display preferes interface: Primary (automatic)
-                                          > Throughput Display > check Show throughput labels (Tx/Rx)
-                                          > Colors > Transmit: rgb(0, 0, 0)
-                                                   > Receive:  rgb(0, 0, 0)
-                                                   > Inactive: rgb(0, 0, 0)
+                                          > Throughput Display > uncheck Ignore values below 1KB/s
+                                                               > check Show throughput labels (Tx/Rx)
+                                          > Colors > Transmit: 0
+                                                   > Receive:  0
+                                                   > Inactive: 33
 ```
 
-
-
-
-<br/><br/><br/><br/>
-#### InsomniaX
 <br/>
-[InsomniaX](http://semaja2.net/projects/insomniaxinfo/) disables sleep when the laptop lid is closed.
 
-
-
-
-<br/><br/><br/><br/>
-#### Skala Color
-<br/>
-[Skala Color](https://bjango.com/mac/skalacolor/) is a color picker.
-
-<br/>
-![Skala Color](../master/images/Skala-Color.gif)
-
-
-
-
-<br/><br/><br/><br/>
 #### Witch
-<br/>
-The problem with ⌘-TAB is that it switches between apps, but skips over windows within those apps. <br/>
+The problem with ⌘-TAB is that it switches between apps but skips over windows within those apps. <br/>
+[Witch](http://manytricks.com/witch/) makes ⌘-TAB cycle between windows. This is essential.
 
-[Witch](http://manytricks.com/witch/) makes ⌘-TAB cycle between windows.
-
-
-<br/>
 ![Witch](../master/images/Witch.gif)
 
-<br/>
 Set configurations:
 ```
-System Preferences > Witch > Actions > Sort by > Window Activity — Orientation: Down
+System Preferences > Witch > Actions > Cycle Windows
+                                     > Sort by > Window Activity — Orientation: Down
+                                     > check List windows from all spaces
                                      > uncheck List tabs
-                                     > check List apps without windows > Placeholders > Reopen
-                           > Keyboard > ⌘-TAB and ⇧⌘-TAB
-                                      > uncheck Show in menu bar
-                           > Appearance > Presets > Open > /path/to/Grey.witchlayout
-                                        > check Show keyboard shortcuts with color
+                                     > uncheck List apps without windows
+                                     
+                                     > Keyboard > ⌘-TAB and ⇧⌘-TAB
+                                                > uncheck Show in menu bar 
+                           > Appearance > List item size: 80 pt/ 30 pt
+                                        > Vertical list width: 39%
+                                        > uncheck Witch panel casts shadow
+                                        > uncheck App names cast shadows
+                                        > uncheck Window titles cast shadows
+                                        
+                                        The settings below set the color theme.
+                                        To set the RGB value, click the color swatch, then
+                                        go to the second tab in the new window and select 
+                                        Grayscale slider. The numbers below are Brightness values,
+                                        which are equivalent to RGB values with the same number
+                                        across red, green, and blue.
+                                        
+                                        > check Background color: 87
+                                        > App name color: 100
+                                        > Window title color: 34
+                                        > Selection background color: 81
+                                        > Selection border color: 81
+                                        > Selection window title color: 34
+                                        > Preview border color: 100
+                                        > check Outline minimized windows with color: 0
+                                        > uncheck Outline off-space windows with color
+                                        > check Show keyboard shortcuts with color: 100
+                                        
                                         > uncheck Show vertical window lists for horizontal
                                         > uncheck Show app names in vertical lists when cycling
+                                        > uncheck Show unread count for Mail app
                                         > Show: app icons
                            > Advanced > Show list on: main display — Delay: None
+                                      > check Cycle through search for all lists
+                                      > uncheck Add a "Cancel"
+                                      > check Initial selection skips currently active item
+                                      > uncheck Selection wraps around
+                                      > uncheck Spring-load apps
+                                      > check Releasing all modifier keys dismisses list
+                                      > uncheck Activating a window raises all of the app's windows
+                                      > check Activate off-space windows via AppleScript if necessary
                                       > App response timeout: 0.1s
 ```
 
+<br/>
 
-
-
-<br/><br/><br/><br/>
 #### Moom
-<br/>
 [Moom](https://manytricks.com/moom/) quickly moves and resizes windows. I use the keyboard shortcuts
-to almost seamlessly move windows side-by-side or resize to fullscreen.
+to quickly arrange windows side-by-side or resize to fullscreen. This is another essential.
 
-<br/>
 ![Moom](../master/images/Moom.gif)
 
-<br/>
 Launch Moom and configure:
+
 ```
-General > uncheck Show preferences on launch
-        > Run as: faceless
+General > The only line that should be checked is "Launch automatically on login" 
+        > Grid/keyboard control highlight: set to half on the scrollbar
+        > Run as: faceless application
 Mouse > uncheck Pop up controls when hovering over a Zoom button
 Keyboard > Trigger keyboard control with hot key: CTRL-`
+         > uncheck Show logo
          > uncheck Show cheat sheet
-         > uncheck Repeat to show grid
+         > uncheck Repeat to toggle grid
 
          > Arrow keys:         Move & Zoom to Half Screen
          > Arrow with Command: -
@@ -841,47 +772,4 @@ Keyboard > Trigger keyboard control with hot key: CTRL-`
 
          > Auto-dismiss keyboard control after: check all
 Custom > Delete all
-```
-
-
-
-
-<br/><br/><br/><br/>
-#### Omnikey
-<br/>
-[Omnikey](http://marioestrada.github.io/safari-omnikey/) puts multiple search engines in your address bar.
-It maps a keyword to each search engine, so you just prefix your search with the keyword.
-
-Safari has a similar built-in feature in ```Preferences > Search > Quick Website Search```, but you can't
-customize bindings, and the search only comes up in the drop-down menu, so you have to arrow down to it, rather
-than Omnikey's direct substitution.
-
-<br/>
-![Safari Omnikey](../master/images/Safari-Omnikey.gif)
-
-<br/>
-Set mappings:
-```
-Omnikey icon in safari toolbar:
-
-Key      URL
-amazon   https://www.amazon.com/s/?field-keywords={search}                        # Amazon
-maps     https://www.google.com/maps/search/{search}                              # Google Maps
-wiki     http://en.wikipedia.org/w/index.php?title=Special:Search&search={search} # Wikipedia
-youtube  https://www.youtube.com/results?search_query={search}                    # Youtube
-```
-
-
-<br/>
-[Adblock](https://safari-extensions.apple.com/details/?id=com.betafish.adblockforsafari-UAMUU4S2D9).
-[Ghostery](https://safari-extensions.apple.com/details/?id=com.betteradvertising.ghostery-HPY23A294X).
-
-For Ghostery, enable blocking all tracking by default:
-```
-Ghostery icon in safari toolbar > Options > General tab > Blocking Options > Trackers > Select all
-```
-
-Hide the extensions you no longer need to worry about (e.g. Ghostery and Omnikey):
-```
-Right click safari toolbar > Customize Toolbar... > Drag the icons from the toolbar
 ```
