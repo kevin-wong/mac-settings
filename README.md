@@ -753,7 +753,7 @@ Launch Moom and configure:
 
 ```
 General > The only line that should be checked is "Launch automatically on login" 
-        > Grid/keyboard control highlight: set to half on the scrollbar
+        > Grid/keyboard control highlight: 80% on scrollbar
         > Run as: faceless application
 Mouse > uncheck Pop up controls when hovering over a Zoom button
 Keyboard > Trigger keyboard control with hot key: CTRL-`
