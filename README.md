@@ -456,8 +456,8 @@ Configure:
 
 ```
 General > Appearance: Light
-        > Accent color: grey
-        > Highlight color > Graphite
+        > Accent color: Red
+        > Highlight color > Red
         > Sidebar icon size: Medium
         > uncheck Automatically hide and show the menu bar
         > Show scrollbars: Always
