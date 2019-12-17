@@ -697,7 +697,7 @@ System Preferences > Witch > Actions > Cycle Windows
                                      > Sort by > Window Activity — Orientation: Down
                                      > check List windows from all spaces
                                      > uncheck List tabs
-                                     > uncheck List apps without windows
+                                     > check List apps without windows: Bring to Front
                                      
                                      > Keyboard > ⌘-TAB and ⇧⌘-TAB
                                                 > uncheck Show in menu bar 
@@ -738,6 +738,7 @@ System Preferences > Witch > Actions > Cycle Windows
                                       > check Releasing all modifier keys dismisses list
                                       > uncheck Activating a window raises all of the app's windows
                                       > check Activate off-space windows via AppleScript if necessary
+                                      > Do not list apps: Finder
                                       > App response timeout: 0.1s
 ```
 
