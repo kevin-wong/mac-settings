@@ -738,7 +738,6 @@ System Preferences > Witch > Actions > Cycle Windows
                                       > check Releasing all modifier keys dismisses list
                                       > uncheck Activating a window raises all of the app's windows
                                       > check Activate off-space windows via AppleScript if necessary
-                                      > Do not list apps: Finder
                                       > App response timeout: 0.1s
 ```
 
