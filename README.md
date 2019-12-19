@@ -612,6 +612,7 @@ Finder > Preferences > General > New Finder windows show: Downloads
                                  - Downloads
                                  - Music
                                  - <Current user's home folder>
+                                 - CDs, DVDs, and iOS Devices (this is for iphone syncing)
                      > Advanced > check only the following:
                                   - check Show all filename extensions
                                   - check Show warning before changing an extension
